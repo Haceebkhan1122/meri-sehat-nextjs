@@ -1,0 +1,178 @@
+.articleSection {
+    margin: 20px 0;
+}
+
+.articleSection .subSectionHeading {
+    font-size: 2rem;
+    line-height: normal;
+}
+
+.articleSection ol {
+    padding-left: 20px;
+}
+
+.articleSection h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.articleSection h2 {
+    font-size: 2.875rem;
+    line-height: 3.75rem;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+.articleSection h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.articleSection h4 {
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+}
+
+.articleSection h5 {
+
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.articleSection h6 {
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.articleSection h1 .articleSection h2 .articleSection h3 .articleSection h4 .articleSection h5 .articleSection h6 {
+    font-weight: 700 !important;
+    margin: 20px 0 10px 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.articleSection ul li,
+.articleSection ol li,
+.articleSection p {
+    color: var(--text-clr) !important;
+    font-size: 1rem !important;
+    margin: 10px 0 !important;
+    line-height: 1.813rem !important;
+    font-weight: 400 !important;
+    font-family: 'Inter', sans-serif;
+}
+
+.articleSection ul li {
+    /* display: flex; */
+    align-items: baseline;
+    position: relative;
+    padding-left: 20px !important;
+}
+
+.articleSection ul {
+    list-style-type: none !important;
+    list-style-image: none !important;
+}
+
+.articleSection ul li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    min-width: 8px;
+    max-width: 8px;
+    background-color: var(--tifannyblue-clr);
+    -webkit-print-color-adjust: exact;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.articleSection ul li ol li {
+    list-style-type: auto;
+    padding-left: 5px !important;
+}
+
+.articleSection ul li ol li::before {
+    /* border: 1px solid var(--tifannyblue-clr);
+  background-color: transparent; */
+    display: none;
+}
+
+.articleSection ul li:has(h3):before {
+    top: 18px;
+}
+
+/* .articleSection:has(h5) ol li:has(strong)::marker { */
+.articleSection ol li:has(strong)::marker {
+    color: inherit !important;
+    font-family: Nunito, sans-serif;
+    font-size: medium !important;
+    font-weight: 700 !important;
+    line-height: 2rem !important
+}
+
+.articleSection ol li:has(h5)::marker {
+    color: inherit !important;
+    font-family: Nunito, sans-serif;
+    font-size: large !important;
+    font-weight: 700 !important;
+    line-height: 2rem !important
+}
+
+/*.articleSection ul li strong,
+.articleSection ol li strong,
+.articleSection ul li h5,
+.articleSection ol li h5,
+.articleSection h5 p strong span {
+  word-spacing: 0px;
+}
+ .articleSection ol li h5,.articleSection ol li strong,.articleSection ul li h5,.articleSection ul li h5 strong {
+  word-spacing: 0px;
+} */
+
+
+.articleSection ol li h5,
+.articleSection ol li strong,
+.articleSection ul li h5,
+.articleSection ul li strong {
+    /* word-spacing: 0px; */
+}
+
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc p,
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ul li,
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ol li {
+    line-height: 1.413rem !important;
+}
+
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ul li:before,
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ol li:before {
+    top: 6px;
+}
+
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ul li:has(h5):before,
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ol li:has(h5):before {
+    display: none;
+}
+
+.articleDetail.hk_mob_desease_article.ff .articleSection h5.heading_desc ul li h5 strong:before {
+    background-color: var(--tifannyblue-clr);
+    border-radius: 100px;
+    content: "";
+    display: block;
+    height: 8px;
+    left: 0;
+    margin-right: 10px;
+    max-width: 8px;
+    min-width: 8px;
+    position: absolute;
+    -webkit-print-color-adjust: exact;
+    top: 11px;
+    width: 8px;
+}
+
+.articleSection h5.heading_desc p strong,
+.articleSection h5.heading_desc p b {
+    font-weight: 500;
+}

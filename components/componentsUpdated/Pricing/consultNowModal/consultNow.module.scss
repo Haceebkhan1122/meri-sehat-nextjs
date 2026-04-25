@@ -1,0 +1,108 @@
+@import '../../../../styles/variable.scss';
+
+.showVitalModal {
+
+    h4 {
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+        color: $dark-bluecolor;
+        font-family: $Satoshi-Medium;
+        font-size: 24px;
+        font-style: normal;
+        line-height: normal;
+
+        @media(min-width:0) and (max-width:767px) {
+            font-size: 16px;
+            font-family: $Satoshi-Bold;
+
+        }
+
+    }
+
+    .close__svg {
+        width: 13.717px;
+        height: 13.452px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' fill='none'%3E%3Cpath d='M8.06309 7.27703L13.3582 12.4698L12.3333 13.475L7.03115 8.27538L6.85639 8.104L6.68163 8.27538L1.37951 13.475L0.35453 12.4698L5.64969 7.27703L5.83141 7.09883L5.64969 6.92062L0.35453 1.72781L1.37951 0.72264L6.68163 5.92227L6.85639 6.09366L7.03115 5.92227L12.3333 0.722639L13.3582 1.72781L8.06309 6.92062L7.88137 7.09883L8.06309 7.27703Z' fill='%23404040' stroke='white' stroke-width='0.4992'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 16.37px;
+        right: 19.29px;
+        cursor: pointer;
+
+        @media (max-width : 768px) {
+            top: 9.37px;
+            right: 9.29px;
+        }
+    }
+
+    .paragraphVitalScan {
+
+
+        p {
+            color: $dark-bluecolor;
+            font-family: $Satoshi-Regular;
+            font-size: 16px;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.16px;
+
+            @media(min-width:0) and (max-width:767px) {
+                font-size: 14px;
+
+            }
+
+            span {
+                font-family: $Satoshi-Medium;
+                color: #19B3B5;
+            }
+        }
+
+        .btnVitalScan {
+            margin-top: 40px;
+
+            button {
+                display: flex;
+                width: 100%;
+                height: 48px;
+                padding: 12.8px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 6.4px;
+                color: #FFF;
+                text-align: center;
+                font-family: $Satoshi-Bold;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                /* 19.2px */
+                text-transform: uppercase;
+                border-radius: 80px;
+                background: #0F345A;
+
+                @media(min-width:0) and (max-width:767px) {
+                    height: 50px;
+
+                }
+            }
+        }
+    }
+}
+
+
+.wraperBlurEffect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    ;
+    margin: auto;
+    background-color: rgba(7, 23, 41, 0.80);
+    backdrop-filter: blur(15px);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,16 @@
+.typingAnimation {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.section-heading div h2 {
+    display: flex;
+}
+
+.findTheBestHealthCare.hhhh .section-heading div h2 {
+    color: var(--text-dark-clr);
+}
+
+.typingAnimation span {
+    width: 100%;
+}

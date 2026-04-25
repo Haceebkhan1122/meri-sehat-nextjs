@@ -1,0 +1,105 @@
+@import '../../../../styles//variable.scss';
+
+.whychooseSection {
+    padding: 0 0 100px 0;
+
+    @media (min-width:0px) and (max-width:767px) {
+        padding: 0 0 65px 0;
+
+    }
+
+    h2 {
+        margin-bottom: 80px;
+
+        @media (min-width:0px) and (max-width:767px) {
+
+            width: 320px;
+            margin: 0 auto 35px auto;
+
+        }
+
+    }
+
+    .pera {
+        @media (min-width:0px) and (max-width:767px) {
+            width: 320px;
+            margin: 0 auto;
+        }
+
+    }
+
+    .spacingMob {
+        @media (min-width:0px) and (max-width:767px) {
+            padding: 0 !important;
+        }
+
+    }
+
+    .SliderBox {
+        padding: 79px 40px;
+        // background: rgba(250, 246, 238, 0.80);
+        border-radius: 60px;
+        text-align: center;
+
+        @media (min-width:0px) and (max-width:767px) {
+            margin-top: 35px;
+            padding: 0px 0;
+            // height: 236.482px;
+            background: initial;
+
+        }
+
+        .boxSlid01 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                padding: 40px 10px;
+                // background: rgba(250, 246, 238, 0.80);
+                border-radius: 40px;
+                // margin: 0 12px;
+                gap: 12px;
+            }
+
+            img {
+                margin: 0 auto;
+            }
+
+            h3 {
+                color: #0F345A;
+                text-align: center;
+                font-family: "Satoshi-Bold";
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    font-size: 19px;
+                }
+
+                /* 38.4px */
+            }
+
+            p {
+                color: #313131;
+                text-align: center;
+                font-family: "Satoshi-Regular";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+                /* 26.4px */
+                width: 331px;
+                margin: 0 auto;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    width: 213.336px;
+                    font-size: 14px;
+                }
+
+            }
+        }
+    }
+}

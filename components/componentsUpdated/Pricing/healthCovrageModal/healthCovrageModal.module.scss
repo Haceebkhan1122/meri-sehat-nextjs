@@ -1,0 +1,157 @@
+@import '../../../../styles/variable.scss';
+
+.showHealthModal {
+    .boxTop {
+        padding: 0 32px;
+
+        @media (min-width : 0px) and (max-width : 768px) { padding: 0 19px;}
+    }
+
+    h4 {
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+        color: $dark-bluecolor;
+        font-family: $Satoshi-Medium;
+        font-size: 24px;
+        font-style: normal;
+        line-height: normal;
+
+        @media(min-width:0) and (max-width:767px) {
+            font-size: 16px;
+            font-family: $Satoshi-Bold;
+        }
+    }
+
+    iframe {
+        height: 216px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0px;
+        border-radius: 8px;
+
+        @media(min-width:0) and (max-width:767px) {
+            height: 170px;
+            border-radius: 14.063px;
+
+        }
+    }
+
+    .desc {
+        overflow-y: scroll;
+        width: 100%;
+        height: 300px;
+        padding-bottom: 50px;
+        padding-right: 10px;
+        padding-left: 32px;
+        margin-top: 24px;
+
+        @media(min-width:0) and (max-width:767px) {
+            padding-bottom: 90px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: #eeee;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #cbcaca;
+            border-radius: 10px;
+        }
+
+        p {
+            font-family: $Satoshi-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 20px !important;
+
+            @media(min-width:0) and (max-width:767px) {
+                font-size: 14px;
+                color: #0F345A;
+            }
+
+            strong {
+                font-size: 20px;
+                font-family: $Satoshi-Medium;
+                margin-bottom: 12px;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 16px;
+                    font-family: $Satoshi-Bold;
+                    color: #0F345A;
+                }
+            }
+        }
+    }
+
+    .mobileWraperBottomBtn {
+        width: 100%;
+        height: 90px;
+        flex-shrink: 0;
+        background: #FFF;
+        box-shadow: 0px -4px 20px 0px rgba(142, 142, 142, 0.25);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+        @media(min-width:0) and (max-width:767px) {
+            height: 110px;
+        }
+
+        button {
+            display: flex;
+            width: 364.8px;
+
+            height: 48px;
+            padding: 12.8px 40px;
+            justify-content: center;
+            align-items: center;
+            gap: 6.4px;
+            color: #FFF;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            /* 19.2px */
+            text-transform: uppercase;
+            border-radius: 80px;
+            background: #0F345A;
+
+            @media(min-width:0) and (max-width:767px) {
+                width: 290px;
+                margin: 0 auto;
+                height: 50px;
+
+            }
+        }
+    }
+}
+
+
+
+.wraperBlurEffect {
+    position: absolute;
+    top: 0;
+    bottom: 0;;
+    margin: auto;
+    background-color: rgba(7, 23, 41, 0.80);
+    backdrop-filter: blur(15px);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+}

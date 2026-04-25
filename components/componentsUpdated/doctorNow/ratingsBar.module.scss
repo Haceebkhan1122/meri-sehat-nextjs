@@ -1,0 +1,67 @@
+@import '../../../styles/variable.scss';
+
+.ratingsBar {
+    padding: 7px 0;
+
+    @media(min-width:0) and (max-width:767px) {
+        padding: 12px 20px;
+    }
+
+    .wrape_rate {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        gap: 135px;
+
+        @media(min-width:0) and (max-width:767px) {
+            gap: 33px !important;
+            justify-content: space-between;
+        }
+
+        .single_rate {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+
+            h2 {
+                color: #0F345A;
+                text-align: center;
+                font-size: 44px;
+                font-style: normal;
+                font-family: $Satoshi-Bold;
+                font-weight: 700;
+                line-height: 120%;
+
+                span {
+                    font-size: 44px;
+                    font-family: "Satoshi-Bold";
+
+                    @media(min-width:0) and (max-width:767px) {
+                        font-size: 14px !important;
+                    }
+                }
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 22px !important;
+                }
+
+
+            }
+
+            span {
+                color: #8799ac;
+                text-align: center;
+                font-family: $Satoshi-Regular;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

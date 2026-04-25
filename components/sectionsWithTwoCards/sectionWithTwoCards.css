@@ -1,0 +1,58 @@
+.sec_with_two_cards .card {
+    height: 100%;
+    position: relative;
+    padding: 30px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sec_with_two_cards .heading_header {
+    text-align: center;
+}
+
+.sec_with_two_cards .heading_header .heading_desc {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sec_with_two_cards .heading_header .subSectionHeading,
+.sec_with_two_cards .heading_header .heading_desc p {
+    text-align: center;
+}
+
+.sec_with_two_cards .card .content_container .heading_desc {
+    margin: 20px 0;
+}
+
+.sec_with_two_cards .card .content_container .btn_container {
+    margin-top: 20px;
+}
+
+.sec_with_two_cards .card img {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.sec_with_two_cards .card .btn_container img {
+    height: 36px;
+    width: 36px;
+}
+
+@media only screen and (max-width: 992px) {
+    .sec_with_two_cards .card img {
+        max-width: 70% !important;
+    }
+
+    .cardRemovePadding .imageBox img {
+        max-width: 100% !important;
+    }
+
+    .sec_with_two_cards .card .content_container .btn_container {
+        min-height: 45px;
+        padding: 0 10px;
+    }
+
+    .viewDoctorBtn .arrow_right_border {
+        margin-right: 0;
+    }
+}

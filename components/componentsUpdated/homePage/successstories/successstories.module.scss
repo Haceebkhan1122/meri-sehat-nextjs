@@ -1,0 +1,154 @@
+@import '../../../../styles/variable.scss';
+
+.successstoriesSection {
+    padding: 110px 0;
+
+    @media(min-width:1301px) and (max-width:1919px) {
+        padding: 80px 0;
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        padding: 50px 15px;
+    }
+
+    .imageHeight {
+        height: 330px;
+        object-fit: cover;
+        border-radius: 20px;
+
+
+    }
+
+    .boxSuccess {
+        position: relative;
+        border-radius: 16.592px;
+        // background: #FFF;
+        padding: 24px;
+        margin-bottom: 20px;
+        height: 220px;
+
+        @media(min-width:1301px) and (max-width:1919px) {
+            height: 170px;
+        }
+
+        @media(min-width:0px) and (max-width:767px) {
+            height: 108.642px;
+            padding: 11px 10px;
+            margin-bottom: 10px;
+            border-radius: 9.877px;
+
+
+        }
+
+        h3 {
+            font-family: $Satoshi-Bold;
+            font-size: 60px;
+            font-style: normal;
+            line-height: 120%;
+            margin-bottom: 8px;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                font-size: 50px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                font-size: 30px;
+                margin-bottom: 4px;
+            }
+        }
+
+        p {
+            color: $black-color;
+            font-family: $Satoshi-Regular;
+            font-size: 20px;
+            font-style: normal;
+            line-height: normal;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                font-size: 16px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .box01 {
+        h3 {
+            color: #F46954;
+
+        }
+    }
+
+    .box02 {
+        h3 {
+            color: $dark-bluecolor;
+            font-size: 60px !important;
+            font-weight: 700 !important;
+
+            @media (min-width : 0) and (max-width : 768px) {
+                font-size: 30px !important;
+            }
+        }
+    }
+
+    .boxImage {
+        margin-bottom: 20px;
+        height: 330px;
+        // background-color: #63caec;
+        border-radius: 16.592px;
+        position: relative;
+        overflow: hidden;
+
+        @media(min-width:0px) and (max-width:767px) {
+            height: 162px;
+            margin-bottom: 15px;
+        }
+
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            object-fit: cover;
+
+            @media(min-width:0px) and (max-width:767px) {
+                object-fit: cover;
+                object-position: bottom;
+            }
+        }
+    }
+
+    .imageBottom {
+        img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 90%;
+            // height: 268px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.video__story {
+    width: 636px !important;
+    height: 330px !important;
+
+    iframe {
+        border-radius: 20px !important;
+
+        @media(min-width:0px) and (max-width:767px) {
+            border-radius: 9.877px;
+
+        }
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        height: 162px !important;
+        width: 100% !important;
+        margin-bottom: 12px;
+    }
+}

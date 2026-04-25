@@ -1,0 +1,33 @@
+@import '../../../styles/variable.scss';
+
+.button01 {
+
+    background: $dark-bluecolor !important;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: $Satoshi-Bold;
+    font-size: 28px;
+    line-height: 115%;
+    height: 78px;
+    /* 31.2px */
+    text-transform: uppercase;
+    border-radius: 80px;
+
+    @media(min-width:1301px) and (max-width:1919px) {
+        height: 60px;
+        font-size: 24px;
+    }
+
+    @media(min-width:768px) and (max-width:1024px) {
+        height: 60px;
+        font-size: 24px;
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        height: 50px;
+        font-size: 16px;
+        width: 280px;
+
+    }
+}

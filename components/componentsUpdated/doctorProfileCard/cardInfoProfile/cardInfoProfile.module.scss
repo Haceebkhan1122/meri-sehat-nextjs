@@ -1,0 +1,158 @@
+.cardInfoProfile {
+    width: 100%;
+    height: 102.958px;
+    margin-bottom: 10px;
+    border-radius: 16.606px;
+    border: 0.83px solid rgba(151, 169, 189, 0.60);
+    background: #FFF;
+    box-shadow: 0px 6.975px 13.949px 0px rgba(142, 142, 142, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18.27px;
+    position: relative;
+    margin-top: 39px;
+    cursor: pointer;
+
+    @media(min-width:0px) and (max-width:768px) {
+        width: 200px;
+        min-height: 60px;
+        height: 87.958px;
+        border-radius: 10px;
+        // border: 1px solid #0F345A;
+        box-shadow: 0px 4px 8px 0px rgba(142, 142, 142, 0.04);
+        padding: 0 10px;
+        margin-bottom: 0;
+    }
+
+    .save_time {
+        border-radius: 5px;
+        background: #19B3B5;
+        width: 140px;
+        height: 20px;
+        position: absolute;
+        left: 12px;
+        top: -10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media(min-width:0px) and (max-width:768px) {
+            width: 116px;
+        }
+
+        span {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Satoshi-Bold';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+
+            @media(min-width:0px) and (max-width:768px) {
+                font-size: 10px;
+            }
+
+        }
+    }
+
+    .left {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: start;
+        gap: 5px;
+
+        .wr {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            img {
+                // width: 30px;
+                // height: 30px;
+                object-fit: contain;
+
+                @media(min-width:0px) and (max-width:768px) {
+                    width: 18px !important;
+
+                    height: 18px !important;
+                    object-fit: contain;
+
+                }
+            }
+
+            h3 {
+                color: #0F345A;
+                font-family: 'Satoshi-Medium';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 0;
+
+                @media(min-width:0px) and (max-width:768px) {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        h4 {
+            color: #19B3B5;
+            font-family: 'Satoshi-Medium';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            @media(min-width:0px) and (max-width:768px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+
+
+    .circleProf {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #0F345A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        @media(min-width:0px) and (max-width:768px) {
+            width: 20px;
+            height: 20px;
+            background-size: 15px;
+        }
+
+        span {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='33' viewBox='0 0 32 33' fill='none'%3E%3Cpath d='M12.4997 24.2503L11.0664 22.8169L17.6664 16.2169L11.0664 9.61693L12.4997 8.18359L20.5331 16.2169L12.4997 24.2503Z' fill='white'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: block;
+            width: 40px;
+            height: 40px;
+
+            @media(min-width:0px) and (max-width:768px) {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+.cardInfoProfile.saveClas {
+    border: 1px solid #0F345A;
+
+    h4 {
+        color: #0F345A;
+    }
+}

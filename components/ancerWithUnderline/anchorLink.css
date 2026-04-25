@@ -1,0 +1,40 @@
+.underline_ancer {
+    font-size: 0.938rem;
+    font-weight: 700;
+    letter-spacing: 0.094rem;
+    text-transform: uppercase;
+    /* border-bottom: 1px solid var(--text-clr); */
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    /* padding-bottom: 5px; */
+    width: 100%;
+    max-width: max-content;
+    color: var(--text-dark-clr);
+}
+
+.underline_ancer:hover {
+    color: var(--text-dark-clr);
+}
+
+.underline_ancer::after {
+    /* top: 20px; */
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    max-height: 0.5px;
+    position: absolute;
+    background-color: var(--text-dark-clr);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    left: 50%;
+    width: 0;
+
+}
+
+
+
+.underline_ancer:hover::after {
+    width: 100%;
+    left: -1px;
+}

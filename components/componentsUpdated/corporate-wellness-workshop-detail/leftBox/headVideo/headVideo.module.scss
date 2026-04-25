@@ -1,0 +1,186 @@
+@import '../../../../../styles/variable.scss';
+
+.headVideoSec {
+    h1 {
+        color: #19B3B5;
+        font-family: $Satoshi-Medium;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 24px;
+
+        @media (min-width:0px) and (max-width:767px) {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .timingListing {
+        display: flex;
+        gap: 32px;
+        border-bottom: 1px solid rgba(15, 52, 90, 0.20);
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+
+        @media (min-width:0px) and (max-width:767px) {
+            gap: 12px;
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+        }
+
+        @media (min-width:0px) and (max-width:350px) {
+            gap: 5px;
+
+        }
+
+        li {
+            color: #0F345A;
+            font-family: $Satoshi-Regular;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 120%;
+            display: flex;
+            align-items: center;
+
+            /* 24px */
+            svg {
+                margin-right: 5px;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 4px;
+                }
+
+            }
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+            }
+
+            @media (min-width:0px) and (max-width:350px) {
+                font-size: 11px;
+            }
+
+        }
+    }
+
+    .videoPlayer {
+        width: 100%;
+        height: 392px;
+
+        @media (min-width:0px) and (max-width:767px) {
+
+            height: 166px;
+        }
+
+        div {
+            width: 100% !important;
+            height: 100% !important;
+
+
+            iframe {
+                border-radius: 20px;
+
+                width: 100% !important;
+                height: 100% !important;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    border-radius: 10px;
+
+                }
+
+            }
+        }
+    }
+
+    .textBox {
+
+        h3 {
+            color: #0F345A;
+            font-family: $Satoshi-Medium;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 20px;
+            margin-top: 40px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                margin-bottom: 10px;
+                margin-top: 20px;
+                font-size: 16px;
+
+            }
+
+        }
+
+        p {
+            color: #0F345A;
+            font-family: $Satoshi-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 14px;
+
+            }
+
+        }
+
+        .listText {
+            padding-left: 0px;
+            margin: 20px 0;
+            color: #0F345A;
+            font-family: $Satoshi-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+
+
+            @media (min-width:0px) and (max-width:767px) {
+                padding-left: 5px;
+                margin: 10px 0;
+            }
+
+
+
+            li {
+                color: #0F345A;
+                font-family: $Satoshi-Regular;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 36px;
+                position: relative;
+                padding-left: 20px;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    font-size: 14px;
+                    padding-left: 10px;
+                    line-height: 22px;
+                    /* 157.143% */
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 20px;
+                    background: #0F345A;
+                    left: 0;
+                    top: 9px;
+                    // transform: translateY(-50%);
+                }
+            }
+        }
+
+    }
+}

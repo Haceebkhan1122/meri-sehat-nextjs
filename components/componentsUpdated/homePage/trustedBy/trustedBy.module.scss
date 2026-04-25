@@ -1,0 +1,25 @@
+@import '../../../../styles/variable.scss';
+
+.sliderLogoes {
+
+    .topLogoes {
+        display: flex;
+        // gap: 55px;
+        // justify-content: center;
+        align-items: center;
+
+        div {
+            width: 100%;
+
+            img {
+                margin: 0 auto;
+                height: 77.866px;
+                object-fit: contain;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    height: 29.949px;
+                }
+            }
+        }
+    }
+}

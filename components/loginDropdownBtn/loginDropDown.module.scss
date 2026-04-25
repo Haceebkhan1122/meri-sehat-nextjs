@@ -1,0 +1,59 @@
+.deleteUserModal {
+    width: 340px !important;
+
+    .contentDeleteUser {
+        text-align: center;
+        margin-top: 2.5rem;
+        // padding: 0 1rem;
+
+        span {
+            color: #8799AC;
+text-align: center;
+font-family: "Circular Std";
+font-size: 16px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+        }
+
+        h3 {
+            font-family: 'Satoshi-Medium';
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 29.67px;
+            text-align: center;
+            color: #0F345A;
+        }
+
+        p {
+            font-family: 'Satoshi-Medium';
+            font-size: 16px;
+            font-weight: 450;
+            line-height: 19.35px;
+            text-align: center;
+            color: #8799AC;
+            margin-top: 1.5rem;
+
+        }
+
+        .buttontDeleteUser{
+            margin-top: 1.3rem;
+            button {
+                background-color: #EF6286;
+                font-family: 'Satoshi-Medium';
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 19.6px;
+                letter-spacing: 0.01em;
+                text-align: center;
+                color: #FFFFFF;
+                width: 100%;
+                padding: 15px 0;
+                border-radius: 8px;
+                text-transform: uppercase;
+
+            }
+        }
+        
+    }
+}

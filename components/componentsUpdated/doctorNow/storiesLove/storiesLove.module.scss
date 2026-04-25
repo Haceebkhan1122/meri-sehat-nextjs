@@ -1,0 +1,195 @@
+@import '../../../../styles/variable.scss';
+
+.storiesLove {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 40px !important;
+
+    @media(min-width:1301px) and (max-width:1919px) {
+        padding-top: 80px;
+        padding-bottom: 40px !important;
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        padding-top: 31px;
+        padding-bottom: 33px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: $Satoshi-Bold;
+        font-style: normal;
+        line-height: 120%;
+        margin-bottom: 60px;
+
+        @media(min-width:0px) and (max-width:767px) {
+            margin-bottom: 40px;
+            font-size: 32px;
+            width: 272px !important;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .slider_container01 {
+        @media(min-width:0px) and (max-width:767px) {
+            // width: 100vw;
+            position: relative;
+        }
+
+        .singleStory {
+            // width: 249.6px;
+            height: 560px;
+            flex-shrink: 0;
+            border-radius: 31.983px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            margin: 0 12px;
+
+            // background-color: #fcecc4;
+            @media(min-width:1301px) and (max-width:1919px) {
+                height: 420px;
+            }
+
+            @media(min-width:768px) and (max-width:1024px) {
+                height: 380px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                margin: 0 8px;
+                height: 500px;
+                border-radius: 30px;
+            }
+
+            .infoStory {
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                position: absolute;
+                left: 26.06px;
+                top: 30.99px;
+                z-index: 2;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    left: 23.06px;
+                    top: 26.99px;
+                    gap: 0px;
+                }
+
+                h2 {
+                    color: $dark-bluecolor;
+                    font-family: $Satoshi-Bold;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                    margin-bottom: .2rem;
+
+                    @media(min-width:1301px) and (max-width:1919px) {
+                        font-size: 22px;
+                    }
+
+                    @media(min-width:0px) and (max-width:767px) {
+                        font-size: 24px;
+                    }
+                }
+
+                h4 {
+                    color: $dark-bluecolor;
+                    font-family: $Satoshi-Medium;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+
+                    @media(min-width:1301px) and (max-width:1919px) {
+                        font-size: 14px;
+                    }
+
+                }
+            }
+
+            .playBtn {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='65' height='65' viewBox='0 0 65 65' fill='none'%3E%3Cg filter='url(%23filter0_b_1094_10988)'%3E%3Cpath d='M32.1364 5.82812C17.4241 5.82812 5.48364 17.7686 5.48364 32.4809C5.48364 47.1932 17.4241 59.1337 32.1364 59.1337C46.8487 59.1337 58.7892 47.1932 58.7892 32.4809C58.7892 17.7686 46.8487 5.82812 32.1364 5.82812Z' fill='white' fill-opacity='0.5'/%3E%3C/g%3E%3Cpath d='M26.804 23.1577V41.8146C26.804 42.9074 28.0566 43.5471 28.9362 42.8807L41.383 33.5523C42.1026 33.0192 42.1026 31.9531 41.383 31.42L28.9362 22.0916C28.0566 21.4253 26.804 22.0649 26.804 23.1577Z' fill='%230F345A'/%3E%3Cdefs%3E%3Cfilter id='filter0_b_1094_10988' x='-7.48257' y='-7.13809' width='79.238' height='79.2371' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeGaussianBlur in='BackgroundImageFix' stdDeviation='6.48311'/%3E%3CfeComposite in2='SourceAlpha' operator='in' result='effect1_backgroundBlur_1094_10988'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_backgroundBlur_1094_10988' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: block;
+                width: 63.967px;
+                height: 63.967px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                z-index: 2;
+                cursor: pointer;
+
+                @media(min-width:1301px) and (max-width:1919px) {
+                    width: 50.967px;
+                    height: 50.967px;
+                }
+            }
+        }
+    }
+}
+
+
+.wraper__modal {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    overflow: visible;
+
+    @media(min-width:1301px) and (max-width:1919px) {
+        height: 550px;
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        height: 310px;
+    }
+}
+
+.video__story {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1;
+
+    @media(min-width:1301px) and (max-width:1919px) {
+        object-fit: cover;
+        object-position: top;
+    }
+
+    @media(min-width:768px) and (max-width:1024px) {
+        object-fit: cover;
+        object-position: top;
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        object-fit: cover;
+        // object-position: top;
+    }
+}
+
+.wraperModal_videoStoryLove {
+    background: rgba(15, 52, 90, 0.45);
+}
+
+.wraperModal_videoStoryLove iframe {
+    border-radius: 20px;
+}
+
+.closeModal {
+    position: absolute;
+    z-index: 99999;
+    right: 15px;
+    cursor: pointer;
+    top: 15px;
+}

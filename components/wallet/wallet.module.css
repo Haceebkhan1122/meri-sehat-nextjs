@@ -1,0 +1,911 @@
+ 
+.wrapperWalletPageMain {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.wrapperWallet {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.outerDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+
+.cardTop {
+    width: 100%;
+    height: 361px;
+    background: url('../../public/png/card_top_png_gradi.png');
+    border-radius: 30px;
+    position: relative;
+    padding-top: 58px;
+}
+
+.img_wraper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+
+.topUpMainImg {
+    /* width: 707px;
+    height: 458px; */
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+
+
+.addCircleMobile {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 80px;
+    right: 62px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.topUpPerson {
+    position: absolute;
+    z-index: 99;
+}
+
+.shade {
+    width: 100%;
+    height: 143px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.40) 0.04%, rgba(0, 0, 0, 0.00) 99.94%);
+    mix-blend-mode: soft-light;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: none;
+}
+
+
+.laptopSvg img {
+    width: 45px;
+    height: 45px;
+}
+
+.info {
+    display: flex;
+    position: relative;
+    height: 143px;
+    position: absolute;
+    left: 58px;
+    top: 74px;
+}
+
+
+.walletText {
+    width: 100%;
+    color: #FFF !important;
+    opacity: 1 !important;
+    font-family: 'Satoshi-Regular';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: -2px;
+    left: 69px;
+}
+
+.moneyWrapper {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+
+
+
+.priceText {
+    color: #FFF;
+    font-family: 'Nunito';
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+
+}
+
+
+.addIconImg {
+    width: 26px;
+    height: 26px;
+}
+
+.btnTopup {
+    width: 240px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    gap: 6.4px;
+    padding: 11.2px 38.4px;
+    border-radius: 48px;
+    background: #FFF;
+    margin-left: 145px;
+    margin-top: 22px;
+    color: #19B3B5;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 18.886px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 205px;
+    left: -13px;
+    cursor: pointer;
+}
+
+
+.cashCardsWrapper {
+    display: flex;
+    gap: 22px;
+}
+
+
+.card1 {
+    width: 100%;
+    height: 340px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(24, 162, 165, 0.50) 0%, rgba(155, 249, 218, 0.50) 100%), #FFAB5D;
+    background-blend-mode: overlay, normal;
+    background-blend-mode: overlay, normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card1Layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.headingsVoucher {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 3;
+}
+
+.descCash {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Regular' ;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: normal;
+    padding-top: 22px;
+}
+
+
+.card2 {
+    width: 100%;
+    height: 340px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: url('../../public/svg/card2Layer.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.wrapperSubscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.certificateTopup {
+    width: 53.333px;
+    height: 53.333px;
+}
+
+.descCard2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 22px;
+}
+
+.smallHeadingsVoucher {
+    color: #FFF;
+    text-align: center;
+    font-family:'Satoshi-Bold';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 22px;
+    cursor: pointer;
+}
+
+
+.transactions {
+    width: 100%;
+    height: 610px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+    margin: auto;
+    margin-top: 80px !important;
+}
+
+.infoTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 40px 27px 40px;
+}
+
+.allTransactions {
+    color: #0F345A;
+    font-family:'Satoshi-Medium'!important;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: normal;
+    word-spacing: -5px;
+}
+
+.seeAll {
+    color: #19B3B5;
+    text-align: right;
+    font-family: 'Satoshi-Medium';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    word-spacing: 0px;
+}
+
+.topBorder {
+    width: 1280px;
+    height: 1.016px;
+    background: #E5E3E3;
+    margin: auto;
+}
+
+.bottom {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.bottom::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapperTransactions {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.transactionImg {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.transactionsDesc {
+    color: #6E737D;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.slidesWallet {
+    width: 100%;
+    min-width: 1320px;
+    max-width: 1320px;
+    height: 120px;
+    border-radius: 30px;
+    background: #FDECF1 !important;
+}
+
+.wrapperSlider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideWrapperField {
+    width: 100%;
+    max-width: 1320px;
+}
+
+.moneyWrapperImage {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+
+.arrowUpMobile {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.wrapperBtnMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 15px; */
+    position: absolute;
+    top: 92px;
+}
+
+.btnTopupMobile {
+    width: 130px;
+    height: 40px;
+    padding: 7px 24px;
+    border-radius: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    background: #FFF;
+    color: #19B3B5;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.wrapperHeadings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.bulbMobile {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.headingsVoucherMobile {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Medium'!important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 2px;margin-bottom:0 ;
+}
+
+.descMobile {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.wrapperMobileBorder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.wrapperAllTrasactions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.singleTrasactionWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 17px 25px 36px;
+    cursor: pointer;
+}
+
+
+.centerBorder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.borderTransaction {
+    width: 100%;
+    border-bottom: 1px solid #E5E3E3;
+}
+
+.wrapeFirstTrans {
+    display: flex;
+    gap: 32.5px;
+    align-items: center;
+    justify-content: start;
+}
+
+.detailsTransac {
+    display: flex;
+    flex-direction: column;
+}
+
+.transactionImgBottomWrapper {
+    width: 73.125px;
+    height: 75.156px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* margin-right: 22px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transcPriceAll {
+    color: #0F345A;
+    text-align: right;
+    font-family:'Satoshi-Medium';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    word-spacing: -10px;
+}
+
+.verifiedTickTransac {
+    width: 28px;
+    height: 28px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cg clip-path='url(%23clip0_1454_60006)'%3E%3Cpath d='M26.8327 14L23.986 10.745L24.3827 6.44L20.171 5.48333L17.966 1.75L13.9993 3.45333L10.0327 1.75L7.82768 5.47167L3.61602 6.41667L4.01268 10.7333L1.16602 14L4.01268 17.255L3.61602 21.5717L7.82768 22.5283L10.0327 26.25L13.9993 24.535L17.966 26.2383L20.171 22.5167L24.3827 21.56L23.986 17.255L26.8327 14ZM11.771 19.5067L7.33768 15.0617L9.06435 13.335L11.771 16.0533L18.596 9.205L20.3227 10.9317L11.771 19.5067Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1454_60006'%3E%3Crect width='28' height='28' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.unSuccTickTransac {
+    width: 28px;
+    height: 28px;
+    background-image: url("data:image/svg+xml,%3Csvg width='26' height='25' viewBox='0 0 26 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.8163 12.6476L23.0462 9.49152L23.4322 5.31364L19.3338 4.3827L17.1881 0.772461L13.3281 2.42999L9.46808 0.772461L7.32237 4.3827L3.22396 5.30229L3.60996 9.48017L0.839844 12.6476L3.60996 15.8038L3.22396 19.993L7.32237 20.9239L9.46808 24.5342L13.3281 22.8653L17.1881 24.5228L19.3338 20.9126L23.4322 19.9816L23.0462 15.8038L25.8163 12.6476ZM14.4634 18.3241H12.1928V16.0535H14.4634V18.3241ZM14.4634 13.7829H12.1928V6.97117H14.4634V13.7829Z' fill='%23FE9074'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.transactionImgBottom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.transactionHeading {
+    color: #0F345A;
+    font-family: 'Satoshi-Regular';
+    font-size: 28.438px;
+    font-style: normal; 
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.transactionDescription {
+    color: #A7A7A7;
+    font-family:'Satoshi-Medium';
+    font-size: 24.375px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    word-spacing: -5px;
+}
+
+
+.priceTransactions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: end;
+}
+
+.faqContainer {
+    min-width: 1320px;
+    padding-bottom: 20px;
+}
+
+.faqText {
+    color: #0F345A;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 50.4px */
+    margin-bottom: 50.5px;
+}
+
+
+@media (max-width : 768px) {
+    
+    .wrapeFirstTrans{width: 63%;}
+    .priceTransactions{width: 37%; padding: 0;   justify-content: end;}
+
+    .addCircleMobile {
+        top: 16%;
+        right: 24px; 
+    }
+
+    .img_wraper {
+        display: none;
+    }
+
+
+    .allTransactions {
+        word-spacing: 0px;
+    }
+
+
+    .unSuccTickTransac,
+    .verifiedTickTransac {
+        width: 16px;
+        height: 16px;
+    }
+
+    .faqContainer {
+        min-width: 100% !important;
+        width: 100%;
+        background: #fff;
+        padding-top: 12px;
+    }
+
+/* .mobileWidth{width: 320px;
+    margin: 0 auto;
+} */
+    .faqText {
+        color: #0F345A;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        margin-bottom: 10px;
+        text-align: start;
+    }
+
+    .outerDiv {
+        padding-top: 0px!important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .verifiedTickTransac {
+        width: 14.667px;
+        height: 14px;
+    }
+
+    .cardTop {
+        /* width: 320px; */
+        background-image: url('../../public/png/new-images/wallet_bg_mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 150px;
+        border-radius: 15px;
+        padding-top: 20px;
+        flex-shrink: 0;
+        border-radius: 15px;
+    }
+
+    .shade {
+        width: 100%;
+        height: 60px;
+        padding-left: 20px;
+        padding-top: 29px;
+        padding-bottom: 14px;
+        left: 0;
+        top: 15px;
+    }
+
+    .shading {
+        position: absolute;
+        background-image: url("data:image/svg+xml,%3Csvg width='320' height='60' viewBox='0 0 320 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg style='mix-blend-mode:soft-light'%3E%3Crect width='320' height='60' fill='url(%23paint0_linear_701_5971)' fill-opacity='0.4'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_701_5971' x1='5.89205e-07' y1='36' x2='320.002' y2='34.1667' gradientUnits='userSpaceOnUse'%3E%3Cstop/%3E%3Cstop offset='1' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+        width: 100%;
+        opacity: 0.2;
+        height: 60px;
+        top: 12px;
+        display: none;
+    }
+
+    .moneyWrapper {
+        position: relative;
+        margin-top: 6px;
+    }
+
+
+
+    .moneyWrapperImage {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin-bottom: 19px;
+    }
+
+    .walletText {
+        font-size: 14px;
+        top: 41px;
+        left: 83px;
+    }
+
+    .priceText {
+        font-size: 26px;
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        left: 3px;
+        top: -19px;
+        padding-left: 30px;
+    }
+
+    .cashCardsWrapper {
+        width: 320px;
+        height: 90px;
+        gap: 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 100%;
+        max-width: 100%;
+        height: 90px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        overflow: hidden;
+        background: url('../../public/svg/card1MobileLayer.svg');
+        background-size: cover;
+        background-repeat: no-repeat;        border-radius: 10px;
+        background-position: center;
+    }
+
+    .card2 {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 90px !important;
+        border-radius: 15px;
+        background: url('../../public/svg/card2MobileLayer.svg');
+        background-size: cover;
+        background-repeat: no-repeat ;       border-radius: 10px;
+        background-position: center;
+    }
+
+    .descCash {
+        padding: 0 !important;
+        margin-bottom: 1rem;
+    }
+
+    .headingsVoucher {
+        font-size: 14px;
+        line-height: 120%;
+        font-weight: 700;
+    }
+
+    .wrapperSubscription {
+        flex-direction: column;
+    }
+
+    .certificateTopup {
+        width: 32px;
+        height: 32px;
+    }
+
+    .infoTop {
+        padding: 0px 20px;
+        height: 67px;
+        border-bottom: 1.0106px solid #E5E3E3;
+    }
+.wrapperAllTrasactions{ height: 240px;overflow-y: auto;}
+.wrapperAllTrasactions::-webkit-scrollbar {
+    width: 0em;
+  }
+
+    .transactions {
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        background: #FFF;
+        box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+        margin-bottom: 0px;
+        margin-top: 20px !important;
+
+    }
+   
+    .allTransactions {
+        font-size: 16px;
+    }
+
+    .seeAll {
+        font-size: 14px;
+        word-spacing: 0px;
+        color: #A8ADB8 !important;
+    }
+
+    .topBorder {
+        width: 300px;
+        height: 0.5px;
+    }
+
+    .transactionImg {
+        width: 52px;
+        height: 52px;
+    }
+
+    .transactionsDesc {
+        color: #A8ADB8;
+        font-size: 18px;
+    }
+
+    .wrapperWallet {
+        background-color: #EEF1FA;
+        gap: 22px;
+        margin-bottom: 0px;
+        min-height: auto;
+    }
+
+    .slideWrapperField {
+        width: 100%;
+        text-align: center;
+    }
+
+    .slidesWallet {
+        width: 100%;
+        min-width: 320px;
+        max-width: 320px;
+        height: 150px;
+        border-radius: 16px;
+        background: #FDECF1;
+    }
+
+
+    .wrapperAllTrasactions {
+        gap: 0px !important;
+    }
+
+
+    .singleTrasactionWrapper {
+        padding: 17px 14px;
+    }
+
+    .wrapeFirstTrans {
+        gap: 0px !important;
+    }
+
+
+    .transactionImgBottomWrapper {
+        width: 36px;
+        height: 37px;
+        margin-right: 7px;
+    }
+
+    .transactionHeading {
+        font-size: 14px;    font-weight: 400;
+    }
+
+    .transactionDescription {
+        font-size: 12px;
+    }
+
+    .transcPriceAll {
+        font-size: 16px;
+        word-spacing: -5px;
+    }
+
+    .centerBorder {
+        padding: 0px 9px;
+    }
+
+    .wrapperTransactions {
+        height: 85%;
+    }
+
+    .wrapperHeadings {
+        gap: 4px;
+    }
+
+    .headingsVoucherMobile {
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width : 1550px) {
+    .topUpMainImg {
+        right: 155px !important;
+    }
+}
+

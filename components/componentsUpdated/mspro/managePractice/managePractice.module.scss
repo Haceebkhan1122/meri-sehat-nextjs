@@ -1,0 +1,107 @@
+@import '../../../../styles/variable.scss';
+
+
+.managePractice {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media(min-width:0px) and (max-width:767px) {}
+
+    h1 {
+        color: #0F345A;
+        text-align: center;
+        font-family: $Satoshi-Bold;
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 86.4px */
+        text-align: center;
+        margin-bottom: 67px !important;
+
+        @media(min-width:0px) and (max-width:767px) {
+            font-size: 30px;
+            width: 81%;
+            margin: auto;
+            margin-bottom: 41px !important;
+        }
+    }
+
+    .single_card_mana {
+        width: 100%;
+        height: 584px;
+        flex-shrink: 0;
+        border-radius: 10px 100px;
+        background: #FFF;
+        box-shadow: 0px 20px 40px 0px rgba(220, 228, 228, 0.40);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding-left: 26px;
+        padding-top: 29px;
+        overflow: hidden;
+
+        @media(min-width:0px) and (max-width:767px) {
+            width: 97%;
+            height: 380px;
+        }
+
+        h3 {
+            color: #0F345A;
+            font-family: $Satoshi-Bold;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70.37px;
+
+            @media(min-width:0px) and (max-width:767px) {
+                font-size: 22px;
+                line-height: 37.729px;
+                width: 72%;
+            }
+        }
+
+        p {
+            color: #313131;
+            font-family: $Satoshi-Regular;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media(min-width:0px) and (max-width:767px) {
+                font-size: 16px;
+                line-height: normal;
+                width: 72%;
+        }
+        }
+
+        .img_manage {
+            object-position: bottom;
+            position: absolute;
+            bottom: 0;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    width: 250px;
+                    object-fit: contain;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    height: 170px;
+            }
+        }
+    }
+}
+
+
+.wraperManageSlider {
+    width: 100%;
+
+    @media(min-width:0px) and (max-width:767px) {
+        padding-left: 12px;
+        height: 360px;
+    }
+}
+

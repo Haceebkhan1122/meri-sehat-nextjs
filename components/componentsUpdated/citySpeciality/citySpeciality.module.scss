@@ -1,0 +1,93 @@
+@import '../../../styles/variable.scss';
+
+.citySpecialityWraper {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+    @media(min-width:0) and (max-width:767px) {
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+    h2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-bottom: 32px;
+
+        @media(min-width:0) and (max-width:767px) {
+            // width: 80%;
+            text-align: center;
+            padding: 0 5rem;
+            margin-bottom: 30px;
+            font-size: 26px !important;
+        }
+    }
+
+    .wrape__sliderCityFad {
+        width: 100%;
+        padding: 40px 0px;
+
+        @media(min-width:0) and (max-width:767px) {
+            padding: 0px;
+        }
+
+        .wrapeSingleBox {
+            width: 95% !important;
+
+            @media(min-width: 0px) and (max-width:767px) {
+                width: 90% !important;
+            }
+
+            .singleBox {
+                width: 100%;
+                height: 312px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 24px;
+                border: 1px solid #8E96A04D;
+                overflow: hidden;
+                position: relative;
+                cursor: pointer;
+
+                @media(min-width: 0px) and (max-width:767px) {
+                    width: 100%;
+                    height: 239px;
+                }
+
+                .singleCity {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 180.833px;
+                    height: 126.804px;
+
+                    @media(min-width: 0px) and (max-width:767px) {
+                        width: 60%;
+                        height: 100px;
+                    }
+                }
+            }
+
+            h3 {
+                color: #0F345A;
+                text-align: center;
+                font-family: $Satoshi-Regular;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 27px;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

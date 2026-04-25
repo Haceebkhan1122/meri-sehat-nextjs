@@ -1,0 +1,48 @@
+
+.responsiveBorder .bannerTopBox .bannerWPB p.errorState {
+    color: #DC3545!important;
+    width: 100%!important;
+font-family: "Circular Std";
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 140%; /* 25.2px */
+letter-spacing: 0.18px;
+margin-left: 0px; 
+margin-top: 7px !important;
+white-space: nowrap;
+} 
+
+.cwpForm .moving {
+    margin-bottom: 29px !important;
+}
+
+.collllling {
+    height: 99px;
+}
+
+.errorng {
+    margin-bottom: 13px;
+    
+}
+
+
+@media (max-width : 767px) {
+    .cwpForm .moving {
+        margin-bottom: 16px !important;
+    }
+
+    .collllling {
+        height: 58px;
+    }
+
+    .responsiveBorder .bannerTopBox .bannerWPB p.errorState {
+        color: #DC3545!important;
+        width: 100%!important; 
+        font-size: 9px; 
+        margin-top:0px !important;     
+        white-space: break-spaces;
+        text-align: left;
+        margin-bottom: 0!important;
+    }
+}

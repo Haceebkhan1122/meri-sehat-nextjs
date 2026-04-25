@@ -1,0 +1,71 @@
+.step_boxes {
+  width: 1300px;
+}
+
+.step_box {}
+
+.step_box1 {
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 220px;
+}
+
+.textBoxColor {
+  color: #0F345A;
+  text-align: center;
+  font-family: 'Satoshi-Medium';
+  font-size: 19.706px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  /* 27.588px */
+  letter-spacing: 0.197px;
+}
+
+.labTestHeading {
+  color: #0F345A;
+  font-family: Nunito;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 58.8px */
+  letter-spacing: 0.42px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .headingSlickTrack {
+    font-size: 14px !important;
+    color: #0F345A;
+    line-height: 17.31px !important;
+    padding-left: 31px;
+    padding-top: 20px;
+    font-weight: 500;
+  }
+
+  .newParaMobile {
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    /* 19.6px */
+    letter-spacing: 0.14px;
+  }
+
+
+  .step_box {
+    width: 240px;
+    height: 166px;
+    padding: 0 !important;
+    border-radius: 15px !important;
+  }
+
+  .book_a_lab_test_inner {
+    padding: 5px 20px 16px 20px;
+  }
+
+}

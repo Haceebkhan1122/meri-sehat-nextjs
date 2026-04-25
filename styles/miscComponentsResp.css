@@ -1,0 +1,2341 @@
+@media only screen and (max-width:767px) {
+  .height100 {
+    height: 100%;
+  }
+
+  .imageHeader01 {
+    width: 168.564px;
+    height: 173px;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+  }
+
+  .imageHeader01 img {
+    width: 100% !important;
+    height: 100% !important;
+    position: initial;
+  }
+
+  .borderBottomMob {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 7px;
+    margin-bottom: 12px;
+  }
+
+  .english .hk_sehat-scan.sehat_scan_self section.doctors_waiting.trackyourhealth h3 {
+    font-size: 16px;
+  }
+
+  .english .hk_sehat-scan.sehat_scan_self section.doctors_waiting.trackyourhealth p {
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+  }
+
+  .home-english .forReversingRow .right_area_instant_home .icon_area_main .icon_place p {
+
+    color: #404040;
+    font-family: 'Satoshi-Medium';
+    font-size: 13.128px;
+    font-style: normal;
+    line-height: 140%;
+    /* 18.379px */
+    letter-spacing: 0.131px;
+  }
+
+  .areYouDoctor {
+    font-family: Nunito;
+    font-size: 18px !important;
+    font-weight: 600;
+    line-height: 22px !important;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  .areYouDoctorPara {
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+  }
+
+  .doctor_now_self_page button.review-button.add-review-btn span.item_doctor_offline {
+    left: 0;
+  }
+
+  .home-english .profileSlider .slider_btns .next_btn {
+    right: 0;
+  }
+
+  .healthcheck .continue-phone-btn {
+    width: auto;
+  }
+
+  .bannerNewComponent .flipTextSlider h1.sectionHeadingLarge,
+  .homepage .home #resizing-h3,
+  .homepage .home .d-block h1 {
+    text-align: left !important;
+  }
+
+  .homepage .start_scan_mob_button button.btn_container.simple_btn,
+  .home-english section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .profileSlider p,
+  .profileSlider .slider_btns .next_btn,
+  .profileSlider .slider_btns .prev_btn,
+  .client_slider button.slick-arrow.slick-next,
+  .client_slider button.slick-arrow.slick-prev,
+  .pricingTableHome .forBorder-wellness.justify-content-between .btn_icon_box,
+  .healthcheck .box_health .headingnew2,
+  .browseDoctor.dynamic-widget .row .form_controll.for-m-r,
+  .sehatSearchBar.sehat_a_to_z_only .customTabs.nav.nav-tabs,
+  .sehatSearchBar.sehat_a_to_z_only ._topicBanner.sehat_a_to_z_only .banner_content_container.banner-alignment.wellnessBanner p {
+    display: none !important;
+  }
+
+  .bannerNewComponent.hk_home_banner_normal {
+    border-radius: 12px !important;
+    margin-top: 20px;
+  }
+
+  .bannerNewComponent .flipTextSlider h1.sectionHeadingLarge {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.60);
+    backdrop-filter: blur(2px);
+    color: #19B3B5 !important;
+    width: fit-content;
+    padding: 7px 10px;
+  }
+
+  section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .profileSlider h2.slider_title,
+  .right_area_instant_home p,
+  .only_pricing_page.only_for_pricing .profileSlider p {
+    width: 100%;
+    text-align: left;
+  }
+
+  .homepage .doctorNewSection .col-lg-9 {
+    padding: 0;
+  }
+
+  .instant_doc_area.card .heading_cont h2.slider_title {
+    color: #313131;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+  }
+
+  .instant_doc_area.card .banner_24_7 {
+    margin: 0;
+  }
+
+
+
+  .right_area_instant_home p {
+    font-size: 16px;
+  }
+
+
+  .icon_area_main .icon_place p {
+    font-size: 13px;
+  }
+
+
+  .icon_area_main .icon_place img {
+    width: 52px;
+    height: 52px;
+  }
+
+
+  .only_pricing_page .forMobileResp .diffColorbanner {
+    color: #19B3B5;
+    background: rgba(255, 255, 255, 0.60);
+
+  }
+
+  .home-english .instant_doc_area.card {
+    margin-bottom: 3rem;
+  }
+
+  .home-english .blueTickLink {
+    margin-left: 0.5rem;
+  }
+
+  .home-english .bannerNewComponent.hk_home_banner_normal .hk_pricig_ img {
+    margin-top: 76px;
+  }
+
+  .home-english .instant_doc_area.card {
+    padding: 10px 10px;
+    height: 90px;
+  }
+
+  .imgBackgroundPink {
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    left: 7px;
+    border-radius: 8px;
+    background: #F06386;
+    position: absolute;
+  }
+
+  .heading_cont.me-3.mobile_heading_imgage {
+    width: 56px;
+    height: 70px;
+    z-index: 99;
+  }
+
+  .icon_area_main .icon_place p {
+    width: auto;
+  }
+
+  .homepage .bannerNewComponent.hk_home_banner_normal section.flipTextSlider {
+    left: -10px;
+    position: relative;
+  }
+
+  .healthcheck .box_health {
+    padding-top: 0;
+    padding-left: 25px;
+  }
+
+  .healthcheck .box_health {
+    padding-top: 0;
+    padding-left: 25px;
+  }
+
+  .healthcheck .box_health .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
+  .healthcheck .box_health ul li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .healthcheck .box_health ul {
+    margin-top: 40px;
+  }
+
+  .healthcheck .box_health ul li p {
+    color: #313131;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 16.8px */
+    letter-spacing: 0.14px;
+  }
+
+  .bg-pink {
+    background-color: #EF6286 !important;
+  }
+
+  .bg-pink.mt-70 {
+    margin-top: 35px;
+  }
+
+  .cta01 .for_custom_pages img {
+    right: 10px;
+    width: 40%;
+    left: auto;
+  }
+
+  .cta01 .headingnew3 {
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 14px;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 7px;
+  }
+
+  .home_cta.pricingCta.d h3.headingnew3 {
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+
+  .faq__span {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .wellnessLandingClass section.healthcheck.cta01.mt-80.pt-5 {
+    padding-top: 0 !important;
+    margin-top: 0px !important;
+  }
+
+  .only_pricing_page.only_for_pricing .simple_slider_sec.pricing_page_slider.container .card.profile {
+    min-height: 224px !important;
+    height: 224px !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .hk_font_sizes button.btn_container a.underline_ancer {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .hk_font_sizes button.btn_container {
+    width: 144px;
+    height: 32px;
+    min-height: 32px !important;
+  }
+
+
+  .cta01 .continue-phone-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 9.389px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.469px;
+  }
+
+  .cta01 .continue-phone-btn,
+  .cta01 .continue-phone-btn span {
+    height: 40px !important;
+  }
+
+  .cta01 .continue-phone-btn span {
+    width: 40px;
+  }
+
+  .healthcheck.cta01.mt-80 {
+    margin-top: 0;
+  }
+
+  .pricingTableHome ul.nav-tabs li button {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 130px;
+    color: #313131;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 19.6px;
+    letter-spacing: 0.16px;
+  }
+
+  .pricingTableHome .off_disc {
+    right: 16px !important;
+    top: 10px;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16.523px;
+  }
+
+  .pricingTableHome ul.nav-tabs li:nth-child(2) button {
+    padding-right: 23px;
+    margin-left: 1.5rem;
+
+  }
+
+  .pricingTableHome .tabs-block {
+    margin-bottom: 0;
+  }
+
+  .only_pricing_page .pricingTableHome .tabs-block .label {
+    position: absolute;
+    left: 4px;
+    top: 2px;
+    background: white;
+    height: 45px;
+    transition: 500ms;
+    border-radius: 100px;
+    width: 170px !important;
+  }
+
+  .only_pricing_page .mobile_show_pricing .hk_payyy {
+    display: none;
+  }
+
+  section.top_reads.health.article.dynamic-widget.aos-init {
+    transform: none !important;
+  }
+
+  .pricingTableHome .forBorder-wellness.justify-content-between {
+    justify-content: center !important;
+    margin-bottom: 10px;
+  }
+
+  .pricingTableHome .tab-content .col-md-4 {
+    margin-top: 30px;
+  }
+
+  .pricingTableHome .priceAmountt span.rs-amount {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    letter-spacing: 0.4px;
+  }
+
+  ._pricing-banner-container {
+    background: linear-gradient(164deg, rgba(193, 255, 251, 0.81) 22.92%, rgb(253, 236, 241) 100%);
+    border-radius: 15px;
+  }
+
+  .pr0 {
+    padding-right: 0;
+  }
+
+  .pricingTableHome .priceAmountt span.pkr-text {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.26px;
+  }
+
+  .mobile_show_pricing .slick-slide.slick-active.slick-current .p-0.accordion-item {
+    /* border: 1.5px solid #19B3B5 !important; */
+  }
+
+  .pricingTableHome .packges-name {
+    color: #29bcc1;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.884px;
+    /* 145.259% */
+  }
+
+  .checkMarkPoints ul li span {
+    color: rgba(49, 49, 49, 0.90);
+    font-family: 'Satoshi-Medium';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    word-spacing: 0px;
+  }
+
+  .checkMarkPoints button {
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 13.488px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.233px;
+  }
+
+  .testimonials_New .headingnew2 {
+    color: #313131;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+  }
+
+  .testimonials_New p {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.14px;
+    margin-bottom: 20px !important;
+  }
+
+  .testimonials_New .client_image {
+    width: auto;
+  }
+
+  .testimonials_New .client_image img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .testimonials_New .box_testimonial {
+    width: auto;
+    padding: 20px 20px;
+  }
+
+  .top_reads .card {
+    box-shadow: none;
+    border: 1px solid #dedede;
+  }
+
+  .browseDoctor.dynamic-widget .row {
+    text-align: center;
+  }
+
+  .browseDoctor.dynamic-widget .row .mb-3.pt-4 {
+    justify-content: center;
+  }
+
+  section#aiTechnologies .section-med,
+  section#aiTechnologies h5,
+  section#aiTechnologies .row .mb-3.pt-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+  }
+
+  section#aiTechnologies .row .mb-3.pt-4 {
+
+    justify-content: flex-start;
+  }
+
+  section#aiTechnologies .section-med h2 {
+    color: #313131;
+    text-align: left;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 24px */
+  }
+
+  .hkkkkk .newNavbarMobile a img.me-4 {
+    width: 28px;
+    height: auto;
+    
+  }
+
+  .closing {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ---------------------------pricing page------------------------- */
+  .my-80 {
+    margin: 40px 0;
+  }
+
+  .only_pricing_page.only_for_pricing ._pricing-banner-container .bannerNewComponent {
+    border-radius: 12px !important;
+    width: 100%;
+    height: 100%;
+    padding-top: 19px !important;
+  }
+
+  .mobBtnScan {
+    border-radius: 8px;
+    background: #EF6286;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+  }
+
+  .text-left {
+    text-align: left !important;
+  }
+
+  .only_pricing_page.only_for_pricing ._pricing-banner-container .bannerNewComponent h4 {
+    color: #313131;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 23.4px */
+  }
+
+  .accordionMobileRow {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+
+  .only_pricing_page.only_for_pricing .checkMarkPoints button {
+    border-radius: 7px;
+  }
+
+  .only_pricing_page .icon_area img {
+    margin-left: 0;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    margin-right: 10px;
+  }
+
+  .only_pricing_page .trusted_partners.how_to_install {
+    display: none;
+  }
+
+  .bg-gray-mobile-pricing {
+    background: #F6F6F6;
+  }
+
+  .mobile_show_pricing .accordion .accordion-item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .only_pricing_page .accordionMobileRow .accordion-item:nth-child(2),
+  .pricingTableHome .col-md-4:nth-child(2) .pricing-box {
+    border: 2px solid #19B3B5;
+  }
+
+  .pricingTableHome .popular-tag {
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    left: 30px;
+    top: -26px;
+  }
+
+  .only_pricing_page.only_for_pricing .threeColumnArea h2 {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+  }
+
+  .only_pricing_page .threeColumnArea .col-md-4 {
+    margin-top: 25px !important;
+  }
+
+  .only_pricing_page.only_for_pricing .threeColumnArea h4 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .only_pricing_page.only_for_pricing .pricing-faq-container .pricing-faq-heading {
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left !important;
+  }
+
+  .only_pricing_page.only_for_pricing .pricing-faq-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  section.homepage {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .logoImgSet img:nth-child(1) {
+    width: 83px !important;
+    height: 44px !important;
+  }
+
+  .logoImgSet img:nth-child(2) {
+    width: 84px !important;
+    height: 30px !important;
+  }
+
+  .logoImgSet img:nth-child(3) {
+    width: 58px !important;
+    height: 58px !important;
+  }
+
+  .logoImgSet img:nth-child(4) {
+    width: 75px !important;
+    height: 34px !important;
+  }
+
+  .logoImgSet img:nth-child(5) {
+    width: 100px !important;
+    height: 32px !important;
+  }
+
+
+  .only_pricing_page.only_for_pricing ._pricing-banner-container {
+
+
+    position: relative;
+    overflow: hidden;
+  }
+
+  .only_pricing_page.only_for_pricing ._pricing-banner-container .hk_pricig_.text-center.col-7 img {
+    /* 
+    position: absolute;
+    right: -85px;
+    left: auto;
+    bottom: 0;
+    width: 80%; */
+  }
+
+  /* ---------------------------wellness page----------------- */
+  .hk_wellness_slider_doctors.wellnessBanner .discoverWellnessTopics .row .col-md-3 {
+    width: 100%;
+    max-width: initial !important;
+  }
+
+  .my_last_widget.hk_wellness_slider_doctors .profileSlider .row {
+    flex-wrap: wrap !important;
+  }
+
+  .wellnessLandingClass .discoverWellnessTopics .cardWithHeaderImage .header_img img {
+    width: auto;
+    height: auto;
+  }
+
+  section.discoverWellness.wellnessBanner.wellnessLandingClass .discoverWellnessTopics .cardWithHeaderImage .header_img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .my_last_widget.hk_wellness_slider_doctors.sehatSearchBar.wellnessLandingClass .cardWithHeaderImage .header_img.mt100Insverse {
+    max-height: 102.308px !important;
+    min-height: 102.308px !important;
+    margin-top: -35px !important;
+    /* width: 134.077px; */
+
+    margin: 0 auto;
+  }
+
+  .hk_wellness_slider_doctors.wellnessLandingClass .discoverWellnessTopics .paddingInMobile.pt-5 {
+    padding-top: 0px !important;
+  }
+
+  .wellnessLandingClass .discoverWellnessTopics.profileSlider .cardWithHeaderImage .header_img img {
+    width: auto;
+    height: 102px;
+    margin-top: 0;
+  }
+
+  section.discoverWellness .discoverWellnessTopics .card.cardWithHeaderImage {
+    height: auto;
+    /* width: 100%; */
+    margin: 0 4px !important;
+    padding: 15px 15px 0px 15px !important;
+
+  }
+
+  .wellnessLandingClass .discoverWellnessTopics .card.cardWithHeaderImage {
+
+    position: relative;
+    /* left: 30px; */
+  }
+
+  .wellnessLandingClass.my_last_widget.hk_wellness_slider_doctors.sehatSearchBar.wellnessBanner.wellnessLandingClass .card_body {
+    padding: 0 !important;
+    margin-bottom: 20px;
+    min-height: 100%;
+  }
+
+  .discoverWellnessTopics.profileSlider .slick-slider .slick-list .slick-track .slick-slide {
+    margin-right: 15px;
+  }
+
+  /* -------------------sehat a-z page----------------------- */
+  .sehat_a_to_z_only .banner_text,
+  .sehat_a_to_z_only .banner_content_container.banner-alignment .mb-3 {
+
+    margin-bottom: 0 !important;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section#topicFilter ._overflow-hidden.doctor.dynamic-widget.doctorNewSection .col-lg-12.col-8 {
+    width: 100%;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section#topicFilter ._overflow-hidden.doctor.dynamic-widget.doctorNewSection .d-none.d-lg-block {
+    display: block !important;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section#topicFilter ._overflow-hidden.doctor.dynamic-widget.doctorNewSection .d-lg-none.d-block.text-end.col-4,
+  section.wellness_experts.sehat_a_to_z_only section#topicFilter ._overflow-hidden.doctor.dynamic-widget.doctorNewSection .d-lg-none.d-block.text-end.col-12 {
+    display: none !important;
+  }
+
+  .urdu section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .section-heading {
+    justify-content: flex-end;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .hk_wellness_types_cat.card {
+    border-radius: 8px;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .section-heading h2 {
+    padding-right: 10px;
+  }
+
+  .sehat_a_to_z_only .banner_text h2 {
+    color: #313131;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 28.6px */
+  }
+
+  .my_last_widget.hk_wellness_slider_doctors.sehatSearchBar.wellnessBanner.wellnessLandingClass .wellnessBanner .banner_text h2 {
+    font-family: Nunito;
+    font-size: 30px !important;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    /* 28.6px */
+  }
+
+  .sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .banner_content_container.banner-alignment {
+    padding: 0 15px 0;
+    border-radius: 12px;
+    background: linear-gradient(0deg, #D6FEC6 0%, #D6FEC6 100%), lightgray 50% / cover no-repeat;
+  }
+
+  .sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .banner_content_container.banner-alignment .row {
+    align-items: center;
+  }
+
+  .sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .banner_content_container.banner-alignment .row .col-12 {
+    width: 50%;
+  }
+
+  .sehat_a_to_z_only .topicFilter .headerSearchContainer {
+    margin-bottom: 10px;
+  }
+
+  .sehat_a_to_z_only .changeNewTopicFilter.topicFilter .filterContent .filterList {
+    column-count: 1 !important;
+  }
+
+  .sehat_a_to_z_only .changeNewTopicFilter.topicFilter .search__bar {
+    border-radius: 5px;
+    width: 100% !important;
+  }
+
+  .sehat_a_to_z_only .topicFilter .search__toggler {
+    border-radius: 5px;
+  }
+
+  .sehat_a_to_z_only .changeNewTopicFilter .bg-change-new.col-10 {
+
+    padding: 0;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .categories_beauty .col-md-4 .hk_wellness_types_cat.card img.card-img-top {
+    bottom: 0;
+    top: auto;
+    right: 0;
+    width: 50%;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .hk_wellness_types_cat.card .card-title.h5 {
+    color: #EF6286;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 0;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .hk_wellness_types_cat.card p.card-text {
+    color: #404040;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 122.5%;
+    letter-spacing: 0.12px;
+    width: 50%;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .bg-change-new .filterContent .container {
+    padding: 0;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .bg-change-new .container h2 {
+    color: #313131;
+    font-family: Nunito;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 21.6px */
+    letter-spacing: 0.18px;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-7 .card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox {
+    display: block;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-7 .header_img.img_box,
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-7 .card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox .card_body {
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-7 .card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox {
+    border-radius: 10px 10px 10px 10px !important;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-5 {
+    margin-left: 0;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-5 .card.articleItemLists.boxShadowOnBox.boxShadowHideMobile {
+    width: 100%;
+    min-height: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .pricingTableHome .tabs-block .label.active-num2 {
+    /* left: 141px !important; */
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section.top_reads.health.article.dynamic-widget .col-lg-5 a .card.articleItemLists.boxShadowOnBox.boxShadowHideMobile .status.articleLabel {
+    margin-bottom: 20px;
+    background-color: white !important;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .col-lg-3 {
+    width: 100%;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section._overflow-hidden.doctor.dynamic-widget.doctorNewSection a.view_all_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .topicFilter .simple_btn {
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .trusted_partners.logoImgSet .d-md-flex {
+    text-align: left;
+    /* padding: 0 30px; */
+  }
+
+  .trusted_partners.logoImgSet .d-md-flex img {
+
+    margin: 0px 21px 15px !important;
+    margin-left: 0 !important;
+  }
+
+  .mobileNewCustomMenu .search-icon-span {
+    right: 0;
+  }
+
+  .urdu .mobileNewCustomMenu .search-icon-span {
+    top: 0;
+  }
+
+  .homepage .bannerNewComponent.hk_home_banner_normal .hk_pricig_ img {
+    margin-top: 0;
+  }
+
+  .homepage .discoverWellnessTopics.hk_for_home .cardWithHeaderImage .header_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .homepage .discoverWellnessTopics.hk_for_home .slick-slider.for_hk_slidee {
+    margin-top: 0;
+  }
+
+  /* -----------------------sehat scan page--------------------------- */
+  .sehatScanCurrentBanner {
+    margin-top: 0 !important;
+    border-radius: 12px !important;
+    padding: 15px;
+    padding-bottom: 0;
+  }
+
+  .sehatScanCurrentBanner h1 {
+    width: 100% !important;
+    text-align: center;
+    color: #313131;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 23.4px */
+  }
+
+  .start_scan_mob_button button.btn_container.simple_btn {
+    max-width: initial;
+    width: fit-content;
+    margin-left: 0;
+    left: 0;
+  }
+
+  .sehatScanCurrentBanner.banner_sehatScan button.btn_container.simple_btn.d-flex.align-items-center.justify-content-center.viewDoctorBtn.px-3.text-uppercase.fw-700 {
+    display: flex;
+    width: 303px;
+    height: 50px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    margin-top: 26px !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self h2.text-initial.fw-600.borderBottomMob.mt-0.text-left {
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+  }
+
+  .sehatScanCurrentBanner.banner_sehatScan .sehat_hk_ban h1 {
+    margin-bottom: 18px !important;
+    width: 150px;
+  }
+
+  .fad_landing_wrapper .sehatScanCurrentBanner.banner_sehatScan .sehat_hk_ban h1 {
+    text-align: left;
+  }
+
+  ._paddingNoneMobile.mb-md-5.pb-md-5.pb-4.pt-5.ps-0.pe-0.container {
+    padding-bottom: 28px !important;
+  }
+
+  .sehat_hk_ban {
+    text-align: left;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.doctors_waiting {
+    margin-bottom: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.doctors_waiting.trackyourhealth {
+    margin-top: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.introducingBanner .card {
+    top: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.introducingBanner .card h2 {
+
+    color: #000;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: 0.2px;
+
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.introducingBanner .card h5.heading_desc {
+    margin: 5px 0 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.introducingBanner {
+    background: #F6F6F6;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .flex-row-reverse .urdu-cont.right_content .TwoContentContainer .simple_btn {
+    min-width: 150px;
+    font-size: 12px;
+    letter-spacing: 0;
+    font-weight: 500 !important;
+    margin-bottom: 0;
+    min-height: 32px !important;
+
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.trusted_partners {
+    margin-top: 50px !important;
+  }
+
+  .sehat_scan_self .monitorHealthSection {
+    padding-top: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.doctors_waiting.introducingBanner img {
+    right: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .imageBox img {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+
+  }
+
+  .hk_sehat-scan .flex-row-reverse .urdu-cont.right_content .TwoContentContainer {
+    margin-bottom: 0 !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .doctors_waiting._mt-0.videoCallDocs h2.text-initial.border-bottom-0 {
+    border-bottom: 1px solid#dee2e6 !important;
+    /* margin-top: 30px; */
+    margin-top: 0px;
+
+  }
+
+  .urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting._mt-0.videoCallDocs h5 {
+
+    font-family: 'Faiz Lahori Nastaleeq' !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self a.review-button.m-auto.add-review-btn.text-uppercase.simple-btn-mobile.instantBannerNewBtn span.cons_now {
+    font-size: 14px;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .cardRemovePadding .card {
+    margin-bottom: 20px !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .introducingBanner .container {
+    text-align: center;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .introducingBanner .container .card {
+    text-align: left;
+
+  }
+
+  .hk_sehat-scan.sehat_scan_self .introducingBanner .card img,
+  .hk_sehat-scan.sehat_scan_self .doctors_waiting.videoCallDocs .container>img {
+    display: none;
+  }
+
+  .hk_sehat-scan .sehat_scan_media .video-box-heading h4 {
+    font-size: 22px !important;
+    line-height: 26px !important;
+    letter-spacing: 0.01em;
+  }
+
+  #navbar .navbar-nav {
+    margin-left: 0;
+  }
+
+  .bm-menu-wrap .d-flex.align-items-center a.underline_ancer {
+    font-family: Nunito;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+
+  #navbar .nav-item.dropdown .dropdown-menu {
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-left: 20px;
+  }
+
+  #navbar .navbar-nav .nav-item.dropdown li {
+    margin-bottom: 7px;
+  }
+
+  #navbar .find_doctors_hk.teletooth_doctors .add-continue-btn img {
+    width: 17px;
+  }
+
+  .urdu #navbar .nav-item.dropdown .dropdown-menu .mega_menu a.hk_read_more {
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+  }
+
+  .contact_us_bottom .box_form_contact {
+    box-shadow: none;
+    padding: 40px 0 0;
+    border-radius: 0;
+    top: 0;
+  }
+
+  .contact_us_bottom .box_form_contact .intereste_area .ant-radio-group {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+
+  .contact_us_bottom .box_form_contact .intereste_area label {
+    white-space: nowrap;
+    box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.15);
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+    margin: 8px;
+    position: relative;
+  }
+
+  .contact_us_bottom .box_form_contact .intereste_area label span {
+    color: #313131;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .box_form_contact label.ant-radio-button-wrapper.ant-radio-button-wrapper-checked span {
+    color: white;
+  }
+
+  .contact_us_bottom .reach_uss.col-lg-5 {
+    order: 2;
+  }
+
+  .box_form_contact textarea {
+    height: 113px;
+  }
+
+  .urdu .box_form_contact .ant-form-item-control-input-content button.ant-btn.ant-btn-primary.simple_btn {
+    width: 100%;
+    min-width: 100%;
+    min-height: 44px;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sehatSearchBar.sehat_a_to_z_only .customTabs.nav.nav-tabs {
+    border-bottom: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    gap: 15px;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only .topicFilter .simple_btn {
+    padding: 10px 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.92px;
+  }
+
+  .urdu section.wellness_experts.sehat_a_to_z_only .topicFilter .simple_btn svg.me-3 {
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
+  }
+
+  .urdu section.wellness_experts.sehat_a_to_z_only .topicFilter .simple_btn img {
+    margin-right: 0;
+  }
+
+  .sehatSearchBar.sehat_a_to_z_only .changeNewTopicFilter.topicFilter .customTabs.nav-tabs .nav-item .nav-link {
+    margin-right: 0;
+  }
+
+  .sehatSearchBar.sehat_a_to_z_only .changeNewTopicFilter.topicFilter .customTabs.nav-tabs .nav-link {
+    text-align: center;
+    width: 100%;
+  }
+
+  section.contact_us_bottom {
+    margin-bottom: 50px;
+  }
+
+  .changeNewTopicFilter.topicFilter .filter_btns {
+    top: 100px;
+  }
+
+  .contact_us_bottom .ms-7 {
+    margin-left: 0;
+  }
+
+  .contact_us_bottom .reach_head {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+  }
+
+  .contact_us_bottom .we_are_hiring {
+    border-radius: 18px;
+  }
+
+  .forResponsiveContact .download_buttons p {
+    color: #404040;
+    font-family: 'Satoshi-Medium';
+    font-size: 10.281px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.103px;
+  }
+
+  .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile .hk_register_btn span.cons_now,
+  .doctor_now_self_page .doctorInstantly.doctornow_instant .instantBannerNewBtn span.cons_now {
+    text-decoration: none;
+  }
+
+  .only_pricing_page .sehat_scan_media.mt-5>section {
+    margin-top: 0 !important;
+  }
+
+  .homepage .doctors_waiting .instant_doc_area.card .banner_24_7 .doc_timings img {
+    left: 0;
+    margin-right: 3px;
+    height: 12px;
+  }
+
+  .sehatAtoZ.sehat_a_to_z_only .changeNewTopicFilter.topicFilter h2.filterLetter {
+    padding-left: 20px !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self a.review-button.m-auto.add-review-btn.text-uppercase.simple-btn-mobile.instantBannerNewBtn span.cons_now {
+    text-decoration: none;
+  }
+
+  .hk_sehat-scan .doctors_waiting.videoCallDocs p.heading_desc {
+    font-family: 'Satoshi-Medium';
+    font-size: 16px !important;
+    font-weight: 300;
+    line-height: 22px !important;
+    letter-spacing: 0.01em !important;
+    text-align: left;
+  }
+
+  .hk_sehat-scan .doctor_now_home .sec_with_two_cards {
+    padding-bottom: 0;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .flex-row-reverse .urdu-cont.right_content h3.subSectionHeading {
+    width: 60%;
+  }
+
+  .hk_Top_doctors_fad.row .left_big_fad {
+    width: 360px;
+    height: auto;
+  }
+
+  .hk_Top_doctors_fad.row hr {
+    width: 96%;
+  }
+
+  .hk_Top_doctors_fad.row p {
+    color: #313131;
+    font-family: "Circular Std";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+  }
+}
+
+
+.accordionMobileRow::-webkit-scrollbar,
+.contact_us_bottom .box_form_contact .intereste_area .ant-radio-group::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.accordionMobileRow::-webkit-scrollbar-thumb,
+.contact_us_bottom .box_form_contact .intereste_area .ant-radio-group::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.accordionMobileRow::-webkit-scrollbar-track,
+.contact_us_bottom .box_form_contact .intereste_area .ant-radio-group::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media only screen and (max-width:360px) {
+  .imageHeader01 {
+    width: 128.564px;
+    height: 136.564px;
+    min-height: 107px;
+  }
+
+  /* .sehat_scan_landing .sehatScanCurrentBanner {
+    height: 170px !important;
+  } */
+
+  .imageHeader01 img {
+    min-height: 107px !important;
+  }
+
+  .cta01 .continue-phone-btn {
+    justify-content: flex-start;
+    padding-left: 25px;
+  }
+
+}
+
+@media only screen and (max-width:767px) {
+  .sehat_scan_landing .sehatScanRightImg img {
+    min-height: 173px;
+  }
+
+
+  .healthcheck ul li h4 {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+
+  .urdu .mobileNewCustomMenu .newNavbarMobile .dropdown-menu .col-lg-2.col-md-6,
+  .urdu .mobileNewCustomMenu .newNavbarMobile .dropdown-menu .col-lg-3.col-md-6,
+  .urdu .mobileNewCustomMenu .newNavbarMobile .dropdown-menu .col-lg-4.col-md-6 {
+    border-left: 0 !important;
+    text-align: right;
+  }
+
+  .urdu .mobileNewCustomMenu .newNavbarMobile .nav-item.dropdown li {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .urdu .find_doc_menu:nth-child(2) a.hk_read_more {
+    display: none !important;
+  }
+
+  .urdu .mobileNewCustomMenu .newNavbarMobile .dropdown-menu .col-lg-3.col-md-6.find_doc_menu:nth-child(2) {
+    margin-bottom: 0 !important;
+  }
+
+  .urdu .bannerNewComponent .flipTextSlider h1.sectionHeadingLarge,
+  .urdu .home #resizing-h3,
+  .urdu .homepage .home .d-block h1 {
+    text-align: right !important;
+  }
+
+  .urdu .find_doc_menu:nth-child(3) section.findTheBestHealthCare.hhhh .section-heading {
+    display: none !important;
+  }
+
+  .urdu .find_doctors_hk .add-continue-btn span.add-continue-chevron.confirm-span {
+    right: auto;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .urdu .find_doctors_hk .add-continue-btn span.add-continue-chevron.confirm-span svg {
+    transform: rotate(180deg);
+  }
+
+  .urdu .find_doc_menu:first-child .find_doctors_hk a.review-button span.some_left {
+    left: 0;
+  }
+
+  .urdu .bannerNewComponent .flipTextSlider h1.sectionHeadingLarge {
+    margin-left: auto;
+  }
+
+  .urdu .homepage .bannerNewComponent.hk_home_banner_normal section.flipTextSlider {
+    right: -10px;
+    left: auto;
+  }
+
+  .urdu .instant_doc_area.card .me-3 {
+    margin-right: 0 !important;
+    margin-left: 1rem;
+  }
+
+  .urdu .instant_doc_area.card .ms-2 {
+    margin-left: 0 !important;
+    margin-right: .5rem !important;
+  }
+
+  .urdu .instant_doc_area.card img.ms-2 {
+    transform: rotate(180deg);
+  }
+
+  .urdu .galleryBoxes .large.box.mobile .d-flex.justify-content-between.mt-2,
+  .urdu .discoverWellnessTopics.hk_for_home .forBorder-wellness {
+    direction: rtl;
+  }
+
+  .urdu .discoverWellnessTopics.hk_for_home .forBorder-wellness .btn_icon_box img {
+    margin-left: 10px;
+    margin-right: 0;
+    transform: rotate(180deg);
+  }
+
+  .urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home .card.cardWithHeaderImage {
+    height: auto;
+  }
+
+  .urdu .cardWithHeaderImage .header_img.mt100Insverse {
+    display: grid;
+  }
+
+  .urdu .cta01 .for_custom_pages img {
+    left: 10px;
+    right: auto;
+  }
+
+  .urdu .pricingTableHome .off_disc {
+    right: auto !important;
+    top: 10px !important;
+    left: 11px !important;
+  }
+
+  .urdu .only_pricing_page .pricingTableHome .off_disc {
+    right: 76%;
+    top: 16px;
+    width: 50px !important;
+  }
+
+  .urdu .pricingTableHome .discoverWellnessTopics .borderTop {
+    border-top: none;
+  }
+
+  .urdu .boxShadowOnBox.articleItemLists .img_box.bordertbRadius.card_img {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+  }
+
+  .urdu section#aiTechnologies .row .mb-3.pt-4 {
+    justify-content: flex-start;
+  }
+
+  .urdu section#aiTechnologies .row .offset-lg-1.order-2.order-lg-1.col-lg-5.col-md-12 {
+    text-align: right;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .urdu section#aiTechnologies .section-med h2 {
+    text-align: right;
+  }
+
+  .urdu .mobilePricingTable .accordion-body h3,
+  .urdu .mobilePricingTable .accordion-body p {
+    text-align: right;
+  }
+
+  .urdu .showHideDetails {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
+  .urdu .mobilePricingTable .accordion-button::after {
+
+    right: auto;
+  }
+
+  .urdu .only_pricing_page .icon_area img {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  body.urdu .only_pricing_page.only_for_pricing_urdu .video-box-heading h4 {
+    color: #313131;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  .urdu .sehat_scan_media.mt-5>section {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .urdu .doctorNewSection .card.profile .professtion {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  .urdu .doctorNewSection .card.profile .name {
+    text-align: right;
+
+  }
+
+  .urdu .threeColumnArea h2 {
+    font-family: Noto Naskh Arabic;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .urdu .threeColumnArea h4 {
+    font-family: Noto Naskh Arabic;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .urdu .threeColumnArea p {
+    font-family: Faiz Lahori Nastaleeq;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .urdu .pricing-accordion-question {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+
+
+  .urdu .sehatScanCurrentBanner .sehat_hk_ban {
+    text-align: right;
+  }
+
+  .urdu .sehat_scan_landing .sehatScanCurrentBanner .d-flex .ps-5 {
+    padding-right: 0 !important;
+    padding-left: 3rem !important;
+  }
+
+  .urdu .sehat_scan_landing .sehatScanRightImg img {
+    left: 50px;
+    right: auto;
+  }
+
+  .urdu section.doctors_waiting.trackyourhealth p {
+    margin-bottom: 25px !important;
+  }
+
+  .urdu section.doctors_waiting.trackyourhealth h2.border-bottom-0 {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+
+  .urdu .sehat_scan_landing .sehatScanCurrentBanner button.btn_container {
+    right: 0;
+    left: auto;
+    margin-right: 0;
+    transform: none;
+  }
+
+  .urdu .hk_sehat-scan section.doctors_waiting.trackyourhealth ul {
+    padding-right: 0;
+    padding-left: 0;
+    direction: rtl;
+  }
+
+  .urdu .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .sec_with_two_cards.cardRemovePadding .imageBox img {
+    right: 230px !important;
+  }
+
+  body.urdu .hk_sehat-scan.sehat_scan_self .flex-row-reverse .urdu-cont.right_content h3.subSectionHeading {
+    right: 0;
+  }
+
+  .urdu section#aiTechnologies h5 {
+    text-align: right;
+  }
+
+  section.homepage {
+    overflow-x: hidden;
+  }
+
+  .underline_ancer {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .mobileNewCustomMenu .newNavbarMobile #megaMenuDropDown.dropdown-toggle:after {
+    right: 20px !important;
+    top: 30px !important;
+    -webkit-transform: rotate(-45deg) !important;
+  }
+
+  #navbar .nav-item.dropdown .dropdown-menu,
+  #navbar .nav-item.dropdown.show .dropdown-menu.show {
+    display: block !important;
+    background-color: transparent;
+    box-shadow: none;
+    width: 272px;
+    padding-left: 0 !important;
+  }
+
+  #navbar .nav-item.dropdown .dropdown-menu {
+    display: none !important;
+  }
+
+  ul.mega_menu li.featured_box a img.thumbnail_hk {
+    width: 100%;
+    height: 100%;
+  }
+
+  .parallex_slider_hk .slick-slider.mobile-class.slick-initialized {
+    transform: translate(0px, 0px) !important;
+  }
+
+  .urdu .download_buttons img {
+    margin-right: 0 !important;
+  }
+
+  section.healthcheck.cta01 .home_cta a.review-button span.continue-phone-chevron {
+    height: 24px !important;
+    width: 18px;
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  body.urdu section.healthcheck.cta01 .home_cta a.review-button span.continue-phone-chevron {
+    border-radius: 4px 0px 0px 4px !important;
+  }
+
+  .doctor_now_self-urdu .home_cta a.review-button.text-uppercase.continue-phone-btn.position-relative {
+    margin-left: auto;
+    margin-right: 16px;
+    width: 120px;
+  }
+
+  section.homepage section.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .profileSlider hr {
+    display: none;
+  }
+
+  section.homepage section.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .profileSlider p {
+    display: none;
+  }
+
+  section.homepage section.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .profileSlider .col-lg-12 {
+    width: 100%;
+  }
+
+  section.homepage section.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .profileSlider .slick-track {
+    padding-top: 30px;
+  }
+
+  body.urdu .cta01 .headingnew3 {
+    text-align: right;
+  }
+
+  .urdu .expanded-search-area .closeSearchBtn {
+    margin-left: 20px;
+  }
+
+  .expanded-search-area .closeSearchBtn {
+    top: 0.5rem !important;
+  }
+
+  .urdu .expanded-search-area .searchIconInExpSearch {
+    top: 28px;
+  }
+
+  .urdu .expanded-search-area h4.topSearchTopHeading {
+    text-align: right;
+  }
+
+  .urdu .sehat_a_to_z_only ._topicBanner.sehat_a_to_z_only .wellnessBanner .column-image {
+    right: 0;
+  }
+
+  .sehat_a_to_z_only ._topicBanner.sehat_a_to_z_only .wellnessBanner .column-image {
+    left: 0;
+  }
+
+  body.urdu section.wellness_experts.sehat_a_to_z_only .categories_beauty .col-md-4 .hk_wellness_types_cat.card img.card-img-top {
+    top: auto;
+    width: 120px;
+    left: 0;
+  }
+
+  body.urdu section.wellness_experts.sehat_a_to_z_only .hk_wellness_types_cat.card p.card-text {
+    width: 56%;
+    font-family: 'Noto Naskh Arabic', serif !important;
+  }
+
+  .urdu section.wellness_experts.sehat_a_to_z_only section#topicFilter section._overflow-hidden.doctor.dynamic-widget.doctorNewSection {
+    display: none;
+  }
+
+  section.wellness_experts.sehat_a_to_z_only section#topicFilter .for_bg_color_topic_filter_banner.blue section.categories_beauty {
+    margin: 0 !important;
+  }
+
+  .filterContent.for_alergies_border_remove {
+    border-bottom: none;
+  }
+
+  section.terms_condition_self section.gerdSymtoms:first-child .content img.min_heart_terms {
+    margin-top: 3px;
+    height: 22px;
+    width: auto;
+    margin-left: 5px;
+  }
+
+  .urdu .mobileNewCustomMenu .scanBtnTop {
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 108%;
+    letter-spacing: -0.24px;
+    max-width: 67px;
+  }
+
+  .urdu .doctors_waiting .right_area_instant_home h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: right;
+
+  }
+
+  .urdu .icon_area_main .icon_place p {
+    margin-right: 20px;
+    margin-left: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: right;
+
+  }
+
+  .urdu section.healthcheck .box_health ul li h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    text-align: right;
+
+  }
+
+  .urdu .healthcheck.mb-5.position-relative .box_health .continue-phone-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth .intro_hk h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+
+  }
+
+  .urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth .intro_hk p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: right;
+
+  }
+
+  .urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth .intro_hk {
+    margin-bottom: 0 !important;
+  }
+
+  .urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+
+  .urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+
+  }
+
+  .urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+  }
+
+  .urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section h6 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: right;
+  }
+
+  .imgBottomFixx {
+    position: relative;
+    right: 0;
+    /* bottom: -10px; */
+    bottom: -60px;
+  }
+
+  body.urdu .imgBottomFixx {
+    position: relative;
+    /* bottom: -10px; */
+    bottom: -60px;
+  }
+
+  .urdu .homepage section.discoverWellnessTopics.dynamic-widget.hk_for_home .card.cardWithHeaderImage {
+    margin-top: 50px;
+    margin-top: 10px;
+
+  }
+
+  body.english section#aiTechnologies .hk_outofcontain {
+    margin-left: 0;
+  }
+
+  body.urdu section#aiTechnologies .hk_outofcontain {
+    margin-right: 0;
+  }
+
+  .urdu .homepage section.discoverWellnessTopics.dynamic-widget.hk_for_home .cardWithHeaderImage .header_img.mt100Insverse {
+    max-height: 100% !important;
+    min-height: 100% !important;
+  }
+
+  .urdu .homepage section.discoverWellnessTopics.dynamic-widget.hk_for_home .cardWithHeaderImage .header_img.mt100Insverse {
+    max-height: 100% !important;
+    min-height: 100% !important;
+  }
+
+  .urdu section.homepage section.discoverWellnessTopics.dynamic-widget.hk_for_home .cardWithHeaderImage .card_body {
+    min-height: 140px;
+    padding: 5px 25px 0px 25px !important;
+    /* min-height: 140px;
+    padding: 5px 25px 0px 25px !important; */
+  }
+
+  .urdu .hkkkkk .newNavbarMobile a img.me-4 {
+    margin-right: 0 !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .urdu .hkkkkk .newNavbarMobile span.badge.bg-secondary.hk_new_badge {
+    top: 15px !important;
+    font-size: 10px !important;
+    margin-right: 125px;
+  }
+
+  .urdu .mobileNewCustomMenu .newNavbarMobile #megaMenuDropDown.dropdown-toggle:after {
+    -webkit-transform: rotate(135deg) !important;
+  }
+
+  .urdu .only_pricing_page.only_for_pricing_urdu ._pricing-banner-container .bannerNewComponent .experience-heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: right;
+
+  }
+
+  .urdu .contact_self_urdu .reach_uss h3.reach_head,
+  .urdu .contact_self_urdu .reach_uss .contact_list li .box_icon,
+  .urdu .contact_self_urdu .contact_us_bottom .social_icon_contact a {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+
+  .urdu .contact_self_urdu .reach_uss h3.reach_head {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+  .urdu .contact_self_urdu .reach_uss ul.contact_list p a {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: right;
+  }
+
+  .contact_self_urdu .reach_uss .social_icon_contact {
+    margin-right: 0;
+  }
+
+  .mobile_show_pricing.mt-5 .accordionMobileRow .slick-list {
+    overflow: visible;
+
+  }
+
+  .urdu .mob_slider_health.healthConditions.doctor_now .box_health01.text-center.px-4.pb-4.mob_box_health p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .urdu .instant-banner-main.doctor_now_self_page.doctor_now_self-urdu .health_common.mt-80.mb-5.pb-5 h2.mb-3.heading-mobile {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+  .urdu .faqText {
+    text-align: right;
+  }
+
+  .urdu .contact_us_bottom .box_form_contact {
+    top: 0;
+  }
+
+  section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .row {
+    flex-wrap: wrap !important;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .for_visible_on_right {
+    width: auto;
+  }
+
+  .hk_sehat-scan.sehat_scan_self section.sehat_scan_media .col-md-4 {
+    margin-bottom: 20px !important;
+  }
+
+  .terms_condition_self.pt-5.mt-3.mb-5 .articleSection._mb-5 h5 p table tr td {
+    display: inline-block;
+    text-align: left;
+    padding: 7px 15px;
+  }
+
+  .urdu .doctor_now_self_page .monitorHealthSection.dynamic-widget .sec_with_two_cards.cardRemovePadding .imageBox img {
+    left: 0px;
+    padding-left: 0px;
+    bottom: 60px !important;
+    width: 100px !important;
+  }
+
+  .urdu .doctor_now_self_page .flex-row-reverse .urdu-cont.right_content h3.subSectionHeading {
+    width: 70%;
+  }
+
+  .urdu .control_lang.fff {
+    direction: ltr;
+    padding-left: 0;
+    padding-right: 18px;
+  }
+
+  ._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self .monitorHealthSection.dynamic-widget.helth_boxes .card .imageBox {
+    position: relative;
+    top: 18px;
+  }
+
+  ._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self .monitorHealthSection.dynamic-widget.helth_boxes .card .imageBox.mob_box01.urdu_box_dr1 {
+    position: relative;
+    left: 18px;
+  }
+
+  ._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self section.trusted_partners.how_to_install,
+  ._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self-urdu section.trusted_partners.how_to_install {
+    margin-top: 50px !important;
+  }
+
+  ._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self-urdu section.trusted_partners.how_to_install .row h3.headingnew3 {
+    padding-right: 15px;
+  }
+
+  ._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self-urdu section.trusted_partners.how_to_install .row {
+    direction: ltr;
+  }
+
+  body.urdu .label.active-num2 {
+    right: 140px !important;
+  }
+
+  .urdu .wellness_experts.sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .wellness_experts_list section.top_reads.health.article.dynamic-widget.sehatatozee .section-heading._border_Bottom {
+    direction: rtl;
+  }
+
+  .urdu .wellness_experts.sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .topicFilter.changeNewTopicFilter .simple_btn {
+    font-size: 16px;
+  }
+
+  .urdu .wellness_experts.sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .topicFilter.changeNewTopicFilter .filterContent#ی {
+    border-bottom: 0;
+  }
+
+  .only_pricing_page.only_for_pricing .pricing-accordion-item.accordion-item .pricing-accordion-answer.accordion-body {
+    padding: 10px 0 0 !important;
+  }
+
+  .urdu .only_pricing_page .pricing-accordion-item.accordion-item .pricing-accordion-answer.accordion-body {
+    margin-left: auto;
+  }
+
+  .hk_sehat-scan .last_box_wellness a.btn_container.underline_ancerContent {
+    display: flex !important;
+  }
+
+  .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .sec_with_two_cards.cardRemovePadding .imageBox img {
+    min-width: 103px;
+    width: 103px;
+    padding-left: 0px;
+  }
+
+  .hk_sehat-scan .monitorHealthSection.dynamic-widget.helth_boxes .imageBox.mob_box01.urdu_box_dr1.left_box_01 img {
+    right: 0px !important;
+    left: auto;
+    min-width: 142px;
+  }
+
+  ._topicBanner.instant-banner-main.doctor_now_self_page section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .profileSlider p {
+    margin-bottom: 0px !important;
+  }
+
+  body.urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting._mt-0.videoCallDocs h2 {
+    text-align: right;
+  }
+
+  body.urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting._mt-0.videoCallDocs p.heading_desc {
+    text-align: right;
+  }
+
+  .urdu .homepage .pricingTableHome .checkMarkPoints span {
+    font-size: 12px !important;
+    line-height: 16px;
+  }
+
+  .urdu .homepage .galleryBoxes .underline_ancer {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+
+  }
+
+  .homepage .discoverWellnessTopics.hk_for_home .borderTop.mt-3 {
+    border-top: 0 !important;
+  }
+
+  .urdu section.articleDetail.hk_mob_desease_article .writtenBy_updateOn_mob h3,
+  .urdu .hk_mob_desease_article .articleFooter button.accordion-button h5.heading_desc {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (max-width:480px) {
+  .doctor_now_self_page button.review-button.add-review-btn span.item_doctor_offline {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .doctor_now_self_page.doctor_now_self .benefits_consultation .col-lg-3.col-7:nth-child(2) h3 {
+    width: 90px;
+    margin: 0 auto;
+  }
+
+  .doctor_now_self_page .health_common.self_common_health .mob_slider_health.healthConditions.doctor_now .mob_slid {
+    padding: 0 7px;
+    width: auto;
+  }
+
+  .doctor_now_self_page .health_common.mt-80.benefits_consultation .mob_slider_health.healthConditions.doctor_now .col-lg-3.col-7 {
+    padding: 0 7px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .english .hk_sehat-scan.sehat_scan_self #aiTechnologies .hk_number {
+    width: 442px !important;
+  }
+
+  .english .mt-2.doc_online-status .padding-4-only {
+    padding: 1.8rem;
+  }
+
+  body .homepage section#aiTechnologies .row {
+    position: relative;
+  }
+
+  body .homepage section#aiTechnologies .hk_outofcontain {
+    /* bottom: 0;
+    position: absolute; */
+  }
+
+  body.english .homepage section#aiTechnologies .hk_outofcontain {
+    right: 25px;
+  }
+
+  body.urdu .homepage section#aiTechnologies .hk_outofcontain {
+    left: 25px;
+    right: auto;
+  }
+
+  body.english .homepage.home-english .healthcheck.cta01 .dr_image {
+    left: 100px;
+  }
+
+  body.english .popular-area {
+    text-align: left;
+  }
+
+  body.urdu #navbar .nav-item.dropdown {
+    margin: 0;
+  }
+
+  body.urdu #navbar .nav-item.dropdown a,
+  body.urdu .navbar-light .navbar-nav>a {
+    margin: 0px 10px;
+  }
+
+}
+
+@media only screen and (min-width: 769px) {
+  .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .sec_with_two_cards.cardRemovePadding .imageBox img {
+    height: 236px;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width:992px) {
+  .video-box-heading h4 {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-english .healthConditions .large p {
+    font-family: 'Satoshi-Medium';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 95%;
+  }
+
+  body.english .sehat_scan_landing .country_code_hk .ant-select-arrow img {
+    height: 12px;
+  }
+
+  body.english .country_code_hk .ant-select-arrow {
+    right: 8px;
+  }
+
+  body.english .hk_sehat-scan .country_code_hk .ant-select-selection-item {
+    font-family: 'Satoshi-Medium';
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+  }
+
+  .sehatScanCurrentBanner .mob_hide_scan_start .hk_number .country_code_hk .ant-select-selector {
+    padding: 12px 0 10px 0;
+  }
+
+  .max-width-200 {
+    max-width: 200px;
+  }
+
+  body.english section#aiTechnologies h5.heading_desc p {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 480px) and (min-width:430px) {
+  .english .sehat_scan_landing .sehatScanCurrentBanner .hk_cat_banner.ps-5 {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 430px) and (min-width:400px) {
+  .english .sehat_scan_landing .sehatScanCurrentBanner .hk_cat_banner.ps-5 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) and (min-width:370px) {
+  .english .sehat_scan_landing .sehatScanCurrentBanner .hk_cat_banner.ps-5 {
+    width: 68%;
+
+  }
+}
+
+@media only screen and (max-width: 370px) and (min-width:340px) {
+  .english .sehat_scan_landing .sehatScanCurrentBanner .hk_cat_banner.ps-5 {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width:355px) {
+  .imageHeader01 {
+    width: 120.564px;
+    height: 125px;
+    min-height: 107px;
+  }
+
+  /* .sehat_scan_landing .sehatScanCurrentBanner {
+    height: 170px !important;
+  } */
+
+  .imageHeader01 img {
+    min-height: 107px !important;
+  }
+}

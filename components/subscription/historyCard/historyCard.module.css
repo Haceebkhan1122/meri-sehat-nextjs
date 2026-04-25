@@ -1,0 +1,200 @@
+.historyWRapperSubscription {
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    padding-bottom: 25px;
+}
+
+
+.historyWRapperSubscription::-webkit-scrollbar {
+    display: none !important;
+}
+
+.cardSlidesPackages {
+    width: 100%;
+    max-width: 434px;
+    height: 175px;
+    flex-shrink: 0;
+    border-radius: 25.125px;
+    background: #FFF;
+    box-shadow: 0px 3.5px 17.5px 1.75px rgba(195, 204, 216, 0.30);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.cardHeaderHistory {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 3px 10px;
+    background-color: #FFF;
+    border-top-right-radius: 25.125px !important;
+    border-top-left-radius: 25.125px !important;
+}
+
+.padClass {
+    padding: 0px 16px;
+}
+
+
+.historyWraper {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.wrapeHeadHistory {
+    color: #0F345A;
+    font-family: 'Satoshi-Medium';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: -5px !important;
+    text-transform: capitalize;
+}
+
+.smallParaHistory {
+    color: #0F345A;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.priceHistory {
+    color: #0F345A;
+    text-align: right;
+    font-family: 'Satoshi-Medium';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-top: -30px;
+}
+
+
+.cardBodyPackage {
+    display: flex;
+    gap: 34.25px;
+    align-items: center;
+}
+
+
+.historyWraperPara {
+    width: 217px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.firstHistory {
+    width: 100%;
+    height: 18px;
+    color: #97A9BD;
+    font-family: 'Satoshi-Medium';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.secondHistory {
+    display: flex;
+    width: 100%;
+    height: 17px;
+    flex-direction: column;
+    justify-content: center;
+    color: #0F345A;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 107.5%;
+    /* 17.2px */
+}
+
+@media (max-width : 768px) {
+
+    .historyWRapperSubscription {
+        min-height: 50vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    .cardSlidesPackages {
+        width: 100%;
+        max-width: 320px;
+        height: 130px;
+        border-radius: 15px;
+        box-shadow: 0px 3.5px 17.5px 1.75px rgba(195, 204, 216, 0.30);
+    }
+
+    .wrapeHeadHistory {
+        font-size: 20px;
+        line-height: 140%;
+        font-family: 'Satoshi-Bold';
+    }
+
+    .smallParaHistory {
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Satoshi-Medium';
+        padding-top: 5px;
+    }
+
+    .priceHistory {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: -27px;
+        font-family: 'Satoshi-Medium';
+    }
+
+    .padClass {
+        padding: 0px;
+    }
+
+    .historyWraper {
+        gap: 0px;
+    }
+
+    .cardHeaderHistory {
+        border-color: #F0F0F0 !important;
+        border-top-right-radius: 15px !important;
+        border-top-left-radius: 15px !important;
+        padding: 20px 20px 0px 20px !important;
+    }
+
+    .firstHistory {
+        font-size: 12px;
+    }
+
+    .secondHistory {
+        font-size: 12px;
+        font-family: 'Satoshi-Regular';
+        font-weight: 600;
+    }
+
+    .historyWraperPara {
+        gap: 0px;
+        padding-left: 9px;
+    }
+
+    .cardBodyPackage {
+        gap: 0px;
+    }
+}

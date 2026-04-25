@@ -1,0 +1,18 @@
+.bgBox {
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 71.25px 0px rgba(16, 55, 94, 0.08);
+    padding: 30px;
+
+    @media (min-width:0px) and (max-width:767px) {
+        padding: 13px;
+        border-radius: 12px;
+        max-width: 320px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+}
+
+
+
+.leftboxemain {}

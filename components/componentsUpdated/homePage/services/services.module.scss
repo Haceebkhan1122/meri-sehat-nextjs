@@ -1,0 +1,77 @@
+@import '../../../../styles/variable.scss';
+
+.servicesSection {
+    padding-top: 50px;
+    padding-bottom: 56px;
+    background: #faf6ee;
+
+    h2 {
+        margin-bottom: 68px;
+    }
+
+    .serviceRow {
+        position: relative;
+
+        .serviceBox {
+            &:nth-child(1) {
+                .serviceImage {
+                    border-radius: 96px 16px 32px 16px;
+
+                    background-color: #fbe376;
+                }
+            }
+
+            &:nth-child(2) {
+                .serviceImage {
+                    background-color: #fbd4cd;
+                    border-radius: 16px 16px 32px 16px;
+                }
+            }
+
+            &:nth-child(3) {
+                .serviceImage {
+                    background-color: #86abd0;
+                    border-radius: 16px 96px 32px 16px;
+
+                }
+            }
+
+            .serviceImage {
+                width: 351.461px;
+                height: 262.4px;
+                position: relative;
+                text-align: center;
+
+                .serviceImageSize {
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                    right: 0;
+
+                    button {
+                        position: absolute;
+                        bottom: 6px;
+                        right: 6px;
+
+                        img {
+                            width: 66px;
+                            height: 66px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .serviceName {
+        p {
+            color: $dark-bluecolor;
+            text-align: center;
+            font-family: $Satoshi-Regular;
+            font-size: 24px;
+            font-style: normal;
+            line-height: normal;
+            margin-top: 28px !important;
+        }
+    }
+}

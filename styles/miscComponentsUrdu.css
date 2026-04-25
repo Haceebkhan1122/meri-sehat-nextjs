@@ -1,0 +1,1269 @@
+@font-face {
+  font-family: 'Faiz Lahori Nastaleeq';
+  src:
+    url('../public/fonts/faiz-lahori-nastaleeq-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.urdu p,
+.urdu .ff-lahori {
+  font-family: 'Faiz Lahori Nastaleeq', sans-serif !important;
+  font-weight: 400;
+
+}
+
+.urdu .homepage .home .d-block h1,
+.urdu section.homepage .doctorNewSection .card.profile,
+.urdu .pricingTableHome .card.pricing-box,
+.urdu section.doctors_waiting.trackyourhealth ul,
+.urdu section.doctors_waiting.trackyourhealth ul,
+.urdu .topicFilter.changeNewTopicFilter .filterContent,
+.urdu .wellnessBanner section.top_reads.health.article.dynamic-widget .card.articleItemLists.boxShadowOnBox h3.listHeading,
+.urdu section.top_reads.health.article.dynamic-widget.article_hk_custom .right_area_art .card_body h5.heading_desc_small,
+.urdu section.doctors_waiting.trackyourhealth p,
+.urdu section.doctors_waiting.trackyourhealth h2,
+.urdu .expanded-search-items .suggested-area,
+.urdu .expanded-search-items .popular-area {
+  text-align: right;
+}
+
+.urdu .normalBannerNumberFeild {
+  display: none !important;
+}
+
+.urdu .showUrduBanner {
+  display: flex !important;
+}
+
+.urdu .doctorNewSection .simple_slider_sec .row,
+.urdu section.homepage .doctorNewSection .card.profile,
+.urdu .healthcheck .row,
+.urdu .section.galleryBoxes .healthConditions,
+.urdu .pricingTableHome .forBorder-wellness,
+.urdu .hk_for_home .forBorder-wellness,
+.urdu .doctors_waiting .row .col-md-6,
+.urdu .testimonials_New .row,
+.urdu .top_reads.health.article .row,
+.urdu #aiTechnologies .row,
+.urdu .pricingTableHome .row,
+.urdu .pricingTableHome .card.pricing-box,
+.urdu .sehat_scan_landing .sehatScanCurrentBanner .d-flex,
+.urdu .hk_sehat-scan .videoCallDocs .row,
+.urdu .sec_with_two_cards.cardRemovePadding .row,
+.urdu .doctor_now_self-urdu .row,
+.urdu .wellness_experts.sehatAtoZ.sehatSearchBar .banner_content_container.banner-alignment .row,
+.urdu .sehatAtoZ .changeNewTopicFilter .row,
+.urdu .topicFilter.changeNewTopicFilter .card .status.articleLabel,
+.urdu div.contact_self_urdu .row,
+.urdu .wellnessLandingClass-urdu .banner_content_container.banner-alignment .row,
+.urdu .client_slider.row,
+.urdu .client_slider .card .btn_container,
+.urdu .hk_sehat-scan .introducingBanner .row,
+.urdu .hk_sehat-scan .logoImgSet .row,
+.urdu .expanded-search-items .row,
+.urdu .articleDetail.hk_mob_desease_article .row,
+.urdu .article_listing.articleDetail .row {
+  direction: rtl;
+}
+
+.urdu .card.profile .rating {
+  left: 0;
+  right: auto;
+  border-top-right-radius: 0;
+  border-top-left-radius: 20px;
+}
+
+.urdu .img_box img.is_f {
+  right: 23px;
+  left: auto;
+}
+
+.urdu section.homepage .doctorNewSection .profileSlider .slider_btns {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  margin-top: 117px;
+  max-width: 68%;
+}
+
+.urdu section.homepage .doctorNewSection .profileSlider .slider_btns .prev_btn {
+  position: relative;
+  left: -920px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.urdu section.homepage .doctorNewSection .profileSlider .slider_btns .next_btn {
+  position: relative;
+  left: 75px;
+}
+
+.urdu .healthcheck ul li p {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+.urdu .healthcheck .continue-phone-chevron,
+.urdu span.add-review-chevron {
+  left: 0 !important;
+  right: auto !important;
+  border-radius: 10px 0 0 10px;
+}
+
+.urdu .healthcheck .continue-phone-chevron svg,
+.urdu span.add-review-chevron svg {
+  transform: rotate(180deg);
+}
+
+.urdu .galleryBoxes .healthConditions .boxLink img {
+  left: 20px;
+  right: auto;
+}
+
+.urdu .pricingTableHome .forBorder-wellness .btn_icon_box img,
+.urdu .card.articleItemLists .arrow_right_border,
+.urdu .galleryBoxes .arrow_right_border,
+.urdu .discoverWellnessTopics .forBorder-wellness .btn_icon_box img,
+.urdu .changeNewTopicFilter .arrow_right_border,
+.urdu .btn_container .arrow_right_border {
+  margin-left: 10px;
+  margin-right: 0;
+  transform: rotate(180deg);
+}
+
+.urdu .doctors_waiting .right_area_instant_home {
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+.urdu .doctors_waiting .right_area_instant_home h4 {
+  color: #313131;
+  text-align: right;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.26px;
+}
+
+.urdu .doctors_waiting .banner_24_7 .doc_timings img {
+  right: -5px;
+  top: 2px;
+  left: auto;
+}
+
+.urdu .icon_area_main .icon_place p {
+  margin-right: 20px;
+  margin-left: 0;
+  color: #404040;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.24px;
+}
+
+.urdu section.healthcheck .box_health ul li h4 {
+  color: #313131;
+  text-align: right;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 36px */
+  letter-spacing: 0.3px;
+  margin-right: 10px;
+}
+
+.urdu section .galleryBoxes .healthConditions p {
+  color: #404040;
+  text-align: right;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px !important;
+}
+
+.urdu .testimonials_New .client_slider button.slick-arrow.slick-next {
+  right: 0;
+  left: auto;
+}
+
+.urdu .testimonials_New .client_slider button.slick-arrow.slick-prev {
+  right: 70px;
+  left: auto;
+}
+
+.urdu .box_testimonial {
+  border-right: 10px solid #29BCC1;
+  border-left: 0;
+}
+
+.urdu .viewDoctorBtn .underline_ancer {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.urdu .card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox:hover img.arrow_right_border {
+  transform: rotate(180deg);
+}
+
+.urdu .card .status.articleLabel {
+  direction: ltr;
+}
+
+.urdu section.top_reads.health.article.dynamic-widget .card.articleItemLists.boxShadowOnBox.boxShadowHideMobile {
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.urdu section.top_reads.health.article.dynamic-widget .articleItemLists .card_img {
+  margin-right: 0px;
+  margin-left: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.urdu .card .btn_container {
+  justify-content: flex-start;
+}
+
+
+.urdu #aiTechnologies .me-3 {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.urdu .for-m-r .hk_number {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.urdu .hk_number .country_code_hk {
+  border-right: 0;
+  border-left: 1px solid #ccc;
+}
+
+.urdu .hk_number input.input-number {
+  padding-left: 0;
+  padding-right: 10px;
+  font-family: 'Noto Naskh Arabic', sans-serif;
+}
+
+.urdu .card.profile .rating img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.urdu .pricingTableHome ul.nav-tabs li:nth-child(2) button {
+  text-align: right;
+  padding-right: 25px;
+  padding-left: 40px;
+}
+
+.urdu .pricingTableHome ul.nav-tabs li:nth-child(2) button::after {
+  left: 10px;
+  right: auto;
+}
+
+.urdu .pricingTableHome .priceAmountt {
+  display: flex;
+}
+
+.urdu .pricingTableHome .priceAmountt span.pkr-text {
+  order: 2;
+}
+
+.urdu .pricingTableHome .checkMarkPoints ul.ps-0 {
+  padding-left: 2rem !important;
+  padding-right: 0 !important;
+}
+
+.urdu .pricingTableHome .checkMarkPoints .ms-2 {
+  margin-left: 0 !important;
+  margin-right: 0.5rem !important;
+}
+
+.urdu .pricingTableHome .popular-tag {
+  right: 40px;
+  left: auto;
+}
+
+/* ------------------------sehat scan page urdu -------------------- */
+.urdu .sehat_scan_landing .sehatScanCurrentBanner .d-flex .ps-5 {
+  padding-left: 0 !important;
+  padding-right: 3rem !important;
+}
+
+.urdu .sehat_scan_landing .sehatScanRightImg img {
+  left: 120px;  
+  transform: scalex(-1);
+}
+.urdu .sehat_hk_ban h1 span {
+ 
+  display: block;
+}
+.urdu .sehat_scan_landing .sehatScanCurrentBanner button.btn_container {
+  right: -69px;
+  left: auto;
+  top: 0.5px;
+  transform: rotate(180deg);
+}
+
+.urdu section.doctors_waiting.trackyourhealth ul .iconnn {
+  margin-right: 0;
+  margin-left: 14px;
+}
+
+.urdu .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .sec_with_two_cards.cardRemovePadding .imageBox img {
+  left: -370px;
+  right: auto;
+}
+
+.urdu .hk_sehat-scan.sehat_scan_self .monitorHealthSection.dynamic-widget .sec_with_two_cards.cardRemovePadding .card .urdu-cont.right_content {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.urdu section.doctors_waiting.trackyourhealth ul li {
+  margin-bottom: 25px;
+}
+
+/* ------------------sehat a-z page----------------------- */
+.urdu .sehatAtoZ ._topicBanner.sehat_a_to_z_only .banner_content_container.banner-alignment .banner_text {
+  margin-left: 50px;
+}
+
+.urdu .topicFilter .headerSearchContainer {
+  float: left;
+}
+
+.urdu .sehat_a_to_z_only ._topicBanner.sehat_a_to_z_only .wellnessBanner .column-image {
+  right: 50px;
+  left: auto;
+}
+
+.urdu .sehatAtoZ.sehatSearchBar #event-search-form .search__toggler {
+  right: auto !important;
+  left: 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.urdu .changeNewTopicFilter.topicFilter #event-search-form .search__bar {
+  padding: 15px 24px 15px 0;
+  color: rgba(48, 48, 48, 0.50);
+  font-family: 'Noto Naskh Arabic';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.urdu section.doctors_waiting.trackyourhealth ul {
+  /* padding-left: 26px; */
+  padding-right: 0;
+}
+
+.urdu .changeNewTopicFilter.topicFilter .top_reads.related .articleItemLists .card_img {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.urdu .topicFilter.changeNewTopicFilter .card .status.articleLabel svg {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.urdu .pricingTableHome .off_disc {
+  right: 57%;
+  top: 15px;
+
+}
+
+.urdu .pricing-tabss .off_disc {
+  right: 75%;
+}
+
+.urdu .box_how_it_works {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.urdu .box_how_it_works:before {
+  right: -23px;
+  left: 0;
+}
+
+
+
+.urdu .halfprice {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.urdu .wellnessLandingClass-urdu .wellnessBanner .column-image {
+  right: 0;
+  left: auto;
+}
+
+.urdu .client_slider button.slick-arrow.slick-prev {
+  right: 75px;
+  left: auto;
+}
+
+.urdu .client_slider button.slick-arrow.slick-next {
+  right: 0;
+  left: auto;
+}
+
+.urdu .wellnessLandingClass .sec_with_two_cards.cardRemovePadding .card .imageBox img {
+  top: -70px;
+  position: absolute;
+  right: 150px;
+}
+
+.urdu .my_last_widget.hk_wellness_slider_doctors .home_cta .continue-phone-btn {
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.urdu .my_last_widget.hk_wellness_slider_doctors .home_cta .col-lg-4 {
+  text-align: right !important;
+  padding-right: 60px;
+}
+
+.urdu .btn_container {
+  white-space: nowrap;
+}
+
+/* .urdu .ant-modal-wrap.ant-modal-centered:has(div.coming_wellness_in_urdu){
+  background-color: #0000008f;
+  backdrop-filter: blur(3px);
+} */
+
+@media (min-width: 992px) {
+
+  .urdu .offset-lg-1,
+  .urdu .offset-lg-1 {
+    margin-left: 0 !important;
+    margin-right: 8.33333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .urdu .text-md-left {
+    text-align: right !important;
+  }
+
+  .urdu .offset-md-1 {
+    margin-left: 0 !important;
+    margin-right: 8.33333333%;
+  }
+}
+
+body.urdu .only_pricing_page.only_for_pricing_urdu .pricingTableHome .removePrice span {
+  position: relative;
+  top: -12px;
+  display: inline-flex;
+  direction: ltr;
+}
+
+.only_pricing_page .pricingTableHome .removePrice span i {
+  font-style: initial;
+}
+
+body.urdu .only_pricing_page.only_for_pricing_urdu .pricingBoxTable .d-flex.align-items-start.text-left {
+  text-align: right;
+}
+
+body.urdu .only_pricing_page.only_for_pricing_urdu .pricingBoxTable .d-flex.align-items-start.text-left img {
+  margin-left: 10px;
+}
+
+body.urdu .only_pricing_page.only_for_pricing_urdu .video-box-heading h4,
+body.urdu .hk_sehat-scan.sehat_scan_self .video-box-heading h4 {
+  width: 210px;
+  margin: auto;
+}
+
+body.urdu .doctor_now_self-urdu span.halfprice {
+  left: 0px;
+  bottom: -20px;
+  width: 70px !important;
+}
+
+body.urdu .doctor_now_self-urdu .monitorHealthSection.dynamic-widget .right_content {
+  left: auto;
+  right: 0;
+}
+
+body.urdu .doctor_now_self-urdu .monitorHealthSection.dynamic-widget .imageBox {
+  text-align: left !important;
+}
+
+body.urdu .doctor_now_self-urdu .monitorHealthSection.dynamic-widget .imageBox img {
+  right: auto !important;
+  left: 30px;
+}
+
+body.urdu .hk_sehat-scan.sehat_scan_self .flex-row-reverse .urdu-cont.right_content h3.subSectionHeading,
+body.urdu .doctor_now_self_page .flex-row-reverse .urdu-cont.right_content h3.subSectionHeading {
+  text-align: right;
+  position: relative;
+  right: 40px;
+}
+
+
+body.urdu .doctor_now_self_page .monitorHealthSection.dynamic-widget .card .urdu-cont.right_content button.btn_container,
+body.urdu .doctor_now_self_page .monitorHealthSection.dynamic-widget .card .urdu-cont.right_content a.btn_container {
+  border-radius: 8px;
+  min-height: 35px;
+  position: relative;
+  right: 40px;
+  height: 32px;
+  padding: 0 0 !important;
+}
+
+body.urdu .doctor_now_self_page.doctor_now_self-urdu .profileSlider .card.profile .redirectArrow img {
+  margin-right: 0;
+  transform: rotate(180deg);
+}
+
+body.urdu .doctor_now_self_page.doctor_now_self-urdu .profileSlider .card.profile .redirectArrow {
+  right: auto;
+  left: 0px;
+}
+
+/* body.urdu .doctor_now_self_page.doctor_now_self-urdu .logoImgSet img:nth-child(3) {
+  width: 100px !important;
+}
+
+body.urdu .doctor_now_self_page.doctor_now_self-urdu .logoImgSet img:nth-child(4) {
+  width: 150px !important;
+}
+
+body.urdu .doctor_now_self_page.doctor_now_self-urdu .logoImgSet img:nth-child(5) {
+  width: 200px !important;
+} */
+
+body.urdu .doctor_now_self-urdu .slider_doctorNow .box_how_it_works img {
+  margin-left: 15px;
+}
+
+body.urdu .doctor_now_self-urdu .slider_doctorNow ul.slick-dots {
+  top: 100px;
+  margin: 0;
+  left: auto;
+  right: -64px;
+}
+
+body.urdu .doctor_now_self-urdu .slider_doctorNow {
+  position: relative;
+  right: 70px;
+}
+
+body.urdu .doctor_now_self-urdu section.doctorInstantly .main-list.hk_list img {
+  margin-left: 15px;
+  margin-right: 0 !important;
+}
+
+body.urdu .doctor_now_self_page section.instantDoctors.connectDoctorss.doctor_mobile .col-md-4 {
+  width: 60%;
+}
+
+body.urdu .doctor_now_self_page section.instantDoctors.connectDoctorss.doctor_mobile .col-md-6 {
+  width: 40%;
+  margin-left: 0;
+}
+
+body.urdu .doctor_now_self_page section.instantDoctors.connectDoctorss.doctor_mobile .col-md-4 p {
+  width: 55%;
+}
+
+body.urdu .doctor_now_self_page section.instantDoctors.connectDoctorss.doctor_mobile .col-md-4 a.review-button.add-review-btn {
+  margin-left: auto;
+  margin-right: 0 !important;
+  margin-top: 30px !important;
+}
+
+.contact_self_urdu .download_buttons img {
+  margin-left: 10px;
+}
+
+.contact_self_urdu .reach_uss h3.reach_head {
+  margin-right: 20px;
+  color: #313131;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact_self_urdu .reach_uss .contact_list li .box_icon {
+  margin-left: 15px;
+}
+
+.contact_self_urdu .reach_uss .social_icon_contact {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.contact_self_urdu .reach_uss .we_are_hiring div {
+  text-align: right;
+}
+
+.contact_self_urdu img.arrow_hk {
+  margin-left: 0;
+  margin-right: 25px;
+  transform: rotate(180deg);
+}
+
+section.discoverWellness.wellnessLandingClass-urdu .box_testimonial_slid button.slick-arrow {
+  top: 280px;
+}
+
+section.discoverWellness.wellnessLandingClass-urdu .my_last_widget.hk_wellness_slider_doctors .video-box-heading {
+  text-align: right;
+}
+
+.urdu section.doctors_waiting a img {
+  margin-right: 0;
+}
+
+.urdu .arrow_hk_f {
+  transform: rotate(180deg);
+  margin-right: 25px;
+}
+
+body.urdu .doctor_now_self-urdu .hk_online-doctor {
+  position: relative;
+  right: auto;
+  /* display: none !important; */
+  left: 100px;
+}
+
+body.urdu .pricingTableHome .off_disc {
+  right: auto;
+  top: 23px;
+  left: 15px;
+}
+body.urdu section.pricingTableHome h5.pop_tag.text-uppercase.pricing__most {
+  left: auto;
+  right: 30px;
+}
+body.urdu .MA__popularTag {
+  left: auto;
+  right: 30px;
+}
+body.urdu .bg_color__{
+  padding-right: 10px;
+}
+body.urdu .tabs-block .label {
+  left: auto;
+  right: 3px;
+}
+
+body.urdu .label.active-num1 {
+  right: 3px !important;
+  left: auto !important;
+}
+
+body.urdu .label.active-num2 {
+  right: 254px !important;
+  left: auto !important;
+}
+
+.urdu .expanded-search-area input.expanded-search-input {
+  text-align: right;
+  font-family: Circular Std, sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  min-width: 100%;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.urdu .expanded-search-area .searchIconInExpSearch {
+  left: 14px;
+  right: auto;
+  top: 35px;
+}
+
+body.urdu .slider_banner_dr ul.slick-dots {
+  width: 100%;
+}
+
+.urdu .expanded-search-items .image-area.text-left {
+  text-align: right !important;
+}
+
+.urdu .expanded-search-area .closeSearchBtn {
+  left: 0;
+  margin-left: 40px;
+  margin-right: 0;
+  right: auto;
+}
+
+.urdu .expanded-search-area .add-record-chevron {
+  border-radius: 0px 10px 10px 0px !important;
+  left: 0 !important;
+  right: auto !important;
+}
+
+.urdu .expanded-search-area .add-record-chevron {
+  transform: rotate(180deg);
+}
+
+.urdu .expanded-search-area .image-area button.search-doctor-medical-records span.video_text {
+  left: 0;
+  right: -23px;
+}
+
+.urdu .expanded-search-area .image-area button.search-doctor-medical-records span.video_text img.me-2 {
+  margin-left: 0.5rem !important;
+  margin-right: 0 !important;
+}
+
+.urdu .discoverWellnessTopics.hk_for_home .for_hk_slidee .card p {
+  color: #404040;
+  text-align: right;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 30.8px */
+  letter-spacing: 0.22px;
+}
+
+.urdu .mobilePricingTable .accordionMobileRow button.btn_container {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+body.urdu .only_pricing_page .mobilePricingTable .accordionMobileRow button.showHideDetails p {
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.urdu .healthcheck.mb-5.position-relative .box_health .continue-phone-btn {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.urdu .top_reads.article .card button.underline_ancer {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom: 1px solid;
+}
+
+section.wellness_experts.sehatAtoZ.sehatSearchBar.sehat_a_to_z_only section#topicFilter .card.articleWithShortDesc.cardWithHeaderImage.featuredArticleCard .underline_ancer {
+  font-size: 18px;
+}
+
+body.urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .row {
+  direction: rtl;
+}
+
+body.urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .row .slick-arrow.slick-prev {
+  left: auto;
+  right: -250px;
+}
+
+body.urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .row .slick-arrow.slick-next {
+  left: auto;
+  right: -320px;
+}
+
+body.urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .row .btn_container {
+  justify-content: right;
+}
+
+body.urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .row .btn_container img.arrow_right_border {
+  order: 1;
+}
+
+body.urdu section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .slick-list {
+  margin: 0 -27px;
+}
+
+body.urdu section.discoverWellness.wellnessBanner.wellnessLandingClass-urdu .monitorHealthSection.dynamic-widget.helth_boxes .urdu-cont a.btn_container {
+  visibility: hidden !important;
+}
+
+body.urdu section.discoverWellness.wellnessBanner.wellnessLandingClass-urdu section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .card.profile.up_for_is_featured {
+  text-align: right;
+}
+
+body.urdu section.discoverWellness.wellnessBanner.wellnessLandingClass-urdu section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .card.profile.up_for_is_featured .professtion {
+  min-height: auto;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+body.urdu section.discoverWellness.wellnessBanner.wellnessLandingClass-urdu section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .card.profile.up_for_is_featured {
+  margin-left: 0;
+  margin-right: 20px !important;
+}
+
+.urdu .doctors_waiting.videoCallDocs .row .px-3.order-2.order-md-1.c_1.col-md-6 {
+  padding-right: 80px !important;
+}
+
+.urdu .doctors_waiting.videoCallDocs .row .px-3.text-end.order-1.order-md-2.c_2.col-md-6 {
+  text-align: center !important;
+}
+
+.urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth img.img-fluid.me-3.btn-apple {
+  margin-left: 1rem !important;
+  margin-right: 0 !important;
+}
+
+.urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth .intro_hk {
+  margin-bottom: 15px;
+}
+
+.urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth .intro_hk h3 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-align: right;
+}
+
+.urdu .hk_sehat-scan.sehat_scan_self .doctors_waiting.trackyourhealth .intro_hk p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  text-align: right;
+}
+
+.urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section h2 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: right;
+
+}
+
+.urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section a {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.urdu .doctor_now_self_page .instantDoctors.connectDoctorss.doctor_mobile.urdu_doctor_section h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: right;
+
+}
+
+.urdu .pricing-accordion-item .pricing-accordion-question .accordion-button,
+.urdu .pricing-accordion-item {
+
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.urdu .pricing-accordion-item .pricing-accordion-question .accordion-button:after {
+  left: 0;
+  position: absolute;
+}
+
+.urdu .pricing-accordion-item .pricing-accordion-question .accordion-body {
+  margin-left: auto;
+}
+
+._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self-urdu section.health_common h2 {
+  text-align: right;
+}
+
+._topicBanner.instant-banner-main.doctor_now_self_page.doctor_now_self-urdu section.doctor.dynamic-widget.doctorNewSection .simple_slider_sec.container .slick-slider .card.profile.up_for_is_featured {
+  /* margin-right: 20px !important; */
+  margin-left: 0 !important;
+}
+
+.urdu section.doctors_waiting.introducingBanner .card h2 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+  text-align: right;
+
+}
+
+.urdu #navbar .navbar-nav {
+  direction: rtl;
+  margin-right: 0 !important;
+}
+
+.urdu .only_pricing_page.only_for_pricing_urdu ._pricing-banner-container .bannerNewComponent .experience-heading {
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.urdu .only_pricing_page.only_for_pricing_urdu ._pricing-banner-container .bannerNewComponent p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.urdu .box_form_contact span.ant-upload-list-item-name {
+  padding-right: 38px;
+  padding-left: 0;
+}
+
+.urdu .box_form_contact button.ant-btn.ant-btn-text.ant-btn-sm.ant-btn-icon-only.ant-upload-list-item-card-actions-btn span.anticon.anticon-delete {
+  position: relative;
+  right: 10px !important;
+}
+
+body.urdu section.pricingTableHome span.underline_ancer {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Noto Naskh Arabic' !important;
+}
+
+.urdu .box_form_contact .ant-col.ant-form-item-label label {
+  font-family: 'Noto Naskh Arabic' !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+
+}
+
+.urdu .box_form_contact label.ant-radio-button-wrapper {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.urdu .box_form_contact label.ant-radio-button-wrapper span {
+  font-family: Noto Naskh Arabic;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.urdu .contact_self_urdu .contact_us_bottom .social_icon_contact a {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.urdu .box_form_contact .ant-form-item-control-input-content button.ant-btn.ant-btn-primary.simple_btn {
+  font-family: Noto Naskh Arabic;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.urdu .contact_self_urdu .reach_uss ul.contact_list p a {
+  font-family: Circular Std !important;
+}
+
+.urdu .changeNewTopicFilter.topicFilter .filterContent .filterList li a {
+  font-family: Faiz Lahori Nastaleeq !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
+
+.urdu .changeNewTopicFilter.topicFilter .filter_btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+/* body.urdu section#aiTechnologies .hk_outofcontain {
+  margin-left: 0 !important;
+  margin-right: 195px;
+} */
+
+.urdu .dropdown-doctors .for-doctors.shareArticleDropdown.dropdown button span {
+  font-family: Nunito !important;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  text-decoration: none!important;
+  border-bottom: 1px solid;
+}
+.urdu button#dropdown-basic {
+  text-decoration: none;
+}
+.urdu .contact_us_bottom .box_form_contact {
+  top: -308px;
+}
+
+
+.urdu .ant-select-item.ant-select-item-option {
+  text-align: right !important;
+}
+
+.urdu .box_form_contact .ant-form-item .ant-select .ant-select-arrow {
+  left: 11px !important;
+  right: auto !important;
+}
+
+.urdu .box_form_contact .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-left: 18px !important;
+  padding-right: 0 !important;
+}
+
+.urdu .box_form_contact .ant-select-single.ant-select-show-arrow .ant-select-selection-search {
+  left: 25px !important;
+  right: 11px !important;
+}
+
+.urdu .wellness_experts.sehatAtoZ.sehatSearchBar.sehat_a_to_z_only .topicFilter.changeNewTopicFilter .simple_btn {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+body.urdu section#aiTechnologies h5.heading_desc p {
+  font-size: 25px;
+  line-height: 144%;
+}
+
+.urdu .search-icon-span {
+  top: 6px;
+}
+
+body.urdu section#aiTechnologies p.fw-700.hk_tagline.taglineWeight {
+  color: #313131;
+  text-align: right;
+  font-family: 'Noto Naskh Arabic', sans-serif !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.urdu .homepage .cta01 .home_cta .ms-auto.for_custom_pages {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+.urdu .changeNewTopicFilter.topicFilter .search__toggler:after {
+  left: 2px;
+}
+
+.urdu .changeNewTopicFilter.topicFilter .search__toggler:before {
+  left: -13px;
+  transform: rotate(135deg);
+}
+
+.urdu section.wellness_experts.sehat_a_to_z_only section._overflow-hidden.doctor.dynamic-widget.doctorNewSection .col-lg-3 .heading_cont {
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+.urdu .sehat_scan_self section.sehat_scan_media .row .ss.col-md-4:nth-child(2) h4 {
+  /* display: none !important; */
+  width: 190px;
+}
+
+.urdu section.introducingBanner p {
+  width: 100%;
+  color: #404040;
+  text-align: right;
+  font-family: Faiz Lahori Nastaleeq;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.5%;
+  letter-spacing: 0.25px;
+
+}
+
+.urdu section.introducingBanner .row {
+  align-items: center;
+}
+
+.urdu section.introducingBanner .row .px-3.order-2.order-md-1.c_1.col-md-6 {
+  margin-bottom: 50px;
+}
+
+.urdu section.introducingBanner .row .px-3.order-2.order-md-1.c_1.col-md-6 .card {
+  top: 0;
+  margin-bottom: 0;
+
+}
+
+body.urdu section.wellness_experts.sehat_a_to_z_only .hk_wellness_types_cat.card p.card-text {
+  width: 56%;
+  font-family: 'Noto Naskh Arabic', serif !important;
+}
+
+.urdu #navbar .navbar-nav .dropdown-toggle:after {
+  margin-right: 0.255em;
+  margin-left: 0;
+}
+
+/* --------------urdu dropdown menu-------------------- */
+.urdu .dropdown-menu .col-lg-3.col-md-6,
+.urdu .dropdown-menu .col-lg-2.col-md-6 {
+  border-left: 0.30000001192092896px solid #70707050;
+  border-right: 0;
+}
+
+.urdu .dropdown-menu .col-lg-3.col-md-6:last-child {
+  border-left: 0;
+}
+
+.urdu .underline_ancer {
+  letter-spacing: 0;
+}
+
+.urdu #navbar .nav-item.dropdown .dropdown-menu a.hk_read_more img {
+  margin-left: 10px;
+  margin-right: 0;
+  transform: rotate(180deg);
+}
+
+.urdu .dropdown-menu li.for_only_recent_articles img.thumbnail_hk {
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.urdu .reviewCard.onStick.show {
+  right: auto;
+  left: -350px;
+}
+
+.urdu .articleDetail ._status:before {
+  right: -50%;
+  left: auto;
+}
+
+.urdu .reviewCard.onStick img {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* .urdu .footer h5{
+  text-align: right;
+} */
+.urdu .hk_sehat-scan.sehat_scan_self section.CallToAction_callToAction__hocA_ .hk_tagline.taglineWeight,
+.urdu .homepage section.CallToAction_callToAction__hocA_ .hk_tagline.taglineWeight,
+.urdu section.discoverWellness.wellnessBanner section.CallToAction_callToAction__hocA_ p.fw-700.hk_tagline.taglineWeight {
+
+  word-spacing: 0;
+}
+
+.urdu .wellness_experts.sehatAtoZ.sehat_a_to_z_only .topicFilter.changeNewTopicFilter .banner_content_container.instantBanner.topicFilterAddsBanner .mt-2.doc_online-status {
+  direction: ltr;
+}
+.urdu .articleDetail.hk_mob_desease_article .row .tags_container
+{
+  justify-content: flex-start;
+}
+.urdu .articleInnerPage.section_fit_screen .custom_mob_affix .status.tags img {
+  width: 34px;
+  height: 11px;
+}
+.urdu .tags_container .status.tags {
+  direction: ltr;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.urdu .articleDetail .tags_container .status.tags img {
+  margin-right: 0;
+  padding-right: 10px;
+  transform: rotate(0deg);
+}
+.urdu .articleDetail .socialLinks.fontSizeSocial {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.urdu .articleDetail .socialLinks.fontSizeSocial .shareArticleDropdown.dropdown .article-drop {
+  color: #078a8e!important;
+  direction: ltr;
+}
+.urdu .articleDetail .top_reads.related .articleItemLists .card_img {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.search-bar-container {
+  margin: 17px 0;
+}
+.urdu .popOverContainer{
+  z-index: 10;
+}
+.urdu .accordion .socialLinks.fontSizeSocial{
+  justify-content: flex-start;
+}
+.urdu .accordion h5.heading_desc {
+  text-align: right;
+}
+.urdu .articleDetail .status svg {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.urdu .articleDetail.hk_mob_desease_article .row, .urdu .article_listing.articleDetail .row .col-md-8{
+  text-align: right;
+}

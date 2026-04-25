@@ -1,0 +1,49 @@
+.finDocByDisease .profileSlider .gallery .slick-list {
+    /* padding-top: 20px; */
+}
+
+.finDocByDisease .iconCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.finDocByDisease .iconCard .img_box {
+    height: 168px;
+    width: 186px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.finDocByDisease .iconCard .img_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.finDocByDisease .iconCard .sectionHeadingSmall {
+    text-align: center;
+}
+
+.finDocByDisease .simple_slider_sec .slick-slide:nth-child(1n + 1) .img_box {
+    background-color: var(--yellow-clr);
+}
+
+.finDocByDisease .simple_slider_sec .slick-slide:nth-child(4n + 2) .img_box {
+    background-color: var(--rosepink-clr);
+}
+
+.finDocByDisease .simple_slider_sec .slick-slide:nth-child(4n + 3) .img_box {
+    background-color: var(--green-clr);
+}
+
+.finDocByDisease .simple_slider_sec .slick-slide:nth-child(4n + 4) .img_box {
+    background-color: var(--tifannyblue-clr);
+}

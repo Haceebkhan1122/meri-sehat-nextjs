@@ -1,0 +1,76 @@
+@import '../../../../styles/variable.scss';
+
+.faqSection {
+    padding-top: 20px;
+
+    @media(min-width:0) and (max-width:767px) {
+        padding-top: 0px !important;
+    }
+
+    .headingTop {
+        margin-bottom: 48px;
+        margin-top: 50px !important;
+
+        @media(min-width:0) and (max-width:767px) {
+            margin-bottom: 30px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+
+    p {
+        span {
+            font-family: $Satoshi-Regular !important;
+            font-size: 22px !important;
+
+            @media(min-width:0) and (max-width:767px) {
+                color: #0F345A !important;
+                font-size: 16px !important;
+                line-height: normal;
+            }
+        }
+    }
+
+    .accordianCustom {
+        .accordianCustomHeader {
+
+            button {
+                line-height: normal;
+                color: $dark-bluecolor !important;
+                font-family: $Satoshi-Bold;
+                font-size: 26px;
+                line-height: normal;
+                padding: 24px 0;
+                border-bottom: 1px solid rgba(30, 20, 74, 0.30) !important;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 16px;
+                    padding: 14px 0;
+                    padding-bottom: 21px !important;
+                }
+
+                &::after {}
+
+                @media(min-width:1301px) and (max-width:1919px) {
+                    font-size: 22px;
+                }
+            }
+
+        }
+
+        .accordianCustomBody {
+
+            line-height: normal;
+            color: $dark-bluecolor !important;
+            font-family: $Satoshi-Regular;
+            font-size: 16px;
+            line-height: normal;
+            padding: 20px 0;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                font-size: 15px;
+            }
+
+        }
+    }
+}

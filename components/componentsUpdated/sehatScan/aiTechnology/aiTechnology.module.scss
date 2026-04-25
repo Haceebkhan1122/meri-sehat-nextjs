@@ -1,0 +1,25 @@
+.aiTechnologySection {
+    .mb_60 {
+        margin-bottom: 60px !important;
+    }
+
+    .textCenter {
+        @media(min-width:1301px) and (max-width:1919px) {
+            text-align: center;
+        }
+
+        @media (min-width: 0px) and (max-width: 767px){
+            order: 3;
+            padding-top: 40px;
+        }
+
+        .imageBox {
+            
+        }
+    }
+    @media (min-width: 0px) and (max-width: 767px){
+        .mb_60 {
+            margin-bottom: 30px !important;
+        }
+    }
+}

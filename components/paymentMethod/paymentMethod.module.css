@@ -1,0 +1,36 @@
+.paymentBox {
+    border-radius: 12px;
+    border: 0.5px solid rgba(152, 152, 152, 0.40);
+    padding: 30px 20px;
+}
+
+.paymentMethod {
+    display: inline-flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.paymentBoxheading {
+    color: #0F345A;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+    display: flex;
+    width: 394px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.noCard {
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

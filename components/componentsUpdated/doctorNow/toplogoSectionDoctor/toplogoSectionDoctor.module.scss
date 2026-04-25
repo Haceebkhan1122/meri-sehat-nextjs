@@ -1,0 +1,20 @@
+@import '../../../../styles/variable.scss';
+
+.sliderLogoes {
+
+    .topLogoes {
+        display: flex;
+        // gap: 60px;
+        // justify-content: center;
+
+        div {
+            width: 20%;
+
+            img {
+                margin: 0 auto;
+                height: 61px !important;
+                object-fit: contain;
+            }
+        }
+    }
+}

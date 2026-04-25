@@ -1,0 +1,24 @@
+@import '../../../../styles/variable.scss';
+
+.sliderLogoesSehat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 0px;
+
+    .topLogoes {
+        display: flex;
+        // gap: 60px;
+        // justify-content: center;
+        align-items: center;
+
+        div {
+            width: 14.28%;
+
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+}

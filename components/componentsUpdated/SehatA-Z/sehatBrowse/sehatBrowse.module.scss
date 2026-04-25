@@ -1,0 +1,326 @@
+@import '../../../../styles/variable.scss';
+
+.sehatBrowse {
+    width: 100%;
+    padding: 80px 0px;
+    background: #EEF1FA;
+
+    @media(min-width: 0px) and (max-width:768px) {
+        padding-top: 30px;
+        padding-bottom: 23px;
+    }
+
+    .wraper_browse {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .top_1 {
+
+            h1 {
+                color: #0F345A;
+                font-family: $Satoshi-Bold;
+                font-size: 68px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+
+                @media(min-width: 769px) and (max-width:1024px) {
+                    font-size: 50px;
+                    margin-bottom: 22px;
+                }
+        
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    color: #0F345A;
+                    text-align: center;
+                    font-family: $Satoshi-Bold;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .inputWrape {
+                height: 64px;
+                flex-shrink: 0;
+                border-radius: 100px;
+                background: #FFF;
+                display: flex;
+                align-items: center;
+                padding: 0px 27px;
+                gap: 5px;
+                justify-content: start;
+                overflow: hidden;
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    height: 50px;
+                    flex-shrink: 0;
+                    border-radius: 100px;
+                }
+
+                span {
+                    width: 25.6px;
+                    height: 25.6px;
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cg clip-path='url(%23clip0_217_9203)'%3E%3Cpath d='M21.1667 18.6667H20.1133L19.74 18.3067C21.0467 16.7867 21.8333 14.8133 21.8333 12.6667C21.8333 7.88 17.9533 4 13.1667 4C8.38 4 4.5 7.88 4.5 12.6667C4.5 17.4533 8.38 21.3333 13.1667 21.3333C15.3133 21.3333 17.2867 20.5467 18.8067 19.24L19.1667 19.6133V20.6667L25.8333 27.32L27.82 25.3333L21.1667 18.6667ZM13.1667 18.6667C9.84667 18.6667 7.16667 15.9867 7.16667 12.6667C7.16667 9.34667 9.84667 6.66667 13.1667 6.66667C16.4867 6.66667 19.1667 9.34667 19.1667 12.6667C19.1667 15.9867 16.4867 18.6667 13.1667 18.6667Z' fill='%230F345A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_217_9203'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    display: block;
+
+                    @media(min-width: 0px) and (max-width:768px) {
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+
+                input {
+                    border: none;
+                    outline: none;
+                    width: 90%;
+                    height: 100%;
+                    color: $dark-bluecolor;
+                    font-family: $Satoshi-Light;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 110%;
+                    margin-top: -5px;
+
+                    &::placeholder {
+                        color: $dark-bluecolor;
+                        font-family: $Satoshi-Light;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 110%;
+
+                        @media(min-width: 0px) and (max-width:768px) {
+                                color: #0F345A;
+                                font-family: $Satoshi-Light;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 300;
+                                line-height: 110%;
+                                /* 17.6px */
+                            }
+
+                    }
+                }
+            }
+        }
+
+        .alphabets {
+            width: 100%;
+
+            ul {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                white-space: nowrap;
+                flex-wrap: nowrap !important;
+                overflow-x: scroll;
+                padding-bottom: 20px;
+                padding-left: 12px;
+
+                &::-webkit-scrollbar {
+                    width: 4px;
+                    height: 4px;
+                    background-color: #19B3B5;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    width: 4px;
+                    height: 4px;
+                    background-color: #19B3B5;
+                }
+
+                &::-webkit-scrollbar-track {
+                    width: 4px;
+                    height: 4px;
+                    background-color: #FFF;
+                }
+
+                .wrape_single {
+                    min-width: 50px;
+                    min-height: 50px;
+                    text-align: center;
+                    line-height: 30px;
+                    margin: 2px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #0F345A;
+                    text-align: center;
+                    font-family: $Satoshi-Bold;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 24px;
+                    position: relative;
+                    cursor: pointer;
+
+                    @media(min-width: 0px) and (max-width:768px) {
+                        min-height: 44px;
+                        height: 44px;
+                    }
+        
+
+                    &.activeBrowse {
+                        border-radius: 10px;
+                        background: #07C597;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: $Satoshi-Bold;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                    }
+
+                    input {
+                        display: none;
+                    }
+
+                    label {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        cursor: pointer;
+                        overflow: hidden;
+
+                        span {
+                            width: fit-content !important;
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            top: 10%;
+                            margin: auto;
+                            text-align: center;
+                            font-family: $Satoshi-Regular;
+                            font-size: 26px;
+                            font-style: normal;
+                            line-height: normal;
+                            letter-spacing: 0;
+
+                            @media(min-width: 0px) and (max-width:768px) {
+                                font-size: 30px;
+                                left: 3px;
+                                top: 0%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .details {
+            height: auto;
+            overflow-y: scroll;
+
+            &::-webkit-scrollbar {
+                display: none;
+                @media(min-width: 0px) and (max-width:768px) {
+                    display: block !important;
+                    width: 10px;
+                    height: 10px;
+                    background-color: transparent;
+                }
+            }
+
+            &::-webkit-scrollbar-track {
+                @media(min-width: 0px) and (max-width:768px) {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 15px;
+                    background-color: transparent;
+                }
+            }
+
+            &::-webkit-scrollbar-thumb {
+                @media(min-width: 0px) and (max-width:768px) {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 15px;
+                    background-color: #dcdcec;
+                }
+            }
+
+            .singleDetail {
+                width: 100%;
+                min-height: 49.81px;
+                flex-shrink: 0;
+                border-radius: 15px;
+                border: 0.5px rgba(135, 153, 172, 0.40);
+                background: #FFF;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                cursor: pointer;
+                margin: 12px 0px;
+
+                @media(min-width: 769px) and (max-width:1024px) {
+                    margin-bottom: 20px;
+                }
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    // min-height: 60px;
+                    padding: 15.6px 20px;
+                    margin-bottom: 15px;
+                }
+
+                h4 {
+                    color: #0F345A;
+                    font-family: $Satoshi-Regular;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    padding: 7px 4px;
+
+                    @media(min-width: 0px) and (max-width:768px) {
+                        font-size: 18px;
+                        padding: 0;
+                        margin-bottom: 0;
+                        line-height: 160%;
+                    }
+
+                }
+
+                .arrow_right {
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M9.3748 18.0002L8.2998 16.9252L13.2498 11.9752L8.2998 7.0252L9.3748 5.9502L15.3998 11.9752L9.3748 18.0002Z' fill='%230F345A'/%3E%3C/svg%3E");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    display: block;
+                    width: 19.927px;
+                    height: 19.927px;
+
+                    @media(min-width: 0px) and (max-width:768px) {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

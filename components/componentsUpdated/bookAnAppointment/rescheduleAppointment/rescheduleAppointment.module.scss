@@ -1,0 +1,151 @@
+@import '../../../../styles/variable.scss';
+
+
+.cross_icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cg clip-path='url(%23clip0_6718_170059)'%3E%3Cpath d='M25.3327 8.54699L23.4527 6.66699L15.9993 14.1203L8.54602 6.66699L6.66602 8.54699L14.1193 16.0003L6.66602 23.4537L8.54602 25.3337L15.9993 17.8803L23.4527 25.3337L25.3327 23.4537L17.8793 16.0003L25.3327 8.54699Z' fill='%230F345A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_6718_170059'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 22px;
+    top: 22px;
+    cursor: pointer;
+    z-index: 10;
+
+    @media(min-width:0) and (max-width:767px) {
+        width: 24px;
+        height: 24px;
+        right: 12px;
+        top: 12px;
+    }
+}
+
+.mainRescheduleAppointment {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center; 
+    // align-items: center;
+    // height: 100%;
+    // text-align: center;
+    margin-top: 2.5rem;
+
+    @media(min-width:0) and (max-width:767px) {
+        margin-top: 20px;
+
+
+    }
+
+
+    .heading {
+        h4 {
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Medium;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 413px;
+            margin: 0 auto;
+
+            @media(min-width:0) and (max-width:767px) {
+                width: 239px;
+                font-size: 24px;
+
+            }
+
+        }
+    }
+
+    .paragraph {
+        margin-top: 2.5rem;
+
+
+        p {
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Regular;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: 386px;
+            margin: 0 auto;
+
+            @media(min-width:0) and (max-width:767px) {
+                width: 100%;
+                font-size: 16px;
+                width: 270px;
+
+
+            }
+
+        }
+    }
+
+    .buttonContainer {
+        margin-top: 2rem;
+        display: flex;
+        gap: 13px;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        @media(min-width:0) and (max-width:767px) {
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .yesButton {
+            width: 45%;
+            background-color: #fff;
+            height: 70px;
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            border-radius: 200px;
+            border: 1px solid #0F345A;
+
+            @media(min-width:0) and (max-width:767px) {
+                height: 50px;
+                font-size: 16px;
+
+
+            }
+
+        }
+
+        .NoButton {
+            width: 45%;
+            height: 70px;
+            background-color: #0F345A;
+            color: #FFF;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.2px;
+            border-radius: 200px;
+
+            @media(min-width:0) and (max-width:767px) {
+                height: 50px;
+                font-size: 16px;
+
+
+            }
+
+        }
+
+    }
+}

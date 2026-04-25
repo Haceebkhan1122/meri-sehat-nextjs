@@ -1,0 +1,33 @@
+.popOverContainer {
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.popOverContainer img {
+    width: 100% !important;
+}
+
+.popOverContainer .headingDescVsmall {
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.popOverContainer .ant-popover-arrow {
+    display: block;
+}
+
+.popOverContainer .ant-popover-inner {
+    border-radius: 10px;
+}
+
+.popOverBtn {
+    width: fit-content;
+}
+
+
+.popOverBtn button {
+    font-weight: 800;
+}

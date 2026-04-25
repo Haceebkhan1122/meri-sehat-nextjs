@@ -1,0 +1,576 @@
+.findBestDoctors {
+    width: 100%;
+    padding-top: 49px;
+    padding-bottom: 28.77px;
+    margin-top: 88px;
+
+    @media(min-width:0px) and (max-width:768px) {
+        margin-top: 0px;
+        padding-top: 18px;
+    }
+
+    .top__wrape {
+        width: 100%;
+    }
+}
+
+
+.searchingWrapper {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+
+
+.searchingLeft {
+    width: 100%;
+    max-width: 984px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0.5px solid #9B9B9B;
+    background: #FFF;
+}
+
+.searchingRight {
+    width: 312px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0.5px solid #9B9B9B;
+    background: #FFF;
+}
+
+.doctorListingsPagination li {
+    padding: 10px;
+    margin: 10px;
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 100%;
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+}
+
+
+.doctorListingsPagination li a {
+
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 100%;
+}
+
+.doctorListingsPagination .previousClassName {
+    display: none;
+}
+
+
+.doctorListingsPagination .activePaginatedLink {
+    width: 36px;
+    display: flex;
+    height: 36px;
+    background-color: rgba(25, 179, 181, 1);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.doctorListingsPagination .nextClassName {
+    background-color: transparent;
+
+}
+
+.doctorListingsPagination .nextClassName svg {
+    height: 0.8em;
+    width: 7.889px;
+    fill: initial;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='12' viewBox='0 0 7 12' fill='none'%3E%3Cpath d='M1 10.4443L5.83183 6.14937C5.92134 6.06981 5.92134 5.92997 5.83183 5.85041L1 1.55545' stroke='%23313131' stroke-width='1.2' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+.doctorListingsPagination .nextClassName svg path {
+    fill: #ccc0;
+}
+
+.doctorListingsPagination {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* .doctorListingsPagination .page-number.active{
+
+} */
+
+
+
+.no_results_wrapper {
+    width: 100%;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 42px;
+    padding-right: 40px;
+
+    hr {
+        display: none;
+    }
+}
+
+.no_doc_wrape {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_ot {
+    width: 114.286px;
+    height: 114.286px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='116' height='115' viewBox='0 0 116 115' fill='none'%3E%3Cg clip-path='url(%23clip0_2340_63446)'%3E%3Cpath d='M86.5712 7.14281V14.2857H93.714V35.7142C93.714 39.503 92.2089 43.1367 89.5299 45.8158C86.8508 48.4949 83.2171 50 79.4283 50C75.6395 50 72.0059 48.4949 69.3268 45.8158C66.6477 43.1367 65.1426 39.503 65.1426 35.7142V14.2857H72.2855V7.14281H57.9998V35.7142C58.0085 40.7735 59.8056 45.6668 63.0733 49.5293C66.341 53.3917 70.869 55.9746 75.8569 56.8214V78.5714C75.8569 84.2546 73.5993 89.705 69.5806 93.7237C65.562 97.7423 60.1115 99.9999 54.4283 99.9999C48.7451 99.9999 43.2947 97.7423 39.276 93.7237C35.2574 89.705 32.9998 84.2546 32.9998 78.5714V56.6353C36.3664 55.766 39.3004 53.6988 41.2519 50.821C43.2034 47.9432 44.0383 44.4525 43.6002 41.0032C43.1621 37.5538 41.481 34.3827 38.872 32.0842C36.2631 29.7856 32.9054 28.5175 29.4283 28.5175C25.9513 28.5175 22.5936 29.7856 19.9846 32.0842C17.3757 34.3827 15.6946 37.5538 15.2565 41.0032C14.8184 44.4525 15.6533 47.9432 17.6047 50.821C19.5562 53.6988 22.4903 55.766 25.8569 56.6353V78.5714C25.8569 86.149 28.8671 93.4162 34.2253 98.7744C39.5835 104.133 46.8507 107.143 54.4283 107.143C62.0059 107.143 69.2732 104.133 74.6314 98.7744C79.9896 93.4162 82.9998 86.149 82.9998 78.5714V56.8214C87.9877 55.9746 92.5157 53.3917 95.7834 49.5293C99.0511 45.6668 100.848 40.7735 100.857 35.7142V7.14281H86.5712ZM22.2855 42.8571C22.2855 41.4444 22.7044 40.0634 23.4893 38.8887C24.2741 37.7141 25.3897 36.7986 26.6949 36.258C28.0001 35.7173 29.4363 35.5759 30.8218 35.8515C32.2074 36.1271 33.4801 36.8074 34.4791 37.8063C35.478 38.8053 36.1583 40.078 36.4339 41.4636C36.7095 42.8492 36.5681 44.2854 36.0275 45.5905C35.4868 46.8957 34.5713 48.0113 33.3967 48.7962C32.222 49.581 30.8411 50 29.4283 50C27.5346 49.9978 25.719 49.2445 24.38 47.9055C23.0409 46.5664 22.2876 44.7508 22.2855 42.8571Z' fill='%2329BCC1'/%3E%3Ccircle cx='29.4286' cy='42.8571' r='20.2793' fill='%23F5F7FB' stroke='%23BC0001' stroke-width='2.29863'/%3E%3Cpath d='M39.4282 34.8714L37.4139 32.8571L29.4282 40.8428L21.4425 32.8571L19.4282 34.8714L27.4139 42.8571L19.4282 50.8428L21.4425 52.8571L29.4282 44.8714L37.4139 52.8571L39.4282 50.8428L31.4425 42.8571L39.4282 34.8714Z' fill='%23BC0001'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2340_63446'%3E%3Crect width='114.286' height='114.286' fill='white' transform='translate(0.856934 -3.8147e-05)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @media(min-width:0) and (max-width:767px) {
+
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none'%3E%3Cg clip-path='url(%23clip0_1_70067)'%3E%3Cpath d='M60 5V10H65V25C65 27.6522 63.9465 30.1957 62.0711 32.0711C60.1957 33.9464 57.6522 35 55 35C52.3479 35 49.8043 33.9464 47.929 32.0711C46.0536 30.1957 45 27.6522 45 25V10H50V5H40V25C40.0062 28.5415 41.2641 31.9668 43.5515 34.6705C45.8389 37.3742 49.0085 39.1822 52.5 39.775V55C52.5 58.9782 50.9197 62.7936 48.1066 65.6066C45.2936 68.4197 41.4783 70 37.5 70C33.5218 70 29.7065 68.4197 26.8934 65.6066C24.0804 62.7936 22.5 58.9782 22.5 55V39.6447C24.8567 39.0363 26.9105 37.5892 28.2765 35.5747C29.6426 33.5603 30.227 31.1168 29.9203 28.7022C29.6136 26.2877 28.4369 24.0679 26.6106 22.4589C24.7843 20.85 22.434 19.9623 20 19.9623C17.5661 19.9623 15.2157 20.85 13.3894 22.4589C11.5632 24.0679 10.3864 26.2877 10.0797 28.7022C9.77304 31.1168 10.3575 33.5603 11.7235 35.5747C13.0896 37.5892 15.1434 39.0363 17.5 39.6447V55C17.5 60.3043 19.6072 65.3914 23.3579 69.1421C27.1086 72.8929 32.1957 75 37.5 75C42.8044 75 47.8914 72.8929 51.6422 69.1421C55.3929 65.3914 57.5 60.3043 57.5 55V39.775C60.9916 39.1822 64.1612 37.3742 66.4486 34.6705C68.736 31.9668 69.9939 28.5415 70 25V5H60ZM15 30C15 29.0111 15.2933 28.0444 15.8427 27.2221C16.3921 26.3999 17.173 25.759 18.0866 25.3806C19.0002 25.0022 20.0056 24.9031 20.9755 25.0961C21.9454 25.289 22.8363 25.7652 23.5356 26.4645C24.2348 27.1637 24.711 28.0546 24.904 29.0245C25.0969 29.9945 24.9979 30.9998 24.6194 31.9134C24.241 32.827 23.6001 33.6079 22.7779 34.1573C21.9556 34.7068 20.9889 35 20 35C18.6744 34.9985 17.4035 34.4712 16.4662 33.5339C15.5288 32.5965 15.0015 31.3256 15 30Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_70067'%3E%3Crect width='80' height='80' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    }
+
+}
+
+
+.icon_ot_text {
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 20.688px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    /* 22.756px */
+
+}
+
+.results_searched {
+    color: #19B3B5;
+    font-family: 'Satoshi-Medium';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.doctors_listed {
+    color: #0F345A;
+    font-family: "Satoshi-Medium";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.verifiedBy {
+    color: #4B6783;
+    text-align: right;
+    font-family: "Satoshi-Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.pinSvg {
+    width: 12.308px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='16' viewBox='0 0 13 16' fill='none'%3E%3Cpath d='M6.52314 15.9996C6.38049 15.8892 6.21746 15.7953 6.09893 15.6657C4.67949 14.1111 3.3765 12.4751 2.28894 10.6954C1.6572 9.66105 1.10365 8.59111 0.760534 7.43505C0.246491 5.69999 0.484382 4.06201 1.55198 2.56888C2.56592 1.14974 3.99701 0.299428 5.80531 0.0617958C7.57369 -0.170747 9.16863 0.254407 10.5494 1.31377C11.7667 2.24786 12.4916 3.46381 12.7391 4.93189C12.9316 6.07346 12.7 7.15906 12.2808 8.22116C11.7193 9.64461 10.9158 10.9483 10.025 12.2065C9.16822 13.417 8.22373 14.5656 7.21352 15.6657C7.09458 15.7953 6.93155 15.8892 6.78931 16H6.52356L6.52314 15.9996ZM6.6371 8.70895C8.31439 8.73636 9.71803 7.4374 9.7488 5.82878C9.77958 4.22565 8.4063 2.90242 6.68326 2.87463C4.99432 2.84761 3.58819 4.14892 3.56282 5.76223C3.53745 7.36654 4.90865 8.68077 6.6371 8.70895Z' fill='%23404040'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper_all_doctors {
+    width: 100%;
+    height: max-content;
+    background-color: #F0F3F8;
+}
+
+
+.icon_wrape {
+    display: flex;
+    gap: 5px;
+}
+
+.verifiedIconverify {
+    color: #4B6783;
+    text-align: right;
+    font-family: "Satoshi-Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%
+}
+
+.verifiedIcon {
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_2554_10604)'%3E%3Cpath d='M23 12L20.56 9.21L20.9 5.52L17.29 4.7L15.4 1.5L12 2.96L8.6 1.5L6.71 4.69L3.1 5.5L3.44 9.2L1 12L3.44 14.79L3.1 18.49L6.71 19.31L8.6 22.5L12 21.03L15.4 22.49L17.29 19.3L20.9 18.48L20.56 14.79L23 12ZM10.09 16.72L6.29 12.91L7.77 11.43L10.09 13.76L15.94 7.89L17.42 9.37L10.09 16.72Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2554_10604'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+}
+
+.headerWraperr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+
+    @media(min-width:0px) and (max-width:768px) {
+        margin-bottom: 17px !important;
+    }
+}
+
+
+.optionTitle {
+    color: #4F4F4F;
+    font-family: 'Satoshi-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    /* 27px */
+}
+
+
+
+
+.single__otg {
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cg clip-path='url(%23clip0_2554_475)'%3E%3Cpath d='M15 1.25V2.5H16.25V6.25C16.25 6.91304 15.9866 7.54893 15.5178 8.01777C15.0489 8.48661 14.413 8.75 13.75 8.75C13.087 8.75 12.4511 8.48661 11.9822 8.01777C11.5134 7.54893 11.25 6.91304 11.25 6.25V2.5H12.5V1.25H10V6.25C10.0015 7.13538 10.316 7.9917 10.8879 8.66763C11.4597 9.34356 12.2521 9.79556 13.125 9.94375V13.75C13.125 14.7446 12.7299 15.6984 12.0267 16.4017C11.3234 17.1049 10.3696 17.5 9.37501 17.5C8.38044 17.5 7.42662 17.1049 6.72336 16.4017C6.02009 15.6984 5.62501 14.7446 5.62501 13.75V9.91119C6.21417 9.75907 6.72762 9.39729 7.06913 8.89368C7.41064 8.39007 7.55675 7.7792 7.48008 7.17556C7.40341 6.57193 7.10922 6.01698 6.65265 5.61474C6.19609 5.21249 5.60849 4.99057 5.00001 4.99057C4.39152 4.99057 3.80393 5.21249 3.34736 5.61474C2.89079 6.01698 2.5966 6.57193 2.51993 7.17556C2.44326 7.7792 2.58937 8.39007 2.93088 8.89368C3.27239 9.39729 3.78584 9.75907 4.37501 9.91119V13.75C4.37501 15.0761 4.90179 16.3479 5.83947 17.2855C6.77715 18.2232 8.04892 18.75 9.37501 18.75C10.7011 18.75 11.9729 18.2232 12.9105 17.2855C13.8482 16.3479 14.375 15.0761 14.375 13.75V9.94375C15.2479 9.79556 16.0403 9.34356 16.6121 8.66763C17.184 7.9917 17.4985 7.13538 17.5 6.25V1.25H15ZM3.75001 7.5C3.75001 7.25277 3.82332 7.0111 3.96067 6.80554C4.09802 6.59998 4.29324 6.43976 4.52165 6.34515C4.75006 6.25054 5.00139 6.22579 5.24387 6.27402C5.48635 6.32225 5.70907 6.4413 5.88389 6.61612C6.0587 6.79093 6.17776 7.01366 6.22599 7.25614C6.27422 7.49861 6.24946 7.74995 6.15486 7.97835C6.06025 8.20676 5.90003 8.40199 5.69447 8.53934C5.48891 8.67669 5.24723 8.75 5.00001 8.75C4.6686 8.74962 4.35088 8.6178 4.11654 8.38346C3.8822 8.14913 3.75039 7.8314 3.75001 7.5Z' fill='%2329BCC1'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2554_475'%3E%3Crect width='20' height='20' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.singleDrop {
+    width: 50%;
+    display: flex;
+}
+
+
+.infoWrapperMobile {}
+
+.mobile_single_card {
+    width: 100%;
+    max-width: 350px;
+    min-height: 240px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(195, 204, 216, 0.30);
+    margin: auto;
+    margin-bottom: 20px !important;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+.topping_wrape {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.topping_wrape img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.paginationWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 33px;
+    gap: 11px;
+}
+
+.paginationWrapper span {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #0F345A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 14.222px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.paginationWrapper span:hover {
+    background-color: #19B3B5 !important;
+    color: #FFF !important;
+}
+
+.paginationWrapper span:active {
+    opacity: 0.8;
+}
+
+.activePageItem {
+    background-color: #19B3B5 !important;
+    color: #FFF !important;
+}
+
+
+.info_mobile_details {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+@media (max-width : 768px) {
+    .info_mobile_details {
+        padding-right: 15px;
+    }
+
+    .doctorListingsPagination {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .doctorListingsPagination li {
+        padding: 10px 6px;
+        margin: 0px 4px;
+    }
+
+    .recomm_tag {
+        width: 107px;
+        height: 18px;
+    }
+
+    .icon_wrape {
+        display: none;
+    }
+
+    .results_searched {
+        font-size: 16px;
+    }
+
+    .icon_ot {
+        width: 65px;
+        height: 70px;
+
+    }
+
+
+
+    .icon_ot_text {
+        font-size: 16px;
+    }
+
+    .headerWraperr {
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 24px;
+
+        @media(min-width:0px) and (max-width:768px) {
+            padding-left: 0px;
+        }
+    }
+
+    .headerWraperr h3 {
+        font-size: 16px;
+        padding-left: 10px;
+        color: #0F345A;
+
+        @media(min-width:0px) and (max-width:768px) {
+            padding-left: 0px;
+        }
+    }
+
+
+    .card_single_doctor {
+        align-items: start;
+        padding-top: 20px;
+        padding-left: 20px;
+        height: 240px;
+    }
+
+
+    .doct_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+    }
+
+    .no_doc_wrape {
+        height: 75%;
+    }
+
+    .title__doctor_name {
+        font-size: 14px;
+        font-weight: 450;
+        word-spacing: 0px;
+    }
+
+    .verifiedIconName {
+        width: 14px;
+        height: 14px;
+    }
+
+    .title__doctor_type {
+        font-size: 12px;
+    }
+
+    .single__recome {
+        height: 30px;
+
+    }
+
+
+    .info_doctor {
+        margin-bottom: 20px;
+    }
+
+    .wrapperMobileExp {}
+
+    .recomm_tag {
+        margin-bottom: 6px;
+        justify-content: start;
+    }
+
+
+    .wrapper_all_doctors {
+        height: max-content;
+        min-height: unset;
+    }
+
+    .paginationWrapper {
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .exprTab {
+        width: 94%;
+        min-height: 0px;
+        display: flex;
+        border-top: 0.5px solid rgba(204, 214, 238, 0.50);
+        margin-top: 20px;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-right: 16px;
+        position: relative;
+        left: 2px;
+    }
+
+    .exprTab hr {
+        width: 0.5px;
+        height: 100%;
+        background: rgba(204, 214, 238, 0.50);
+    }
+
+    .btn_group_doct {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .btn_group_doct button {
+        width: 120px;
+        height: 40px;
+        border-radius: 100px;
+        font-size: 14px;
+        padding-top: 2.02px;
+    }
+
+
+    .single__otg_text {
+        font-size: 12px;
+    }
+
+
+    .btn_group_doct_requ_btn {
+        width: 193px !important;
+    }
+
+
+    .no_results_wrapper {
+        height: calc(100vh - 203px);
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .thumbs_up_text {
+        font-size: 8px;
+    }
+
+    .exprTab {
+        margin-top: 10px;
+
+    }
+
+    .mobile_single_card {
+        min-height: auto;
+        padding-bottom: 12px;
+    }
+
+    .exprTab hr {
+        margin: .5rem 0;
+    }
+}
+
+
+.wrape_hr {
+    background-color: rgba(204, 214, 238, 0.50);
+    color: rgba(204, 214, 238, 0.50);
+    height: 1px;
+}

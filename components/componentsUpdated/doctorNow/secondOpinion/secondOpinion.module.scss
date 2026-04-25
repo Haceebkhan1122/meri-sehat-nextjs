@@ -1,0 +1,144 @@
+@import '../../../../styles/variable.scss';
+
+.mobileNursBox {
+    border-radius: 0px 83.721px 0px 0px;
+
+    img {
+        border-radius: 0px 83.721px 0px 0px;
+    }
+}
+
+.secondOpinion {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin: 92px 0px;
+
+    @media(min-width:0) and (max-width:767px) {
+        margin: 40px 0px;
+        margin-top: 20px !important;
+        padding: 52px 0;
+        height: 660px;
+    }
+
+    .left__sec {
+
+        h1 {
+            // width: 472px;
+            color: $dark-bluecolor;
+            font-family: $Satoshi-Bold;
+            font-size: 68px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 30px;
+
+            @media(min-width:0) and (max-width:767px) {
+                text-align: center;
+                font-size: 32px;
+                width: 320px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+            }
+        }
+
+        p {
+            // width: 472px;
+            color: #0F345A;
+            font-family: $Satoshi-Regular;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-right: 40px;
+
+            @media(min-width:0) and (max-width:767px) {
+                text-align: center;
+                font-size: 16px;
+                padding-right: 0;
+            }
+        }
+
+        .btnWrape {
+            // width: 424px;
+            // display: flex;
+            // justify-content: start;
+            // align-items: start;
+
+
+            button {
+                display: flex;
+                width: 424px;
+                height: 80px;
+                padding: 16px 32px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border-radius: 80px;
+                color: #FFF;
+                text-align: center;
+                font-family: $Satoshi-Bold;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                text-transform: uppercase;
+                margin-top: 50px;
+
+                @media(min-width:0) and (max-width:767px) {
+                    width: 100%;
+                    height: 50px;
+                    border-radius: 82px;
+                    font-size: 16px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+
+    .right__sec {
+        width: 50%;
+        height: 840px;
+        flex-shrink: 0;
+        border-radius: 96px 0px 0px 96px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        @media(min-width:0) and (max-width:767px) {
+            width: 90%;
+            height: 285px;
+            border-radius: 30px;
+            top: 270px;
+            left: 0;
+            margin: auto;
+        }
+
+        .wrape__img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            img {
+                object-position: bottom;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: auto !important;
+                min-height: 840px;
+                object-fit: cover;
+
+                @media (min-width: 0) and (max-width: 767px) {
+                    min-height: 100%;
+                }
+            }
+        }
+    }
+}

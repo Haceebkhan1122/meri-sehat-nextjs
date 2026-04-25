@@ -1,0 +1,151 @@
+@import "../../../styles/variable.scss";
+
+.banner {
+  width: 100%;
+  max-width: 1321px;
+  height: 240px;
+  margin: 40px auto;
+  border-radius: 30px 20px 20px 30px;
+  background: #0f345a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    max-width: 340px;
+    height: 100px;
+  }
+}
+
+.yellowStrip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 80px; // adjust as needed
+  background: #f6b800;
+  border-radius: 30px 0 0 30px;
+  @media (min-width: 0px) and (max-width: 767px) {
+    width: 18px;
+    border-radius: 12px 0 0 12px;
+  }
+}
+
+.content {
+  color: #fff;
+  max-width: 600px;
+  padding-left: 80px;
+  z-index: 2;
+
+   @media (min-width: 0px) and (max-width: 767px) {
+      color: #fff;
+  max-width: 600px;
+  padding-left: 0;
+  z-index: 2;
+    }
+
+  h2 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      color: #fff;
+      font-family: "Satoshi-Bold";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  p {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      color: #fff;
+      font-family: "Satoshi-Regular";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-right: 8rem;
+    }
+  }
+}
+
+.imageBox {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  .careerBanner,
+  .greenIcon,
+  .redIcon {
+    position: absolute;
+  }
+
+  .careerBanner {
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 340px; // adjust to fit
+    z-index: 3;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      right: -145px;
+      bottom: 0;
+      top: 0;
+      width: 340px;
+      z-index: 3;
+    }
+
+    :global(img) {
+      object-fit: contain;
+    }
+  }
+
+  .greenIcon {
+    right: 70px;
+    bottom: -10px;
+    width: 170px;
+    height: 170px;
+    z-index: 3;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      right: -12px;
+      bottom: -20px;
+      width: 100px;
+      height: 75px;
+      z-index: 3;
+    }
+  }
+
+  .redIcon {
+    right: -42px;
+    bottom: 0px;
+    width: 240px;
+    height: 240px;
+    z-index: 2;
+
+    @media (min-width: 0px) and (max-width: 767px) {
+      right: -86px;
+      // bottom: 10px;
+      width: 150px;
+      height: 70px;
+      // top: 1px;
+      z-index: 2;
+    }
+  }
+}

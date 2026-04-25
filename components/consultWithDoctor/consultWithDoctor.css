@@ -1,0 +1,28 @@
+.consultWithDoctor .card {
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+
+.consultWithDoctor .bookAppointment {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.consultWithDoctor .instantConsult {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.consultWithDoctor .card .instantConsult img,
+.consultWithDoctor .card .bookAppointment img {
+    transition: all .3s ease-in-out;
+}
+
+.consultWithDoctor .card:hover .instantConsult img,
+.consultWithDoctor .card:hover .bookAppointment img {
+    transform: scale(1.1);
+}

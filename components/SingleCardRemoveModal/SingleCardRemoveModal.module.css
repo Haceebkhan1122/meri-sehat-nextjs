@@ -1,0 +1,113 @@
+.closeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}
+.singleCardParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+.singleCardModalText{
+    display: flex;
+    width: 312px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 140%;
+    letter-spacing: -0.82px;
+    padding-top: 10px;
+}
+.SinglecardTopUp{
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0.35px solid #E2E2E2;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 19px;
+    cursor: pointer;
+    position: relative;
+}
+.checkboxTopup {
+    width: 24px;
+    height: 24px;
+}
+
+
+.checkboxTopup {
+    position: absolute;
+    pointer-events: none;
+    appearance: none;
+}
+.checkboxTopupSavedSpa {
+    color: #0F345A;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 30px;
+}
+.iconsWrapperTopup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 11px;
+}
+.masterCardSvg {
+    width: 30px;
+    height: 30px;
+}
+.removeSingleCard{
+    display: flex;
+width: 300px;
+height: 50px;
+padding: 14px 33px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #EB0015 !important;
+box-shadow: 0px 4px 15px 0px rgba(25, 179, 181, 0.30);
+color: #EB0015;
+text-align: center;
+font-family: 'Satoshi-Medium';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+letter-spacing: 0.14px;
+text-transform: uppercase;
+margin-top: 10px;
+}
+
+@media (max-width : 768px) {
+    .checkboxTopup {
+        width: 20px;
+        height: 20px;
+    }
+    .checkboxTopupSavedSpa {
+        padding-left: 25px;
+    }
+    .masterCardSvg {
+        width: 21.118px;
+        height: 21.118px;
+    }
+}

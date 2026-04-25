@@ -1,0 +1,154 @@
+.formBox1 {
+    border-radius: 30px;
+    background: #E5EAF3;
+    padding: 30px;
+
+    @media (min-width:0px) and (max-width:767px) {
+        padding: 24px;
+    }
+
+    h2 {
+        color: #0F345A;
+        font-family: "Satoshi-Bold";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 10px;
+
+        @media (min-width:0px) and (max-width:767px) {
+            font-size: 20px;
+            text-align: left;
+            line-height: normal !important;
+            margin-bottom: 5px !important;
+        }
+
+
+    }
+
+    p {
+        color: #0F345A;
+        font-family: "Satoshi-Regular";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 30px !important;
+
+        @media (min-width:0px) and (max-width:767px) {
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 15px !important;
+
+        }
+    }
+
+    form {
+        .formBoxItem {
+            border-radius: 15px;
+            background: #FFF;
+            width: 100%;
+            height: 60px;
+            flex-shrink: 0;
+            position: relative;
+            margin-bottom: 30px;
+            border: 0;
+
+            @media (min-width:0px) and (max-width:767px) {
+                height: 40px;
+                border-radius: 10px;
+                border: 0.464px solid rgba(135, 153, 172, 0.50);
+                background: #FFF;
+                margin-bottom: 15px;
+            }
+
+            .formIcon {
+                position: absolute;
+                left: 26px;
+                top: 50%;
+                transform: translateY(-50%);
+
+                @media (min-width:0px) and (max-width:767px) {
+                    left: 15px;
+                }
+
+                svg {
+                    @media (min-width:0px) and (max-width:767px) {
+                        width: 14.328px;
+                        height: 14.328px;
+                    }
+
+                }
+            }
+
+            input {
+                height: 60px;
+                background: initial;
+                width: 100%;
+                padding-left: 60px;
+                color: #0F345A;
+                font-family: "Satoshi-Regular";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 110%;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    height: 40px;
+                    font-size: 14px;
+                    padding-left: 39px;
+
+
+
+                }
+
+                /* 19.8px */
+                &::placeholder {
+                    color: #0F345A;
+                    font-family: "Satoshi-Regular";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 110%;
+
+                    @media (min-width:0px) and (max-width:767px) {
+                        font-size: 14px;
+
+                    }
+
+                }
+            }
+        }
+
+        .btnSubmit {
+            button {
+                border-radius: 128.913px;
+                background: #0F345A;
+                display: flex;
+                width: 100%;
+                height: 60px;
+                padding: 24.889px 77.778px;
+                justify-content: center;
+                align-items: center;
+                gap: 12.444px;
+                flex-shrink: 0;
+                color: #FFF;
+                text-align: center;
+                font-family: "Satoshi-Bold";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                /* 21.6px */
+                text-transform: uppercase;
+
+                @media (min-width:0px) and (max-width:767px) {
+                    height: 50px;
+                    font-size: 16px;
+
+                }
+
+            }
+        }
+    }
+}

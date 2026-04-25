@@ -1,0 +1,30 @@
+<svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1000004243">
+<g id="Ellipse 897">
+<circle cx="50.375" cy="50" r="50" fill="white"/>
+<circle cx="50.375" cy="50" r="50" fill="#D4E7FF"/>
+</g>
+<g id="Layer 2">
+<g id="Layer 1">
+<g id="Group">
+<path id="Vector" d="M79.4185 71.9999H22.375" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M72.8254 72L68.7513 44.0262H60.4354V46.858H41.3651V44.0262H33.0492L28.9751 72" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M45.8494 71.9535C45.8494 60.1312 50.9001 57.0198 50.9001 57.0198C50.9001 57.0198 55.9509 59.9855 55.9509 71.9535" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Mask group">
+<mask id="mask0_186_15585" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="45" y="57" width="11" height="15">
+<path id="Vector_4" d="M45.8499 71.9535C45.8499 60.1312 50.9006 57.0198 50.9006 57.0198C50.9006 57.0198 55.9514 59.9855 55.9514 71.9535" fill="#29BCC1"/>
+</mask>
+<g mask="url(#mask0_186_15585)">
+<path id="Vector_5" d="M39.6348 71.9535C39.6348 60.1312 44.6855 57.0198 44.6855 57.0198C44.6855 57.0198 49.7363 59.9855 49.7363 71.9535" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M52.0654 71.9535C52.0654 60.1312 57.1162 57.0198 57.1162 57.0198C57.1162 57.0198 62.1669 59.9855 62.1669 71.9535" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<path id="Vector_7" d="M45.8494 46.8581V44.0322" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M50.8997 46.8581V44.0322" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M55.9509 46.8581V44.0322" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M41.3644 44.0321V46.8638H60.4348V44.0321H65.2082C63.9715 37.1916 58.0423 32 50.8996 32C43.7569 32 37.8277 37.1916 36.5911 44.0321H41.3644Z" stroke="#0F345A" stroke-width="1.30114" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

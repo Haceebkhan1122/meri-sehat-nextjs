@@ -1,0 +1,93 @@
+.simple_slider_sec {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.simple_slider_sec .slider_btns {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    max-width: 140px;
+    cursor: pointer;
+}
+
+.simple_slider_sec .one_line .slider_btns {
+    margin-top: 1.5rem !important;
+    margin-left: -5px !important;
+}
+
+.simple_slider_sec .one_line .slick-list {
+    padding-left: 10px;
+}
+
+.simple_slider_sec .slick-arrow {
+    display: none !important;
+}
+
+
+.doctor .profileSlider .heading_cont {
+    padding-top: 20px;
+}
+
+
+.profileSlider .slider_title {
+    font-size: 1.875rem;
+    line-height: 2.275rem;
+    white-space: pre-line;
+    margin-bottom: 20px;
+}
+
+/*
+.profileSlider.topic .slider_title {
+    margin-top: 15px;
+} */
+
+.profileSlider {
+    /* align-items: center; */
+    flex-wrap: nowrap !important;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.profileSlider {
+    overflow: visible;
+}
+
+.profileSlider .slick-initialized .slick-slide>div {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* .profileSlider.topic .slick-initialized .slick-slide > div {
+    margin-top: 0;
+} */
+
+.profileSlider .col-md-8,
+.profileSlider .col-lg-9 {
+    display: block;
+    width: 100%;
+}
+
+.profileSlider .col-md-2 {
+    max-width: 200px;
+}
+
+/* .profileSlider.topic .gallery .slick-track {
+    width: 150% !important;
+} */
+
+.gallery .arrowDisabled {
+    opacity: .5;
+}
+
+.simple_slider_sec .browseAll {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 75%;
+}
+
+.simple_slider_sec .browseAll img {
+    margin-right: 10px;
+}

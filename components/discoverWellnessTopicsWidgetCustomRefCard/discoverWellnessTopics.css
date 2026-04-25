@@ -1,0 +1,71 @@
+.discoverWellnessTopics .row {
+    padding-bottom: 0;
+}
+
+.discoverWellnessTopics .row .cardWithHeaderImage .header_img {
+    /* padding: 20px; */
+    height: 250px;
+}
+
+.discoverWellnessTopics .row .col-md-3:nth-child(1) .cardWithHeaderImage .header_img {
+    background-color: var(--yellow-clr);
+}
+
+.discoverWellnessTopics .row .col-md-3:nth-child(2) .cardWithHeaderImage .header_img {
+    background-color: var(--rosepink-clr);
+}
+
+.discoverWellnessTopics .row .col-md-3:nth-child(3) .cardWithHeaderImage .header_img {
+    background-color: var(--green-clr);
+}
+
+.discoverWellnessTopics .row .col-md-3:nth-child(4) .cardWithHeaderImage .header_img {
+    background-color: var(--tifannyblue-clr);
+}
+
+/* .discoverWellnessTopics .row .col-md-3:nth-child(1) .card .card_body {
+  background-color: var(--yellow-light-clr);
+}
+.discoverWellnessTopics .row .col-md-3:nth-child(2) .card .card_body {
+  background-color: var(--rosepink-light-clr);
+}
+.discoverWellnessTopics .row .col-md-3:nth-child(3) .card .card_body {
+  background-color: var(--green-light-clr);
+}
+.discoverWellnessTopics .row .col-md-3:nth-child(4) .card .card_body {
+  background-color: var(--tifannyblue-light-clr);
+} */
+
+.discoverWellnessTopics .cardWithHeaderImage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #70707050;
+    border-radius: 8px;
+    overflow: visible;
+    padding: 25px;
+}
+
+.discoverWellnessTopics .cardWithHeaderImage .card_body {
+    flex-grow: 1;
+}
+
+.discoverWellnessTopics .cardWithHeaderImage .card_body .topicHeading {
+    /* min-height: 62px; */
+}
+
+.borderTop {
+    border-top: 1px solid #70707050;
+}
+
+.sliderFullShow .col-lg-9 {
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width:992px) {
+    .paddingInMobile {
+        padding-top: 50px;
+    }
+}

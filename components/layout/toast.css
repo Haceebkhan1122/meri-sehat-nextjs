@@ -1,0 +1,318 @@
+.notificationToastContainer {
+  /* min-height: 30px; */
+  transition: all .3s ease-in-out;
+  position: relative;
+  z-index: 999;
+  top: 0;
+}
+
+.notificationToast {
+  background-color: #F2F2F2;
+  -webkit-print-color-adjust: exact;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  z-index: 999;
+  color: #8E96A0;
+  text-align: center;
+  font-family: "Noto Naskh Arabic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  /* 16px */
+}
+
+.for_ddddddd {
+  color: #0F345A !important;
+  text-align: right;
+  font-family: Satoshi-Medium !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 100%;
+  letter-spacing: 0.13px;
+  text-decoration: none;
+}
+
+
+
+.notificationToast h6,
+.notificationToast button {
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin: 5px;
+  color: #383838;
+}
+
+.notificationToast button {
+  margin: 0;
+}
+
+.transformTop {
+  min-height: 0 !important;
+}
+
+/* ------------------ */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 17px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0F345A;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 36px;
+  height: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 3.4px !important;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #0F345A !important;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+}
+
+
+/*------ ADDED CSS ---------*/
+
+/* .on {
+  display: none;
+}
+
+.on,
+.off {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 25%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+.on {
+  top: 8px;
+}
+
+.off {
+  left: auto;
+  right: -5px;
+  top: 8px;
+} */
+
+input:checked+.slider .on {
+  display: block;
+}
+
+input:checked+.slider .off {
+  display: none;
+}
+
+
+/*--------- END --------*/
+
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.for-doctors button {
+  background-color: transparent !important;
+  border: none;
+  color: #19B3B5;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.for-doctors button:hover {
+  color: #19B3B5;
+}
+
+.for-doctors button:active,
+.for-doctors button:focus {
+  color: #19B3B5 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.notificationToastContainer .shareArticleDropdown .dropdown-menu.show {
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+  border-color: transparent;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+
+.dropdown-doctors {
+  width: 70%;
+  text-align: right;
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.dropdown-doctors span {
+  margin-right: 7px;
+}
+
+.option-one {
+  cursor: pointer;
+}
+
+.option-one:hover {
+  color: #35A9AD;
+}
+
+.coming-soon {
+  padding: 0 6rem;
+}
+
+.coming-soon h3 {
+  font-family: 'Noto Naskh Arabic' !important;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+
+.coming-soon span {
+  color: #19B3B5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+
+}
+
+
+.newInstantNotificationArea {
+  width: 424px;
+  height: 100px;
+  border-radius: 20px;
+  border: 0.5px solid rgba(135, 153, 172, 0.50);
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(15, 52, 90, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  margin-top: 40px;
+  margin-right: -48px;
+  padding: 0px 19px 0px 25px;
+}
+
+.newInstantNotificationArea p {
+  color: #0F345A;
+  font-family: 'Satoshi-Medium';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.12px;
+  text-align: left;
+}
+
+.icon_bg {
+  background-color: #19B3B5;
+  width: 52px;
+  height: 52px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.newInstantNotificationArea .countDownTimeRemaing {
+  color: #19B3B5;
+  font-family: 'Satoshi-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.12px;
+}
+
+.newInstantNotificationArea button {
+  font-style: normal;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  padding-right: 0;
+}
+
+@media (min-width:320px)and (max-width:768px) {
+
+  .newInstantNotificationArea {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    left: 20px;
+    height: 70px;
+    top: 80px;
+  }
+
+  .icon_bg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon_bg svg {
+    width: 24px;
+  }
+
+}
+
+@media (min-width:0px) and (max-width:767px) {
+   .newInstantNotificationArea{
+    /* display: none; */
+   }
+}

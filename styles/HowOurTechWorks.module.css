@@ -1,0 +1,47 @@
+.howOurTechWorks .subSectionHeading,
+.howOurTechWorks .iconCard {
+    text-align: center;
+}
+/* 
+.howOurTechWorks {
+    margin-bottom: 70px;
+} */
+.howOurTechWorks .subSectionHeading {
+    margin-bottom: 20px;
+}
+
+.howOurTechWorks .iconCard div {
+    margin-bottom: 10px;
+}
+
+.howOurTechWorks .iconCard {
+    margin: 20px;
+}
+
+.howOurTechWorks .iconCard .heading_desc,
+.howOurTechWorks .iconCard .headingDesc,
+.howOurTechWorks .iconCard .sectionHeadingSmall {
+    justify-content: center;
+    text-align: center;
+}
+
+.howOurTechWorks .iconCard .img_box {
+    min-height: 120px;
+    max-width: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.howOurTechWorks .col-md-4:nth-child(4n + 1) .img_box {
+    background-color: var(--rosepink-clr);
+}
+.howOurTechWorks .col-md-4:nth-child(4n + 2) .img_box {
+    background-color: var(--tifannyblue-clr);
+}
+.howOurTechWorks .col-md-4:nth-child(3) .img_box {
+    background-color: var(--yellow-clr);
+}
+.howOurTechWorks .col-md-4:nth-child(4) .img_box {
+    background-color: var(--yellow-clr);
+}

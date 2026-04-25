@@ -1,0 +1,49 @@
+@import '../../../../styles/variable.scss';
+
+.simplifyWork {
+    .wraper_box_simp {
+        width: 100%;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+
+        p {
+            color: #313131;
+text-align: center;
+font-family: $Satoshi-Regular;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 26.4px */
+        }
+
+        h3 {
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+
+        hr {
+            border-right: 1px solid rgba(64, 64, 64, 0.40);
+        }
+
+        &:nth-child(1) {
+            border-top-left-radius: 60px;
+            border-bottom-left-radius: 60px;
+        }
+
+
+        &:last-child {
+            border-top-right-radius: 60px;
+            border-bottom-right-radius: 60px;
+        }
+    }
+}

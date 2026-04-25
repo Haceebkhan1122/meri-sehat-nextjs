@@ -1,0 +1,73 @@
+.closeBtn {
+    text-align: right;
+    position: relative;
+    right: -5px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.closeBtn img {
+    width: 8px;
+    height: 8px;
+}
+
+.qrCodeModal {
+    text-align: center;
+}
+
+h3.cardModalTitle {
+    color: #19B3B5 !important;
+    text-align: center;
+    font-family: "Satoshi-Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+p.cardModalDesc {
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px !important;
+    margin: 10px;
+}
+
+div.imageParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.roundedBlueBtn {
+    border-radius: 68.085px;
+    background: #0F345A;
+    display: flex;
+    width: 288px;
+    padding: 13.617px 27.234px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.809px;
+    color: white;
+    font-family: 'Satoshi-Medium';
+    font-size: 21.787px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.roundedBlueBtn:hover {
+    background-color: #19b3b5;
+    transition: 0.5s;
+}

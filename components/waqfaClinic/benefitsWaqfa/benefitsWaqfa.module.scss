@@ -1,0 +1,91 @@
+.benefitWaqfa {
+    width: 100%;
+    margin-bottom: 43.44px;
+
+    h1 {
+        color: #000;
+        font-family: "Circular Std";
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 140%;
+        letter-spacing: 0.42px;
+        border-bottom: 1px solid rgba(112, 112, 112, 0.31);
+        margin-bottom: 90.86px;
+        word-spacing: -13px;
+    }
+
+    .mob_slider_ban {
+        @media (max-width : 768px) {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            
+        }
+        
+        .waqfaWrape {
+            width: 100%;
+            height: 412.288px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            border: 0.5px solid #A6A7A6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding-bottom: 51.78px;
+
+            @media (max-width : 768px) {
+                // min-height: 240px;
+            }
+
+            .img_benefit {
+                width: 80%;
+                height: 190.512px;
+                flex-shrink: 0;
+                border-radius: 17px;
+                margin-top: -11px;
+            }
+
+            h3 {
+                color: #000;
+                text-align: center;
+                font-family: "Circular Std";
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 450;
+                line-height: 140%;
+                letter-spacing: 0.29px;
+                height: 70px;
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                margin: auto;
+                justify-content: center;
+                margin-top: 42px !important;
+                margin-bottom: 22px !important;
+                word-spacing: -8px;
+            }
+
+            p {
+                color: #000;
+                text-align: center;
+                font-family: "Circular Std";
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 140%;
+                letter-spacing: 0.21px;
+                height: 88px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding: 0 12px;
+            }
+        }
+    }
+}

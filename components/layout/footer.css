@@ -1,0 +1,244 @@
+.footer {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  /* margin-top: 30px; */
+}
+
+.footer .copyright {
+  font-size: 0.813rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.footer .social_icons {
+  margin: 20px 0;
+  display: flex;
+}
+
+.footer .social_icons a {
+  /* background-color: #e2e2e2; */
+  padding: 0px;
+  border-radius: 9px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer .social_icons a:hover {
+  color: var(--white-clr);
+}
+
+.footer .social_icons a:nth-child(1):hover {
+  /* background-color: #4267b2; */
+}
+
+.footer .social_icons a:nth-child(2):hover {
+  /* background-color: #c13584; */
+  /* background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  ); */
+}
+
+.footer .social_icons a:nth-child(3):hover {
+  /* background-color: #ff0000; */
+}
+
+.footer .social_icons .LinkedinBg:hover {
+  /* background-color: #0072b1; */
+}
+
+.footer .social_icons .TwitterBg:hover {
+  /* background-color: #00acee; */
+}
+
+.footer .social_icons a svg {
+  font-size: 20px;
+}
+
+.footer .footer_links {
+  /* display: flex;
+  flex-direction: column; */
+  /* column-count: 2; */
+  column-gap: 5px;
+  padding-left: 0;
+}
+
+.footer .footer_links a {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  counter-increment: brick-counter;
+}
+
+.footer .footer_links a {
+  color: var(--text-clr);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* .subscription_cont {
+  padding-left: 85px;
+} */
+
+.footer .subscription_heading {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  margin-bottom: 30px;
+}
+
+.footer .subscription_box,
+.footer .subscription_box .form-control,
+.footer .subscription_box .input-group-text {
+  height: 55px;
+  border: none !important;
+  border-radius: 16px;
+}
+
+.footer .subscription_box .form-control {
+  background-color: var(--tifannyblue-light-clr);
+  padding-left: 25px;
+}
+
+.footer .subscription_box .form-control::placeholder {
+  color: #989898;
+}
+
+.footer .subscription_box .form-control:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.footer .subscription_box .input-group-text {
+  background-color: var(--tifannyblue-clr);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 10px 18px;
+}
+
+.footerColumn a {
+  font-size: 18px;
+}
+
+.footer h5 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.grayScaleImage img {
+  filter: grayscale(0%);
+}
+
+.footer .col-xs-6:not(:last-child) .cardsImagesContainer.grayScaleImage {
+  display: none !important;
+}
+
+.cardsImagesContainer.grayScaleImage img.img-fluid {
+  width: 70px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:575px) {
+  .footer .social_icons {
+    margin: 20px 0 40px !important;
+  }
+
+  .hk_12.col {
+    width: 100% !important;
+    flex: auto;
+  }
+
+  .footer .col-xs-6.col {
+    flex: none;
+  }
+
+  .cardsImagesContainer.grayScaleImage {
+    justify-content: center;
+  }
+
+  .cardsImagesContainer.grayScaleImage img.img-fluid {
+    width: 64.667px;
+    height: 21.333px;
+  }
+
+  .cardsImagesContainer.grayScaleImage .appStore,
+  .cardsImagesContainer.grayScaleImage .google_play {
+    margin-right: 0;
+  }
+
+  .cardsImagesContainer.grayScaleImage img.img-fluid:last-child {
+    width: 41.333px;
+    height: 24px;
+  }
+}
+
+.healthDataPlatform .row.second {
+  /* background-color: var(--yellow-light-clr); */
+  border-radius: 20px;
+  padding: 50px;
+  margin: 0;
+  align-items: center;
+}
+
+.healthDataPlatform .heading_header .row {
+  justify-content: center;
+}
+
+.healthDataPlatform .heading_header {
+  text-align: center;
+}
+
+.healthDataPlatform .heading_header .heading_desc {
+  margin-bottom: 30px;
+}
+
+.healthDataPlatform .imgBox img {
+  width: 100%;
+}
+
+.healthDataPlatform .col-md-3 {
+  padding: 0;
+}
+
+.healthDataPlatform .iconCard {
+  text-align: center;
+  background-color: var(--white-clr);
+  padding: 20px 10px;
+  min-height: 150px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.healthDataPlatform .iconCard .img_box {
+  min-height: 50px;
+  margin: 10px 0;
+}
+
+.healthDataPlatform .iconCard .heading_desc {
+  font-size: 0.813rem;
+  line-height: 1.188rem;
+}
+
+.healthDataPlatform .icon_boxes {
+  margin-left: 50px;
+}
+
+@media (max-width: 767px) {
+  .footer .social_icons a {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

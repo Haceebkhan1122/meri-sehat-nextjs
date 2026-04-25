@@ -1,0 +1,333 @@
+.cardDetails .mobileViewDetailBtnContainer:nth-child(2) .descriptionParaAccordians:nth-child(1) {
+    /* padding-bottom: 10px;
+border-bottom: 1px solid #F0F0F0;
+margin-bottom: 10px!important; */
+}
+
+.wrapperAll {
+    /* display: flex;
+    justify-content: start; */
+}
+
+.leftMonthly {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.cardBodyPackage {
+    margin: 0;
+    padding: 0;
+}
+
+.detailsPackageSubs h4 {
+    font-family: 'Satoshi-Medium';
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 22.77px;
+    text-align: left;
+    color: #000000;
+    margin: 5px 0px 0px 10px;
+}
+
+.rightMonthly {
+    /* width: 35%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -2px;
+}
+
+.packageDetails {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 20px 10px 16px 20px;
+
+}
+
+.disableSubscribeBtb {
+    background-color: grey;
+}
+
+.descTabs {
+    color: #313131;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+}
+
+
+
+.descTabs:hover {
+    color: #0E1531;
+}
+
+.descriptionPara {
+    color: #8E8E8E;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 15px 20px;
+}
+
+.descriptionParaAccordians {
+    color: #313131;
+    font-family: 'Circular Std';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.rightPera {
+    color: #313131;
+    text-align: right;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.wrapperSubscriptionWallet {}
+
+.btnViewDetails {
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(19, 166, 169, 0.20);
+    color: #13A6A9 !important;
+    text-align: right;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-right: 0.8rem;
+}
+
+.subscribeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 442px;
+    height: 50px;
+    padding: 14px 33px;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #19B3B5;
+    box-shadow: 0px 4px 15px 0px rgba(25, 179, 181, 0.30);
+    margin-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+}
+
+.cancelBtn {
+    color: #8E96A0 !important;
+    background: #FFF !important;
+    border: 0.99px solid #8E96A0 !important;
+    box-shadow: 0px 3.944443464279175px 14.79166316986084px 0px #19B3B54D !important;
+}
+
+.hovering_green_btn_MA {
+    transition: all 0.3s ease-in-out
+}
+
+.hovering_green_btn_MA:hover {
+    background: #fff !important;
+    color: #0f345a !important;
+    border: 1px solid #0f345a;
+}
+
+.centerClass {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHeaderPackageSecond {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    background: #FFF !important;
+    border-color: #E5E3E3 !important;
+}
+
+.wrapeTex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.wrapePlusPackage {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 10px 16px 10px;
+}
+
+
+.disabled__hk {
+    background: #efefef !important;
+    color: #8e8e8e !important;
+    box-shadow: none;
+}
+
+.viewDetailsMobile {
+    display: flex;
+    width: 106px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(19, 166, 169, 0.20);
+    color: #13A6A9 !important;
+    text-align: right;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.mobileViewDetailBtnContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-bottom: 1px solid #F0F0F0;
+    padding: 10px 0;
+}
+
+.optionsHealthInsurance {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.7rem
+}
+
+.boxPrice .descriptionParaAccordians {
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.tabHeader {
+    border-bottom: 0.5px solid #E5E3E3 !important;
+    margin-top: -13px;
+}
+
+
+
+@media (max-width : 768px) {
+    .descTabs {
+        font-size: 12px;
+    }
+
+    .optionsHealthInsurance:last-child {
+        margin-bottom: 0;
+    }
+
+    .optionsHealthInsurance {
+        margin-bottom: 4px;
+        margin-top: 4px;
+        margin-left: 2.2rem
+    }
+
+    .btnViewDetails {
+        width: auto !important;
+    }
+
+    .wrapperAll {
+        width: 100%;
+        justify-content: flex-start;
+        /* padding: 20px; */
+    }
+
+    .subscribeBtn {
+        margin-bottom: 5px;
+    }
+
+    .cardDetails {
+        width: 100%;
+    }
+
+    .leftMonthly {
+        width: 100%;
+        min-width: unset;
+        max-width: unset;
+    }
+
+
+    .tabHeader {
+        border-bottom: 0.5px solid #E5E3E3 !important;
+        width: 94%;
+    }
+
+
+    .descriptionParaAccordians {
+        font-size: 14px;
+    }
+
+    .descriptionParaAccordians img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .subscribeBtn {
+        display: flex;
+        width: 290px;
+        height: 40px;
+        padding: 14px 33px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Satoshi-Medium';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.14px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        background: #19B3B5;
+        box-shadow: 0px 4px 15px 0px rgba(25, 179, 181, 0.30);
+    }
+
+    .packageDetails {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px 16px 20px;
+
+    }
+}

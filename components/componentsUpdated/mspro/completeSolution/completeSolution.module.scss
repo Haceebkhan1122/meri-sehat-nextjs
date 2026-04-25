@@ -1,0 +1,48 @@
+@import '../../../../styles/variable.scss';
+
+.completeSolution {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 80px;
+
+    @media(min-width:0px) and (max-width:767px) {
+        padding-top: 8px;
+        padding-bottom: 0px;
+    }
+
+    .head_offer {
+        color: #0F345A;
+        text-align: center;
+        font-family: $Satoshi-Bold;
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 88px;
+
+        @media(min-width:0px) and (max-width:767px) {
+            font-size: 30px;
+            margin-bottom: 30px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 30px !important;
+        }
+    }
+}
+
+
+.offer_left_col {
+    @media(min-width:0px) and (max-width:767px) {
+        order: 2;
+        text-align: center;
+
+        img {
+            max-width: 98%;
+            margin-top: 40px;
+        }
+    }
+}
+

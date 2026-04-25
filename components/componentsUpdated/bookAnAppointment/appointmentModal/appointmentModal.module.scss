@@ -1,0 +1,299 @@
+@import '../../../../styles/variable.scss';
+
+.wraper_appoint {
+    width: 100%;
+    max-width: 456px;
+    height: 100%;
+    flex-shrink: 0;
+    margin: auto;
+    padding-top: 41px;
+
+    @media(min-width:0) and (max-width:767px) {
+        padding: 26px 25px;
+    }
+
+    h1 {
+        color: #0F345A;
+        font-family: $Satoshi-Medium;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+        padding-bottom: 12px;
+
+        @media(min-width:0) and (max-width:767px) {
+            font-size: 20px;
+
+        }
+    }
+
+    .hospital_card {
+        width: 100%;
+        height: 90px;
+        flex-shrink: 0;
+        border-radius: 24px;
+        background: #FFF;
+        box-shadow: 0px 0px 22.8px 1.6px rgba(238, 238, 238, 0.60);
+        display: flex;
+        align-items: center;
+        padding: 0px 16px;
+        cursor: pointer;
+        margin-top: 30px;
+        justify-content: space-between;
+
+        @media(min-width:0) and (max-width:767px) {
+            font-size: 20px;
+        }
+
+        img {
+            width: 28px;
+            height: 20px;
+            object-fit: contain;
+
+            @media(min-width:0) and (max-width:767px) {
+                width: 28.8px;
+                height: 28.8px;
+                object-fit: contain;
+
+            }
+        }
+
+        .info_ri_hos {
+            display: flex;
+            flex-direction: column;
+            margin-left: 15.25px;
+            user-select: none;
+            width: 250px;
+
+            @media(min-width:0) and (max-width:767px) {
+                margin-left: 15px;
+
+            }
+
+            h3 {
+                color: #0F345A;
+                font-family: $Satoshi-Medium;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin: 0px !important;
+                padding: 0px !important;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 14px;
+
+                }
+            }
+
+            span {
+                color: #97A9BD;
+                font-family: $Satoshi-Regular;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-align: left;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 12px;
+
+                }
+            }
+        }
+
+        .right_end {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            h3 {
+                color: #19B3B5;
+                text-align: right;
+                font-family: $Satoshi-Medium;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 14px;
+
+                }
+            }
+
+            .arrow_right_hos {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31' height='32' viewBox='0 0 31 32' fill='none'%3E%3Cpath d='M12.474 23.2067L11.1123 21.845L17.3823 15.575L11.1123 9.30503L12.474 7.94336L20.1056 15.575L12.474 23.2067Z' fill='%230F345A'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: block;
+                width: 30.4px;
+                height: 30.564px;
+
+                @media(min-width:0) and (max-width:767px) {
+                    width: 22px;
+                    height: 22px;
+
+                }
+            }
+        }
+    }
+
+    hr {
+        height: 1px;
+        width: 100%;
+        color: rgba(173, 189, 206, 0.50);
+    }
+
+    h3 {
+        color: #0F345A;
+        font-family: $Satoshi-Bold;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        @media(min-width:0) and (max-width:767px) {
+            font-size: 16px;
+            padding-bottom: 10px;
+
+        }
+    }
+
+    .wraper_fields {
+        width: 100%;
+        height: 46%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .single {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+            padding-bottom: 22px;
+
+            input {}
+
+            .addIcon {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22' fill='none'%3E%3Cg clip-path='url(%23clip0_6718_170705)'%3E%3Cpath d='M19.1601 12.4143L19.6601 12.4143L19.6601 11.9143L19.6601 10.0864L19.6601 9.58638L19.1601 9.58638L12.4134 9.58638L12.4134 2.83972L12.4134 2.33972L11.9134 2.33972H10.0856L9.58558 2.33972L9.58558 2.83972L9.58558 9.58638L2.83891 9.58638L2.33891 9.58638L2.33891 10.0864L2.33891 11.9143L2.33891 12.4143L2.83891 12.4143L9.58558 12.4143L9.58558 19.1609L9.58558 19.6609L10.0856 19.6609H11.9134L12.4134 19.6609L12.4134 19.1609L12.4134 12.4143L19.1601 12.4143Z' fill='%230F345A' stroke='%230F345A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_6718_170705'%3E%3Crect width='22' height='22' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: block;
+                width: 22px;
+                height: 22px;
+                cursor: pointer;
+            }
+
+            label {
+                color: #0F345A;
+                font-family: $Satoshi-Regular;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 110%;
+            }
+
+            h4 {
+                color: #0F345A;
+                font-family: $Satoshi-Bold;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 110%;
+                text-transform: uppercase;
+                cursor: pointer;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+    }
+}
+
+.cross_icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cg clip-path='url(%23clip0_6718_170059)'%3E%3Cpath d='M25.3327 8.54699L23.4527 6.66699L15.9993 14.1203L8.54602 6.66699L6.66602 8.54699L14.1193 16.0003L6.66602 23.4537L8.54602 25.3337L15.9993 17.8803L23.4527 25.3337L25.3327 23.4537L17.8793 16.0003L25.3327 8.54699Z' fill='%230F345A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_6718_170059'%3E%3Crect width='32' height='32' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 22px;
+    top: 22px;
+    cursor: pointer;
+    z-index: 10;
+
+    @media(min-width:0) and (max-width:767px) {
+        width: 24px;
+        height: 24px;
+
+    }
+}
+
+
+.bottomBarBtn {
+    width: 100%;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 30px 30px;
+    background: #FFF;
+    box-shadow: 0px -4px 20px 0px rgba(195, 204, 216, 0.30);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 90%;
+        height: 60px;
+        padding: 16px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: #0F345A;
+        color: #FFF;
+        text-align: center;
+        font-family: $Satoshi-Bold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-transform: uppercase;
+
+        @media(min-width:0) and (max-width:767px) {
+            font-size: 16px;
+            height: 50px;
+
+        }
+    }
+
+}
+
+.scroller_for_height {
+    max-height: 280px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+.selected {
+    border-radius: 15px !important;
+    border: 2px solid #19B3B5 !important;
+    background: #FFF !important;
+    box-shadow: 0px 0px 22.5px 1px rgba(238, 238, 238, 0.60) !important;
+}

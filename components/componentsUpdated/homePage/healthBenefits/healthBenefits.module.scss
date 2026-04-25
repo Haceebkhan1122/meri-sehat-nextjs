@@ -1,0 +1,120 @@
+@import '../../../../styles/variable.scss';
+
+.healthBenefitsSection {
+    margin-top: 50px;
+
+    @media(min-width:0px) and (max-width:767px) {
+        margin-top: 50px;
+    }
+
+    h2 {
+        @media(min-width:0px) and (max-width:767px) {
+            width: 266px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    .healthBenefitSlider {
+        width: 100vw;
+        position: relative;
+
+        .boxSlid {
+            border-radius: 24px;
+            padding: 26px 25px 26px 35px;
+            margin: 0 24px 0 0;
+            min-height: 490px;
+            height: 490px;
+            width: auto;
+            position: relative;
+
+
+            @media(min-width:1800px) {
+                min-height: 710px;
+                height: 716px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                padding: 15px 23px 25px 25px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                margin: 0 16px 0 0;
+                min-height: auto;
+                height: auto;
+            }
+
+            .positionCustom {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                right: auto;
+                margin: auto;
+                width: 100%;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    position: relative;
+                    bottom: 0;
+                }
+            }
+
+            h3 {
+                color: $dark-bluecolor;
+                font-family: $Satoshi-Bold;
+                font-size: 34px;
+                font-style: normal;
+                line-height: 68px;
+
+                @media(min-width:1301px) and (max-width:1919px) {
+                    font-size: 28px;
+                }
+
+                @media(min-width:0px) and (max-width:767px) {
+                    font-size: 20px;
+                    line-height: 37.729px;
+                    /* 188.647% */
+                }
+
+                /* 187.654% */
+            }
+
+            p {
+                color: $dark-bluecolor;
+                font-family: $Satoshi-Regular;
+                font-size: 24px;
+                line-height: normal;
+                margin-bottom: 60px !important;
+
+                @media(min-width:1301px) and (max-width:1919px) {
+                    font-size: 18px;
+                    margin-bottom: 30px !important;
+                }
+
+                @media(min-width:0px) and (max-width:767px) {
+                    font-size: 14px;
+                    margin-bottom: 32px !important;
+                }
+            }
+
+            img {
+                width: auto;
+                height: 386px;
+
+                @media(min-width:1301px) and (max-width:1919px) {
+                    height: 226px;
+                }
+
+                @media(min-width:768px) and (max-width:1024px) {
+                    height: 300px;
+                }
+
+                @media(min-width:0px) and (max-width:767px) {
+                    height: 191.407px;
+                }
+            }
+
+
+        }
+    }
+}
+

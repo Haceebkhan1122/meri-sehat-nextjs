@@ -1,0 +1,106 @@
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.urdu .section-heading {
+  flex-direction: row-reverse;
+}
+.section-heading .children {
+  display: none;
+}
+
+.btn_icon_box {
+  display: flex;
+  align-items: center;
+}
+.btn_icon_box img {
+  margin-right: 20px;
+}
+.findTheBestHealthCare {
+  margin-bottom: 20px;
+  /* border-bottom: 0.3px solid #70707050; */
+  text-transform: uppercase;
+  /* padding-bottom: 15px; */
+}
+
+.dropdown-menu .findTheBestHealthCare {
+  margin-bottom: 10px;
+}
+
+
+.section-heading h2 span {
+  color: var(--rosepink-clr);
+}
+
+/* .top_reads .findTheBestHealthCare .section-heading {
+  border-bottom: 1px solid #70707080;
+} */
+.findTheBestHealthCare .section-heading .border_line {
+  opacity: 0 !important;
+}
+
+.section-heading {
+  display: flex;
+
+}
+.section-heading .static-txt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 767px){
+  .section-heading{
+    display: flex !important;
+  }
+}
+
+
+
+
+
+.underline_ancerView {
+  font-size: 0.938rem;
+  font-weight: 700;
+  letter-spacing: 0.094rem;
+  text-transform: uppercase;
+  /* border-bottom: 1px solid var(--text-clr); */
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  /* padding-bottom: 5px; */
+  width: 100%;
+  max-width: max-content;
+  color:var(--text-dark-clr);
+}
+.underline_ancerView:hover {
+  color: var(--text-dark-clr);
+}
+
+.underline_ancerView::after {
+  /* top: 20px; */
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 1px;
+  max-height: 0.5px;
+  position: absolute;
+  background: var(--text-clr);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  left: 50%;
+  width: 0;
+
+}
+
+.underline_ancerView:hover::after {
+  width: 70%;
+  left: 40px;
+}
+
+
+
+
+
+

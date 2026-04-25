@@ -1,0 +1,73 @@
+.subscription_box {
+    width: 100%;
+    max-width: 400px;
+}
+
+.subscription_box,
+.subscription_box .form-control,
+.subscription_box .input-group-text {
+    height: 55px;
+    border: none !important;
+    border-radius: 16px;
+}
+
+.subscription_box .input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.subscription_box .form-control {
+    background-color: var(--tifannyblue-light-clr);
+    padding-left: 25px;
+}
+
+.subscription_box .form-control::placeholder {
+    color: #989898;
+}
+
+.subscription_box .form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.subscription_box .input-group-text {
+    background-color: var(--tifannyblue-clr);
+    padding: 10px 18px;
+}
+
+._email_input {
+    position: relative;
+}
+
+._email_input input {
+    height: 55px;
+    padding: 10px 18px;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 16px;
+    background-color: var(--tifannyblue-light-clr);
+}
+
+._email_input input::placeholder {
+    color: #989898;
+}
+
+._email_input .ant-form-item-explain.ant-form-item-explain-connected {
+    position: absolute;
+    bottom: -28px;
+    font-weight: 500;
+}
+
+._email_input button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--tifannyblue-clr);
+    width: 50px;
+    border-radius: 0 16px 16px 0;
+}
+
+._disable {
+    opacity: 0.5;
+    pointer-events: none;
+}

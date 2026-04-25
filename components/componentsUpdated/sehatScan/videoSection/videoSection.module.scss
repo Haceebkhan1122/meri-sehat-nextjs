@@ -1,0 +1,126 @@
+@import '../../../../styles/variable.scss';
+
+
+
+.videoSectionSehatScan {
+    .playicon {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 85px;
+        cursor: pointer;
+
+        @media (min-width: 768px) and (max-width: 1024px){
+            top: 60px;
+        }
+        @media (min-width: 0) and (max-width: 767px){
+            top: 30px;
+        }
+
+        svg {
+            width: 106px;
+            height: 106px;
+
+            @media (min-width: 768px) and (max-width: 1024px){
+                width: 80px;
+                height: 80px;
+            }
+            @media (min-width: 0) and (max-width: 767px){
+                width: 38px;
+                height: 38px;
+            }
+        }
+    }
+
+    .videoBox {
+        height: 816.303px;
+        width: 100%;
+        border-radius: 24px;
+        overflow: hidden;
+
+        @media(min-width: 0) and (max-width: 767px){
+            height: 190.669px;
+            margin-top: 15px;
+        }
+
+        @media(min-width: 768px) and (max-width: 1024px){
+            height: 380px;
+        }
+
+    }
+
+    .thumbnailVideo {
+        border-radius: 24.899px;
+        height: 270px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 39px;
+
+        @media(min-width: 768px) and (max-width: 1024px){
+            height: 180px;
+        }
+        @media(min-width: 0) and (max-width: 767px){
+            height: 98.801px;
+        }
+
+        .nowPlaying {
+            color: #FFF;
+            font-family: $Satoshi-Bold;
+            font-size: 38px;
+            font-style: normal;
+            line-height: 120%;
+            border-radius: 24.899px;
+            border: 3.32px solid $dark-bluecolor;
+            background: linear-gradient(0deg, rgba(15, 52, 90, 0.65) 0%, rgba(15, 52, 90, 0.65) 100%);
+            /* 41.83px */
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media(min-width: 0) and (max-width: 767px){
+                font-size: 16px;
+            }
+        }
+
+        .imgplayIcon {
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            margin: 0 auto;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .imgthumbnail {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.video__story {
+    width: 636px !important;
+    height: 330px !important;
+
+    iframe {
+        border-radius: 20px !important;
+
+        @media(min-width:0px) and (max-width:767px) {
+            border-radius: 9.877px;
+
+        }
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        height: 162px !important;
+        width: 100% !important;
+        margin-bottom: 12px;
+    }
+}

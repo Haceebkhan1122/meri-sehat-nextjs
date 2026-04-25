@@ -1,0 +1,8 @@
+.listHeading {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

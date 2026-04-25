@@ -1,0 +1,146 @@
+.citySpecialities {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    background-color: #F7F8F9;
+
+
+    @media (min-width : 0px) and (max-width : 768px) {
+        background-color: rgba(238, 241, 250, 0.50);
+        ;
+    }
+
+    .allInfoDetails {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40.6px;
+        padding-bottom: 26.4px;
+
+        @media (max-width : 768px) {
+            padding-top: 20px;
+            padding-left: 5px;
+        }
+
+        h3 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #0F345A;
+            font-family: 'Satoshi-Medium';
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin: 0;
+            padding: 0;
+
+            @media (max-width : 768px) {
+                font-size: 16px;
+                // word-spacing: -5px;
+            }
+
+
+            span {
+                color: #19B3B5;
+                font-family: 'Satoshi-Medium';
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 450;
+                line-height: normal;
+
+                @media (max-width : 768px) {
+                    color: #0F345A;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .editIcon {
+                width: 24px;
+                height: 24px;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cg clip-path='url(%23clip0_2296_52425)'%3E%3Cpath d='M3 17.8499V21.5999H6.75L17.81 10.5399L14.06 6.78991L3 17.8499ZM20.71 7.63991C21.1 7.24991 21.1 6.61991 20.71 6.22991L18.37 3.88991C17.98 3.49991 17.35 3.49991 16.96 3.88991L15.13 5.71991L18.88 9.46991L20.71 7.63991Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2296_52425'%3E%3Crect width='24' height='24' fill='white' transform='translate(0 0.600098)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: top center;
+                cursor: pointer;
+                position: relative;
+                top: -2px;
+
+                @media (max-width : 768px) {
+                    display: none;
+                }
+
+                &:active {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .listParent {
+            width: 110%;
+            display: flex;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            margin-top: 10px;
+
+            @media (max-width : 768px) {
+                display: block;
+                text-wrap: nowrap;
+                padding-bottom: 0px;
+                margin-top: 0px;
+                padding-left: 24px;
+            }
+
+            li {
+                width: 33%;
+                display: list-item;
+                list-style-type: disc;
+                color: #0F345A;
+                font-family: 'Satoshi-Regular';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 20px;
+                cursor: pointer;
+
+                &::marker {}
+
+                @media (max-width : 768px) {
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+    }
+
+    .ShowMoreBtn {
+        color: #19B3B5;
+        text-align: right;
+        font-family: 'Satoshi-Medium';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: right;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+
+        @media (max-width : 768px) {
+            font-size: 16px;
+            text-align: left;
+        }
+    }
+}

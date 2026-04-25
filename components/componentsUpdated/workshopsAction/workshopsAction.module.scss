@@ -1,0 +1,177 @@
+@import '../../../styles/variable.scss';
+
+.workshops {
+    margin-top: 4rem;
+
+
+    .boxesRow {
+        margin-top: 3.75rem;
+
+        @media (min-width:0px) and (max-width:767px) {
+            padding: 0 7px;
+        }
+
+        .sp01 {
+            @media (min-width:0px) and (max-width:767px) {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+
+        }
+    }
+
+    .boxesSecondRow {
+        margin-top: 1.375rem;
+
+        @media (min-width:0px) and (max-width:767px) {
+            margin-top: 0;
+
+        }
+
+        .workshopBoxes {
+            min-height: 440px;
+
+            h2 {
+                margin-top: 2.438rem;
+            }
+
+            p {
+                margin-top: 1.438rem;
+
+            }
+        }
+    }
+
+    .imageMobile {
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        @media (min-width:0px) and (max-width:767px) {
+            display: block;
+
+            width: 79px;
+            height: 82px;
+        }
+
+
+    }
+
+    .video__story {
+        width: 872px;
+        height: 439.996px;
+
+        @media(min-width:0px) and (max-width:767px) {
+            width: 100% !important;
+            height: 160px !important;
+            margin-bottom: 12px;
+        }
+
+        iframe {
+            border-radius: 30px !important;
+
+            @media(min-width:0px) and (max-width:767px) {
+                border-radius: 10px !important;
+
+            }
+        }
+
+
+    }
+
+    .workshopBoxes {
+        min-height: 352px;
+        padding-left: 36px;
+        padding-top: 45px;
+        border-radius: 30px;
+
+        @media (min-width:0px) and (max-width:767px) {
+            min-height: 128px;
+            padding: 14px !important;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+
+
+
+        }
+
+        h2 {
+            font-family: $Satoshi-Bold;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 22px;
+                margin-bottom: 6px;
+            }
+
+        }
+
+        p {
+            font-family: $Satoshi-Regular;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 12px;
+            }
+
+        }
+
+    }
+
+    .imgMaintenance {
+        @media (min-width:0px) and (max-width:767px) {
+            height: 128px;
+        }
+
+
+    }
+
+    .workshopHeading {
+        h4 {
+            text-align: center;
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 68px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 30px;
+            }
+
+        }
+
+        p {
+            margin-top: 2.5rem;
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Regular;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 16px;
+                padding: 10px 0 0 0 !important;
+                width: 320px !important;
+
+            }
+
+            p {
+                width: initial;
+                padding: 0;
+            }
+        }
+    }
+}

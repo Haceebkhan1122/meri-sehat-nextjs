@@ -1,0 +1,39 @@
+@import '../../../../styles/variable.scss';
+
+.sliderLogoes {
+
+    .shortDescription {
+        padding: 1rem 0;
+        text-align: center;
+
+        p {
+            font-family:  $Satoshi-Bold;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            text-align: center;
+            vertical-align: bottom;
+            text-transform: uppercase;
+            color: #8799AC;
+        }
+    }
+
+    .newWidget {
+        padding-top: 1rem;
+
+         @media(min-width:0px) and (max-width:768px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    }
+
+    .topLogoes {
+        padding-top: 40.85px;
+        padding-bottom: 30px;
+
+        @media(min-width:0px) and (max-width:768px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    }
+}

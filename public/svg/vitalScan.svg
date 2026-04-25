@@ -1,0 +1,15 @@
+<svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_846_5736)">
+<ellipse cx="13.375" cy="12.7502" rx="6.5" ry="7.8" fill="#23BEC3" fill-opacity="0.3"/>
+<path d="M24.75 11.9375H2V13.5625H24.75V11.9375Z" fill="#23BEC3"/>
+<path d="M24.75 7.875H23.125V3H18.25V1.375H24.75V7.875Z" fill="#23BEC3"/>
+<path d="M3.625 7.875H2V1.375H8.5V3H3.625V7.875Z" fill="#23BEC3"/>
+<path d="M8.5 24.125H2V17.625H3.625V22.5H8.5V24.125Z" fill="#23BEC3"/>
+<path d="M24.75 24.125H18.25V22.5H23.125V17.625H24.75V24.125Z" fill="#23BEC3"/>
+</g>
+<defs>
+<clipPath id="clip0_846_5736">
+<rect width="26" height="26" fill="white" transform="translate(0.375)"/>
+</clipPath>
+</defs>
+</svg>

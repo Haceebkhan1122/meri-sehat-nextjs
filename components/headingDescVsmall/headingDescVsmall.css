@@ -1,0 +1,10 @@
+.headingDescVsmall {
+    font-size: 0.75rem;
+    line-height: 1.188rem;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.headingDescVsmall b {
+    font-weight: bolder;
+}

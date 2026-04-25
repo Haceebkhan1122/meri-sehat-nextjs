@@ -1,0 +1,730 @@
+@import '../../../../styles/variable.scss';
+
+.packagesSection {
+    .mb_30 {
+        // margin-bottom: 30px;
+    }
+
+    .hr1 {
+        background-color: rgba(15, 52, 90, .20);
+        margin-bottom: 35px;
+        height: 1px;
+        width: 100%;
+
+        @media(min-width:0) and (max-width:767px) {
+            margin-bottom: 0px;
+            display: none;
+        }
+
+    }
+
+    .topToggleBox {
+        display: flex;
+        gap: 15px;
+        justify-content: end;
+
+        @media(min-width:0) and (max-width:767px) {
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .tabsBox {
+            position: relative;
+
+            span {
+                display: inline-flex;
+                padding: 2.182px 0;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+                border-radius: 153.846px;
+                background: #FE8D74;
+                color: #FFF;
+                text-align: center;
+                font-family: $Satoshi-Bold;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+                position: absolute;
+                top: -20px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 72px;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 8px;
+                    width: 48px;
+
+                }
+            }
+
+            p {
+                color: $dark-bluecolor;
+
+                width: 134px;
+                text-align: center;
+                text-align: center;
+                font-family: $Satoshi-Medium;
+                font-size: 26px;
+                font-style: normal;
+                line-height: normal;
+
+                @media(min-width:0) and (max-width:767px) {
+                    width: 70px;
+                    font-size: 18px;
+                    color: rgba(15, 52, 90, 0.60) !important;
+                }
+            }
+        }
+
+        .tabsBox.active {
+            p {
+                font-family: $Satoshi-Bold;
+                color: $dark-bluecolor !important;
+
+
+            }
+        }
+
+        .checkBoxToggle {
+            position: relative;
+
+            input {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+
+                &:checked {
+                    + {
+                        .switch {
+                            &::before {
+                                left: 32px;
+                                background: #fff;
+
+                                @media(min-width:0) and (max-width:767px) {
+                                    left: 27px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .switch {
+                display: inline-block;
+                position: relative;
+                width: 64px;
+                height: 32px;
+                border-radius: 20px;
+                background: rgba(7, 197, 151, 1);
+                transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+                vertical-align: middle;
+                cursor: pointer;
+
+                @media(min-width:0) and (max-width:767px) {
+                    width: 48px;
+                    height: 24px;
+                }
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: 3px;
+                    left: 4px;
+                    width: 26px;
+                    height: 26px;
+                    background: #fafafa;
+                    border-radius: 50%;
+                    transition: left 0.28s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+
+                    @media(min-width:0) and (max-width:767px) {
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .PkgBox {
+        border-radius: 15px;
+        background: #FFF;
+        box-shadow: 0px 3.2px 16px 0px rgba(15, 52, 90, 0.10);
+        width: 100%;
+        height: 100%;
+        padding: 20px 29px 81px 29px;
+        position: relative;
+
+        @media(min-width:0) and (max-width:767px) {
+            width: 96%;
+            margin: 0 auto 20px auto;
+            height: auto;
+        }
+
+        button {
+            border-radius: 80px;
+            background: $dark-bluecolor;
+            width: 86% !important;
+            height: 50px !important;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 30px;
+            text-align: center;
+            justify-content: center;
+            margin: 0 auto !important;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            user-select: none;
+
+            &:disabled {
+                white-space: nowrap;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: gray;
+                }
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                left: 4px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            span {
+                color: #FFF;
+                text-align: center;
+                font-family: $Satoshi-Bold;
+                font-size: 14px;
+                font-style: normal;
+                line-height: 120%;
+                text-transform: uppercase;
+                user-select: none;
+
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        h4 {
+            color: #19B3B5;
+            font-family: $Satoshi-Regular;
+            font-size: 24px;
+            font-style: normal;
+            line-height: normal;
+            position: relative;
+            text-transform: lowercase;
+
+            @media(min-width:0) and (max-width:767px) {
+                font-size: 18px;
+            }
+
+            &::first-letter {
+                text-transform: capitalize;
+            }
+
+            span {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                color: $dark-bluecolor;
+                text-align: center;
+                font-family: $Satoshi-Regular;
+                font-size: 10px;
+                font-style: normal;
+                line-height: normal;
+                text-transform: uppercase;
+
+                img {}
+            }
+        }
+
+        h3 {
+            color: $dark-bluecolor;
+            font-family: $Satoshi-Bold;
+            font-size: 24px;
+            font-style: normal;
+            line-height: 33.504px;
+            /* 121.834% */
+            margin-bottom: 18px;
+
+            @media(min-width:0) and (max-width:767px) {
+                font-size: 22px;
+                margin-bottom: 0px;
+
+            }
+        }
+
+        .pkgListingBox {
+            @media(min-width:0) and (max-width:767px) {
+                margin-top: 20px;
+
+            }
+
+
+            .pkgList {
+
+                padding: 8px 12px 8px 0;
+                border-top: 1px solid rgba(173, 189, 206, 0.50);
+                display: flex;
+                justify-content: space-between;
+
+                .text {
+                    align-items: center;
+
+                    .icoright {
+                        cursor: pointer;
+                        width: 16px;
+                        height: 16px;
+                    }
+
+                    .icoleft {
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    p {
+                        color: $dark-bluecolor;
+                        font-family: $Satoshi-Regular;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-left: 10px;
+                        margin-right: 6px;
+
+                        @media(min-width:0) and (max-width:767px) {
+                            margin-left: 0px;
+                        }
+                    }
+                }
+
+                .text01 {
+                    text-align: right;
+                    color: $dark-bluecolor;
+                    font-family: $Satoshi-Medium;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+
+                    .takaful {
+                        img {
+                            width: 58px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+
+            }
+
+            .subList {
+
+                border-top: 1px solid rgba(173, 189, 206, 0.5);
+
+                .pkgList {
+                    padding: 10px 12px 4px 0 !important;
+                    border: none;
+
+                    @media(min-width:0) and (max-width:767px) {
+                        opacity: 1;
+
+                    }
+
+                }
+
+
+
+            }
+
+            .pkgListLast {
+                border-top: 0;
+
+
+
+                .text {
+                    p {
+                        margin-left: 45px;
+
+                        @media(min-width:0) and (max-width:767px) {
+                            margin-left: 34px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.mainBoxPkg {
+    width: 320px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 0.5px solid rgba(15, 52, 90, 0.20);
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(15, 52, 90, 0.10);
+    padding: 27px 0 0;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    @media (min-width : 0px) and (max-width : 768px) {
+        width: 96%;
+    }
+}
+
+.box1 {
+    width: 50%;
+    padding-left: 15px;
+}
+
+
+.icoleft {
+    @media (min-width : 0px) and (max-width : 768px) {
+        margin-right: 7px;
+    }
+}
+
+
+.pkgNameHeader {
+    text-transform: capitalize;
+}
+
+.box2 {
+    width: 50%;
+    padding-left: 18px;
+    border-left: 1px solid rgba(173, 189, 206, 0.50);
+    padding-right: 12px;
+
+    @media (min-width : 0px) and (max-width : 768px) {
+        white-space: nowrap;
+    }
+}
+
+.headerPkg {
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.headerPkg h3 {
+    color: #19B3B5;
+    font-family: 'Satoshi-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerPkg h4 {
+    color: #0F345A;
+    font-family: 'Satoshi-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.box2 p {
+    color: #0F345A;
+    font-family: 'Satoshi-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px !important;
+}
+
+.viewDetailBtn {
+    display: flex;
+    border-radius: 0px 0px 15px 15px;
+
+    background: rgba(25, 179, 181, 0.20);
+    height: 30.594px;
+    padding: 2.706px 5.412px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.412px;
+    flex-shrink: 0;
+    width: 100%;
+    color: #19B3B5;
+    font-family: 'Satoshi-Bold';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 13px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.pkg_detail_Box {
+    position: relative;
+    margin-top: 21px;
+    padding: 20px 40px;
+    flex-shrink: 0;
+    border-radius: 20.297px;
+    background: #FFF;
+    box-shadow: 0px 5.412px 27.063px 0px rgba(15, 52, 90, 0.10);
+}
+
+.pkg_detail_Box h3 {
+    color: #19B3B5;
+    font-family: 'Satoshi-Regular';
+    font-size: 24.356px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pkg_detail_Box h4 {
+    color: #0F345A;
+    margin-bottom: 0px;
+    font-family: 'Satoshi-Bold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45.335px;
+}
+
+.pkgPop p {
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    margin-left: 5px;
+    font-size: 12.178px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pkg_detail_Box h4 span {
+    color: #0F345A;
+    font-family: 'Satoshi-Bold';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45.335px;
+}
+
+.pkgList {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(173, 189, 206, 0.50);
+    padding: 13px 0;
+    align-items: center;
+    border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+    margin-top: -1px;
+    background: #fff;
+}
+
+.pkgList .text {
+    align-items: center;
+}
+
+.pkgList .icoleft {
+    width: 27.063px;
+    height: 27.063px;
+    margin-right: 15px;
+}
+
+.pkgList .icoright {
+    width: 21.65px;
+    height: 21.65px;
+    margin-left: 8px;
+}
+
+.pkgList .nameDet {
+    color: #0F345A;
+    font-family: 'Satoshi-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pkgList .text01 {
+    color: #0F345A;
+    text-align: right;
+    font-family: 'Satoshi-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.pkgList:last-child {
+    border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+}
+
+.newListingBox .pkgList {
+    margin-top: 0;
+    border-top: 0px solid rgba(173, 189, 206, 0.50);
+    border-bottom: 0px solid rgba(173, 189, 206, 0.50);
+    padding: 6px 0 6px 40px;
+}
+
+.newListingBox .pkgList:last-child {
+    border-bottom: 0px solid rgba(173, 189, 206, 0.50);
+}
+
+.arrowBtnPlan {
+    border-radius: 135.313px;
+    background: #0F345A;
+    width: 100%;
+    height: 67.656px;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.arrowBtnPlan:hover {
+    background: #0F345A;
+}
+
+.arrowBtnPlan span {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 26.4px */
+    text-transform: uppercase;
+}
+
+.arrowBtn1 {
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scrollBar {
+    max-height: 650px;
+    overflow-y: auto;
+    padding-bottom: 30px;
+    margin: 10px 0;
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 7px;
+}
+
+.scrollBar::-webkit-scrollbar-track {
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    background: rgba(149, 148, 148, 0.40);
+    border-radius: 10px;
+
+}
+
+
+
+.textBigUp {
+    @media (min-width : 0px) and (max-width : 768px) {
+        color: #0F345A !important;
+        text-align: center;
+        font-family: $Satoshi-Regular;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}
+
+
+.pkgBoxHeader {
+    text-transform: uppercase !important;
+}
+
+.packgTextHead {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+    span {
+        color: #0F345A;
+        font-family: "Satoshi-Regular";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        white-space: pre-wrap;
+        text-align: left;
+        display: flex;
+        text-align: start;
+    }
+}
+
+
+.healthColr {
+    color: rgba(15, 52, 90, 0.50) !important;
+    font-family: $Satoshi-Regular;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.pricing_package_disabled {
+    background: #0F345A;
+    opacity: 0.2;
+}
+
+
+
+.arrowBtnPlan p {
+    color: #FFF !important;
+text-align: center;
+font-family: $Satoshi-Bold;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+text-transform: uppercase;
+}

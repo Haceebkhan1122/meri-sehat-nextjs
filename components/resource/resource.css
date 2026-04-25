@@ -1,0 +1,42 @@
+.resource {
+    margin: 50px 0;
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+}
+
+.resource .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resource .content .btn_container {
+    margin-top: 10px;
+}
+
+.resource .simple_btn {
+    text-transform: uppercase;
+}
+
+.resource .img_box {
+    width: 100%;
+    min-width: 247px;
+    max-width: 247px;
+}
+
+.resource .img_box img {
+    width: 100%;
+}
+
+.resource .content>div {
+    margin-bottom: 10px;
+}
+
+.resource .content>div:first-child {
+    margin-bottom: 5px;
+}
+
+.resource .heading_desc {
+    font-size: 1rem;
+}

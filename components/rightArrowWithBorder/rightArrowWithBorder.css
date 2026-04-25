@@ -1,0 +1,7 @@
+.arrow_right_border {
+    margin-right: 10px;
+}
+
+.urdu .arrow_right_border {
+    transform: rotate(180deg);
+}

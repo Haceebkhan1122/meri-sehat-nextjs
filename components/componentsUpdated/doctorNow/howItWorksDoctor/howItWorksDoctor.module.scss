@@ -1,0 +1,262 @@
+@import '../../../../styles/variable.scss';
+
+.howItWorksDoctor {
+    width: 100%;
+    padding-top: 112px;
+    padding-bottom: 120px;
+
+    @media(min-width:0) and (max-width:767px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .left__sec {
+        width: 100%;
+
+        h1 {
+            color: #0F345A;
+            font-family: $Satoshi-Bold;
+            // font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 50px;
+            margin-top: -17px;
+
+            @media(min-width:0px) and (max-width:767px) {
+                display: none;
+
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 40.2px;
+
+            li {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                gap: 25.6px;
+                padding-left: 27px;
+                padding-right: 41.6px;
+                // width: 536px;
+                height: 130px;
+                flex-shrink: 0;
+                cursor: pointer;
+
+                @media(min-width:0) and (max-width:767px) {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+
+                &:hover {
+                    width: 100%;
+                    height: 130px;
+                    flex-shrink: 0;
+                    border-radius: 30px;
+                    background: #FFF;
+                    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.08);
+
+                    .numWraper {
+                        width: 54px;
+                        height: 54px;
+                        flex-shrink: 0;
+                        border-radius: 48px;
+                        background: #07C597;
+                        border-radius: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+
+                        span {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: $Satoshi-Medium;
+                            font-size: 28px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: 0.256px;
+                        }
+                    }
+                }
+
+                .numWraper {
+                    width: 54px;
+                    height: 54px;
+                    flex-shrink: 0;
+                    border-radius: 48px;
+                    background: rgba(15, 52, 90, 0.05);
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    span {
+                        color: #0F345A;
+                        text-align: center;
+                        font-family: $Satoshi-Medium;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        padding-left: 0;
+                        line-height: normal;
+                        letter-spacing: 0.256px;
+                    }
+                }
+
+                p {
+                    color: #404040;
+                    font-family: $Satoshi-Regular;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    padding-right: 31px;
+
+                    /* 33.6px */
+                    span {
+                        color: #404040;
+                        font-family: $Satoshi-Bold;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 140%;
+                    }
+                }
+            }
+        }
+    }
+
+    .right__sec {
+        // width: 100%;
+        // position: relative;
+        // overflow: hidden;
+
+        .img_right_sec {
+            // width: 100%;
+            // object-fit: contain;
+        }
+    }
+}
+
+
+
+.img_sliderMob {
+    width: 100%;
+    height: 316px;
+    object-fit: contain;
+}
+
+
+
+.wraper_slider_main_doctor {
+
+    p {
+        width: 239px;
+        color: #404040;
+
+        strong {
+            font-weight: 700;
+        }
+    }
+
+    .slick-dots {
+        display: flex !important;
+        flex-direction: row !important;
+        margin-top: 25px;
+        justify-content: center;
+        gap: 5px !important;
+
+        li {
+            width: auto;
+            height: auto !important;
+
+            button {
+                border-radius: 20px;
+                font-size: 0;
+                width: 4px;
+                height: 4px;
+                background: #0C4048;
+            }
+        }
+
+        .slick-active {
+            button {
+                background: #AACFA4;
+                width: 20px;
+                height: 4px;
+            }
+        }
+    }
+
+
+    .slick-list {
+        border-radius: 14.815px;
+        background: #FFF;
+        padding: 11px 14px;
+        box-shadow: 0px 0px 19.753px 0px rgba(0, 0, 0, 0.08);
+
+        .howItWorksDoctor_numWraper__AEUMS {
+            width: 26.667px;
+            margin-right: 15px;
+            height: 26.667px;
+
+            span {
+                border-radius: 29.63px;
+                background: #07C597;
+                padding: 3px 9px;
+                color: #FFF;
+                text-align: center;
+                font-size: 15.802px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.158px;
+            }
+        }
+
+        .slick-slide {
+            div {
+                display: inline-flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .slick-dots {
+        display: flex !important;
+        margin-top: 25px;
+        justify-content: center;
+        gap: 5px;
+
+        li {
+            button {
+                border-radius: 20px;
+                font-size: 0;
+                width: 4px;
+                height: 4px;
+                background: #0C4048;
+            }
+        }
+
+        .slick-active {
+            button {
+                background: #AACFA4;
+                width: 20px;
+                height: 4px;
+            }
+        }
+    }
+}
+
+
+.wrape_slide_doctor{ 
+
+    
+}

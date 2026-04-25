@@ -1,0 +1,151 @@
+@import '../../../../styles/variable.scss';
+
+.wrape_sliderHealthArticles {
+    width: 100%;
+    padding: 60px 0px;
+
+    @media(min-width: 0px) and (max-width:768px) {
+        padding-bottom: 0px !important;
+        padding-top: 40px;
+    }
+
+    .round {
+        background-color: #0F345A;
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        top: 220px;
+        left: 280px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (min-width: 320px) and (max-width: 767px) {
+            width: 52px;
+            height: 52px;
+            border-radius: 100px;
+            top: 144px;
+            left: auto;
+            right: 27px;
+        }
+
+        svg {
+            width: 50px;
+            height: 50px;
+
+            @media (min-width: 320px) and (max-width: 767px) {
+                width: 26px;
+                height: 26px;
+            }
+        }
+    }
+
+
+    .slide_doc_sehat {
+        width: 100% !important;
+        height: 520px;
+        flex-shrink: 0;
+        border-radius: 10px 100px;
+        background: #FFF;
+        position: relative;
+        overflow: hidden;
+        transition: 0.5s;
+        box-shadow: 0px 20px 20px 0px rgba(220, 228, 228, 0.4);
+
+        :hover .round {
+            left: 295px;
+            transition: 0.5s;
+        }
+
+        @media(min-width: 0px) and (max-width:768px) {
+            height: 343.396px;
+            border-radius: 6.604px 66.038px;
+        }
+
+        .doctorCardHelp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 260px;
+            flex-shrink: 0;
+            margin-bottom: 23.5px;
+            position: relative;
+
+            @media(min-width: 0px) and (max-width:768px) {
+                width: 100%;
+                height: 171.698px;
+                margin-bottom: 19px;
+            }
+
+            .doctorCardHelpImg {
+                width: 100%;
+                border-radius: 10px 100px 0px 0px;
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 6.604px 66.038px 0px 0px;
+                }
+            }
+
+            .arrow_svg {
+                position: absolute;
+                width: 80px;
+                height: 80px;
+                right: 40px;
+                bottom: -15%;
+                cursor: pointer;
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    width: 52.83px;
+                    height: 52.83px;
+                    right: 28px;
+                }
+            }
+        }
+
+        .bottom_info_health {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            padding: 0 79px 0 41px;
+            flex-direction: column;
+            gap: 20px;
+
+            @media(min-width: 0px) and (max-width:768px) {
+                gap: 13.21px;
+                padding: 0 40px 0 26px;
+            }
+
+            span {
+                color: #8E96A0;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 14.4px;
+                text-transform: uppercase;
+                font-family: $Satoshi-Medium;
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    font-size: 12px;
+                }
+            }
+
+            h3 {
+                color: #0F345A;
+                font-family: $Satoshi-Medium;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                @media(min-width: 0px) and (max-width:768px) {
+                    font-size: 20px;
+                    font-weight: 500 !important;
+                }
+            }
+        }
+    }
+}

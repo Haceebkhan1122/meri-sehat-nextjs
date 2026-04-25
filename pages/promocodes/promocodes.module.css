@@ -1,0 +1,756 @@
+.promoParentDiv {
+    /* background: #F8F8F8; */
+    margin-top: 15px;
+    width: 100%;
+    max-width: 483px;
+    padding-bottom: 30px;
+}
+
+.promoParentDiv h1 {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-bottom: 24px;
+
+}
+
+.availableCardParent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.promocodeFullContainer {
+    min-height: 100vh;
+    background-color: #EEF1FA;
+}
+
+.rightSubs {
+    width: 100%;
+    /* min-width: 483px; */
+    max-height: 537px;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 15px; */
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.itemOne {
+    width: 50%;
+    height: 100%;
+}
+
+.descTabs {
+    color: #0F345A !important;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 50px;
+}
+
+.noAvailablePromoParent {
+    width: 100%;
+}
+
+.availableContentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 487px;
+    height: max-content;
+}
+
+.availableContentDiv p {
+    color: #8E96A0;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.addPromoBtnInnerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.addPromoBtn {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 19.6px */
+    letter-spacing: 0.14px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background: #0F345A;
+    padding: 14px 33px;
+}
+
+.addPromo {
+    color: #19B3B5;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.promoInnerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btnInnerPromo {
+    margin-top: -50px;
+}
+
+.btnInnerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.availableCardDiv:nth-child(1) {
+    margin-top: 20px;
+}
+
+.availableCardDiv {
+    width: 100%;
+    max-width: 450px;
+    height: 126.562px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    fill: #FFF;
+    filter: drop-shadow(0px 0px 28.335px rgba(238, 238, 238, 0.60));
+    margin-bottom: 18px;
+    border-radius: 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='508' height='184' viewBox='0 0 508 184' fill='none'%3E%3Cg filter='url(%23filter0_d_861_25800)'%3E%3Cpath d='M366.5 28.9053C358.733 28.9053 352.657 36.1714 346.91 41.3955C343.913 44.1198 339.932 45.7802 335.562 45.7802C331.193 45.7802 327.212 44.1198 324.215 41.3955C318.468 36.1714 312.392 28.9053 304.625 28.9053H50.0938C38.444 28.9053 29 38.3492 29 49.999V134.374C29 146.023 38.444 155.467 50.0938 155.467H304.625C312.392 155.467 318.468 148.201 324.215 142.977C327.212 140.253 331.193 138.592 335.562 138.592C339.932 138.592 343.913 140.253 346.91 142.977C352.657 148.201 358.733 155.467 366.5 155.467H457.906C469.556 155.467 479 146.023 479 134.374V49.999C479 38.3492 469.556 28.9053 457.906 28.9053H366.5Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_d_861_25800' x='0.665154' y='0.570427' width='506.67' height='183.232' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='14.1674'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.933333 0 0 0 0 0.933333 0 0 0 0 0.933333 0 0 0 0.6 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_861_25800'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_861_25800' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    padding: 0px 10px;
+    padding-right: 22px !important;
+}
+
+.SelectedAvailableCardDiv {
+    background-image: url("../../public/svg/SelectedCardBackgroundSvg.svg");
+    width: 100%;
+    max-width: 450px;
+    height: 142.562px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    fill: #FFF;
+    filter: drop-shadow(0px 0px 28.335px rgba(238, 238, 238, 0.60));
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    padding: 0px 25px 17px 10px;
+}
+
+.SelectedAvailableCardDiv:nth-child(1) {
+    margin-top: 10px;
+}
+
+a.nav-link {
+    font-size: 12px;
+}
+
+.innerDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.cardInnerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    gap: 8px;
+    margin: 0;
+}
+
+.cardInnerDiv h5 {
+    color: #0F345A;
+    font-family: 'Satoshi-Medium';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.cardInnerDiv p {
+    color: #8E96A0;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 107.5%;
+    /* 21.5px */
+}
+
+.appyBtn {
+    display: flex;
+    width: 90px;
+    height: 47.812px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #19B3B5;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 5.667px;
+    border: 1.406px solid #19B3B5;
+    padding: 16.875px 11.25px;
+}
+
+.applyBtnDiv button {
+    border: 1.406px solid #19B3B5 !important;
+    border-radius: 100px;
+}
+
+.redeemedBtnDiv button {
+    border-radius: 100px;
+    border: 1.406px solid #8E96A0 !important;
+}
+
+.mainContainer {
+    width: 100%;
+    max-width: 483px;
+    height: 100%;
+    margin: auto;
+    padding-top: 0px;
+
+}
+
+.inputPromoDiv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+.inputPromo {
+    width: 320px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0.5px solid rgba(142, 142, 142, 0.50);
+    background: #FFF;
+    padding-left: 15px;
+    color: #D34748;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    border: 1px solid #D34748 !important;
+}
+
+.ValidationInputPromo {
+    width: 280px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #19B3B5;
+    background: #FFF;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Satoshi-Regular';
+    color: #0F345A;
+
+}
+
+.ValidationInputPromo::placeholder {
+    color: #0F345A;
+
+}
+
+.validationText {
+    color: #D34748;
+    font-family: 'Satoshi-Medium';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.12px;
+    margin-top: 7px;
+}
+
+.addPromoBtn {
+    display: flex;
+    width: 424px;
+    height: 50px;
+    padding: 14px 33px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.6px;
+    fill: #343434;
+    background-blend-mode: multiply;
+}
+
+.modalBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.modalBody h5 {
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175.972%;
+    /* 31.675px */
+}
+
+.removeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.promoRemoveBtn {
+    color: #F06386;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.redeemedBtn {
+    color: #8E96A0;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    width: 120px;
+    height: 48px;
+    padding: 16.875px 11.25px;
+    justify-content: center;
+    align-items: center;
+    gap: 14.062px;
+    flex-shrink: 0;
+    border-radius: 5.625px;
+    border: 1.406px solid #8E96A0;
+}
+
+.addNewPromoBtn {
+    display: flex;
+    width: 320px;
+    height: 50px;
+    padding: 14px 33px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #19B3B5;
+    box-shadow: 0px 4px 15px 0px rgba(25, 179, 181, 0.30);
+    word-spacing: -3px;
+}
+
+.addNewPromoBtn h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 140%; 19.6px */
+    letter-spacing: 0.14px;
+    text-transform: uppercase;
+    margin-bottom: unset;
+}
+
+.parentDivAddNew {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 430px;
+    background: #E6EBF4;
+    /* padding-bottom: 30px; */
+}
+
+.mobileHeader {
+    width: 100%;
+    height: 56px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 3.995px 7.99px 0px rgba(0, 0, 0, 0.05);
+}
+
+.mobileHeader h1 {
+    color: #313131;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    width: 96%;
+}
+
+.nav-underline .nav-link {
+    color: #313131;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: normal;
+}
+
+.wrapperBtnSecured {
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 260px;
+}
+
+.wrapperBtn {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    /* border: 1px solid #313131 !important; */
+}
+
+.backBtn {
+    display: flex;
+    /* width: 102px; */
+    height: 36px;
+    padding: 0px 10px;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    color: #0F345A;
+    font-family: 'Satoshi-Medium';
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.back_arrow_svg {
+    min-width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'%3E%3Cg clip-path='url(%23clip0_3609_28867)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.5 11H8.3L13.9 5.4L12.5 4L4.5 12L12.5 20L13.9 18.6L8.3 13H20.5V11Z' fill='%230F345A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_3609_28867'%3E%3Crect width='24' height='24' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inputPromo::placeholder {
+    padding-left: 0px;
+}
+
+.tabContentDiv {
+    overflow-y: scroll;
+    min-height: 467px;
+    height: max-content;
+    width: 100%;
+    max-height: 467px;
+    margin-bottom: 20px;
+}
+
+.tabContentDiv::-webkit-scrollbar {
+    display: none;
+    width: 100%;
+    height: 487px;
+}
+
+.verticleDots {
+    position: absolute;
+    top: -3px;
+    left: 261px;
+}
+
+.selectedVerticleDots {
+    position: absolute;
+    top: -3px;
+    left: 261px;
+}
+
+.verticleDotsRedeemed {
+    position: absolute;
+    top: -10px;
+    left: 261px;
+}
+
+.ParentContent {
+    width: 100%;
+}
+
+@media (min-width: 0px) and (max-width:767px) {
+    .btnInnerPromo {
+        margin-top: 0px;
+    }
+
+    .redeemedBtnDiv button {
+        font-size: 10px;
+    }
+
+    .descTabs {
+        font-size: 14px !important;
+    }
+
+    .wrapperBtn {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .promoInnerDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 106px;
+    }
+
+    .appyBtn,
+    .redeemedBtn {
+        width: 64px;
+        height: 34px;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobileHeader {
+        background: #FFF;
+        box-shadow: 0px 3.995px 7.99px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mainContainer {
+        padding: 0;
+    }
+
+    .rightSubs {
+        padding: 0;
+        width: 100%;
+    }
+
+    .itemOne {
+        width: 50%;
+    }
+
+    .cardInnerDiv h5 {
+        color: #313131;
+        font-family: 'Satoshi-Medium';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+    }
+
+    .cardInnerDiv p {
+        color: #9B9B9B;
+        font-family: 'Satoshi-Medium';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 107.5%;
+        /* 15.05px */
+    }
+
+    .promoRemoveBtn {
+        color: #F06386;
+        text-align: center;
+        font-family: 'Satoshi-Medium';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .removeDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .availableCardDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 320px;
+        width: 100%;
+        height: 90px;
+        background-size: cover;
+        padding-right: 10px !important;
+    }
+
+    .SelectedAvailableCardDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 320px;
+        width: 100%;
+        height: 90px;
+        background-size: cover;
+    }
+
+    .promoParentDiv {
+        margin: 0;
+        margin-top: -5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        /* max-width: 430px; */
+        background: #E6EBF4;
+    }
+
+    .tabHeader {
+        background: linear-gradient(0deg, #F7F8F9 0%, #F7F8F9 100%), #19B3B5;
+        height: 50px;
+    }
+
+    .tabContentDiv {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        background-color: #E6EBF4;
+        /* height: 500px; */
+    }
+
+    .availableContentDiv {
+        height: 500px;
+        /* max-width: 360px; */
+        width: 100%;
+    }
+
+    .availableContentDiv P {
+        color: #0F345A;
+        text-align: center;
+        font-family: 'Satoshi-Regular';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .verticleDots {
+        position: absolute;
+        top: -3px;
+        left: 158px;
+    }
+
+    .selectedVerticleDots {
+        position: absolute;
+        top: 0px;
+        left: 156px;
+    }
+
+    .verticleDotsRedeemed {
+        position: absolute;
+        top: -3px;
+        left: 158px;
+    }
+}
+
+
+.validValid {
+    color: #19B3B5 !important;
+    font-family: var(--font-satoshi-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #19B3B5 !important;
+    width: 280px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 12px;
+}

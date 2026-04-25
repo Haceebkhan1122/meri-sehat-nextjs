@@ -1,0 +1,89 @@
+@import '../../../../styles/variable.scss';
+
+.personalizedCare {
+    width: 100%;
+    margin-bottom: 80px;
+
+    @media(min-width:0px) and (max-width:767px) {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        color: #0F345A;
+        font-family: $Satoshi-Bold;
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 50px;
+
+        @media(min-width: 0px) and (max-width:768px) {
+            color: #0F345A;
+            text-align: center;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 20px; 
+        }
+    }
+
+    .col_pers_left {
+        @media(min-width: 0px) and (max-width:768px) {
+            order: 2;
+            margin-top: 12px;
+        }
+    }
+
+    .single_box_pers {
+        width: 100%;
+        height: 290px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        border: 1.04px solid rgba(135, 153, 172, 0.40);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 24px;
+        padding: 40px 0px;
+
+        @media(min-width: 0px) and (max-width:768px) {
+            height: 140px;
+            border-radius: 20px;
+            gap: 8px;
+        }
+        
+
+        .card_icon {
+            width: 104px;
+
+            @media(min-width: 0px) and (max-width:768px) {
+                width: 51.139px;
+            }
+        }
+
+        h3 {
+            // width: 75%;
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Regular;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 0 10px;
+
+            @media(min-width: 0px) and (max-width:768px) {
+                // width: 60%;
+                color: #0F345A;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}

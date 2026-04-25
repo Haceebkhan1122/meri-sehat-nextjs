@@ -1,0 +1,394 @@
+.subscriptionWrapper {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 100vh;
+    height: max-content;
+    background-color: #EEF1FA;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.wrapperBtn {
+    display: flex;
+    padding-top: 8px;
+}
+
+
+.back_arrow_svg {
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_832_4227)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20 11H7.8L13.4 5.4L12 4L4 12L12 20L13.4 18.6L7.8 13H20V11Z' fill='%23313131'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_832_4227'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.backBtn {
+    display: flex;
+    width: 88px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    /* border: 1px solid #0F345A; */
+    /* background: #FFF; */
+    color: #0F345A;
+    text-align: center;
+    font-family: 'Satoshi-Medium' ;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;margin-left: 120px;
+}
+
+.wrapperFields {
+    display: flex;
+    gap: 22px;
+}
+
+
+.leftSubs {
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+
+.headSubs {
+    color: #0F345A;
+    font-family: 'Satoshi-Medium' ;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding-left: 4px;
+}
+
+
+
+.card2 {
+    width: 100%;
+    max-width: 483px;
+    min-width: 483px;
+    height: 238px;
+    flex-shrink: 0;
+    border-radius: 28.412px;
+    background: #FFBE5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 12px;
+}
+
+
+.wrapperSubscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.certificateTopup {
+    width: 46.667px;
+    height: 46.667px;
+}
+
+.headingsVoucher {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Medium' !important;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    word-spacing: -7px;
+}
+
+
+.descCard2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Regular';
+    font-size: 20.844px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.descCard3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Satoshi-Bold';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 14px;
+}
+
+.smallHeadingsVoucher {
+    color: #FFF;
+    text-align: center;
+    font-family:'Satoshi-Bold';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 22px;
+}
+
+.tabs_wrapper {
+    width: 100%;
+    border: none !important;
+}
+
+.tabs_wrapper li {
+    margin-right: 11px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tabs_wrapper li button {
+    width: 100%;
+    height: 100%;
+    color: #0F345A;
+    text-align: center;
+    font-family:'Satoshi-Light';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border: none !important;
+}    
+
+.tabs_wrapper li  button.active {
+    font-weight:500!important; font-family:'Satoshi-Medium'!important;
+}
+
+.descCard2 {
+    font-size: 20px;
+    font-family:'Satoshi-Regular';
+    font-style: normal; 
+    line-height: 29.41px;
+}
+
+
+.rightSubs {
+    width: 100%;
+    min-width: 483px;
+    max-width: 483px;
+    height: 480px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+.descTabs {
+    color: #0F345A;
+    text-align: center;
+    font-family:'Satoshi-Medium' ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.descTabs:hover {
+    color: #0F345A;
+}
+
+
+.cardSlidesPackages {
+    width: 536px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    margin-top: 19px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(195, 204, 216, 0.30);
+    overflow: hidden;
+}
+
+.cardHeaderPackage {
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF !important;
+    border-color: #E5E3E3 !important;
+    border-radius: 15px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+
+
+.tabHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.itemOne {
+    width: 38%;
+}
+
+
+@media (max-width : 350px) {
+    .tabs_wrapper li {
+            width: 29%;
+        }
+}
+
+
+@media (max-width : 768px) {
+    .title_header{
+        color: #0F345A;
+        font-family: 'Satoshi-Medium';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal; 
+        padding-bottom: 24px;
+        padding-left: 11px;
+    }
+    .subscriptionWrapper {
+        width: 100%;
+        max-width: unset;
+        min-height: unset;
+        height: max-content;
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-bottom: 35px !important;
+        overflow: hidden;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+
+
+
+
+    .wrapperBtn {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .wrapperFields {
+        gap: 0px !important;
+        flex-direction: column;
+    }
+
+    .leftSubs {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        overflow: hidden;
+    }
+
+    .card2 {
+        width: 100%;
+        max-width: unset;
+        min-width: unset;
+        height: 160px;
+        border-radius: 30px !important;
+        background: #FFBE5E;
+        margin-bottom: 20px;
+    }
+
+    .certificateTopup {
+        width: 30px;
+        height: 30px;
+    }
+
+    .headingsVoucher {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        text-wrap: nowrap;
+        white-space: wrap;
+    }
+
+    .descCard2 {
+        font-size: 14px;
+        color: #FFF;
+        padding-top: 0px;
+    }
+
+    .descCard3 {
+        font-size: 14px;
+        color: #FFF;
+    }
+
+    .rightSubs {
+        width: 100%;
+        min-width: unset;
+        max-width: unset;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .tabHeader {
+        height: 50px;
+        background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #19B3B5;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-top: 9px;
+    }
+
+
+    .itemOne {
+        width: 31%;
+        height: 100%;
+    }
+
+
+    .descTabs {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itemOne a {
+        color: #0F345A;
+        text-align: center;
+        font-family:'Satoshi-Regular';
+        font-size: 14px !important;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .itemOne a.active {
+        color: #0F345A;
+        text-align: center;
+        font-family: 'Satoshi-Medium' ;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+    }
+}

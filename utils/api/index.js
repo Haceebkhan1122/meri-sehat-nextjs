@@ -1,0 +1,1 @@
+export const SEHAT_SCAN_URL = 'https://pre.merisehat.pk/sehat-scan';

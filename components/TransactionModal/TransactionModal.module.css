@@ -1,0 +1,577 @@
+.wrapperPayment {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0px 5px;
+}
+
+.wraper_payment_method {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  background-color: rgba(238, 241, 250, 0.60);
+  margin: 12px 0px;
+}
+
+.single__payment_div {
+  width: 100%;
+  min-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+
+.textHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.datee_in {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  font-family: 'Satoshi-Bold';
+  color: #0F345A !important;
+}
+
+.wrapperPayment::-webkit-scrollbar {
+  display: none;
+  width: 100%;
+  height: 487px;
+}
+
+.cardTopModal {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 15px;
+  /* border: 0.3px solid #8E8E8E; */
+  background: #fff;
+  /* box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60); */
+}
+
+.anchoring_quering {
+  color: #0645AD !important;
+  font-family: 'Satoshi-Medium' !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 450 !important;
+  line-height: 16.93px !important;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 0.107px solid #8e8e8e29;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.header button {
+  display: flex;
+  width: 103px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  text-align: right;
+  font-family: 'Satoshi-Regular';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 107.5%;
+  /* 12.9px */
+}
+
+.unsucc {
+  color: #0F345A;
+  font-family: 'Satoshi-Regular';
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  padding: 0px 20px 10px 20px;
+  width: 100%;
+  margin: 7px auto 0 auto !important;
+  border-bottom: 0.107px solid #8e8e8e29;
+}
+
+.timelineHeads {
+  color: #0F345A;
+  font-family: 'Satoshi-Medium';
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.timelinePara {
+  color: #0F345A;
+  text-align: right;
+  font-family: 'Satoshi-Regular';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.sehatHead {
+  /* word-spacing: 0px; */
+  color: #0F345A;
+  text-transform: capitalize;
+
+  font-family: 'Satoshi-Medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.topupHead {
+  color: #313131;
+  font-family: 'Satoshi-Regular';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 4px;
+  padding-bottom: 7px;
+}
+
+.header2 {
+  width: 100%;
+  height: 58px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.107px solid #8e8e8e29;
+  padding-left: 11px;
+}
+
+.header2 span {
+  color: #0F345A;
+
+  font-family: 'Satoshi-Regular';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 95%;
+  margin: 7px auto 0 auto !important;
+}
+
+.wrapperTimeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.visaImageModal {
+  width: 24px;
+  height: 14px;
+}
+
+.singleTimeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  height: 51px;
+  width: 100%;
+  margin: auto;
+  border-bottom: 0.107px solid #8e8e8e29;
+}
+
+.singleTimelineTotal {
+  /* border-bottom: 0px solid transparent !important; */
+}
+
+.numSide {
+  color: #0645ad;
+  font-family: 'Satoshi-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.helpPara {
+  color: #404040;
+  text-align: center;
+  font-family: 'Satoshi-Regular';
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  padding: 13px 20px 13px 20px;
+}
+
+.doneButtonModal {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  padding: 11.52px 62.4px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.6px;
+  flex-shrink: 0;
+  border-radius: 7.68px;
+  background: #19b3b5;
+  color: #fff;
+
+  text-align: center;
+  font-family: 'Satoshi-Bold';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+}
+
+.downloadButtonModal {
+  display: flex;
+  max-width: 320px;
+  width: 100%;
+  height: 50px;
+  padding: 11.52px 62.4px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.6px;
+  flex-shrink: 0;
+  border: 0.96px solid #0F345A;
+  color: #fff;
+  border-radius: 82px;
+  background: #0F345A;
+
+  text-align: center;
+  font-family: 'Satoshi-Bold';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  width: 278px;
+}
+
+.btnWrapper {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.tranId {
+  display: flex;
+  flex-direction: column;
+}
+
+.labParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.labDetailParent {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.labDetail h3 {
+  color: #313131;
+  font-family: 'Satoshi-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 19.6px */
+  letter-spacing: 0.14px;
+}
+
+.labDetail p {
+  color: #a7a7a7;
+  font-family: 'Satoshi-Medium';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  padding-top: 5px;
+}
+
+.labTestParent {
+  width: 320px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f7f8f9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.labtest1Parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.labTest1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.labTest1 h4 {
+  color: #313131;
+  font-family: 'Satoshi-Light';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.labPrice {
+  color: #313131;
+  text-align: right;
+  font-family: 'Satoshi-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.paymentMethodParent {
+  width: 320px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f7f8f9;
+  margin-top: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 16px;
+  justify-content: center;
+}
+
+.paymentMethod1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paymentInnerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.paymentInnerDiv span {
+  color: #313131;
+  text-align: right;
+  font-family: 'Satoshi-Regular';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.paymentMethodPrice {
+  color: #313131;
+  text-align: right;
+  font-family: 'Satoshi-Regular';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.doctorAppointParent {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  /* min-width: 280px; */
+  padding: 20px 35px 20px 20px;
+}
+
+.doctorAppointInnerDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 3px;
+}
+
+.doctorAppointInnerDiv h3 {
+  color: #313131;
+  font-family: 'Satoshi-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 19.6px */
+  letter-spacing: 0.14px;
+}
+
+.doctorAppointInnerDiv p {
+  color: #313131;
+  font-family: 'Satoshi-Medium';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+  padding-right: 10px;
+
+}
+
+.tryagain {
+  border-radius: 82px;
+  border: 1px solid #0F345A !important;
+  width: 130px;
+  height: 50px;
+  color: #0F345A;
+  text-align: center;
+  font-family: 'Satoshi-Bold';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 16.8px */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+
+.changePayment {
+  width: 130px;
+  height: 50px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Satoshi-Bold';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 19.6px */
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  border-radius: 82px;
+  background: #0F345A;
+}
+
+.btnWrapper1 {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+@media(min-width:0) and (max-width:767px) {
+
+  .helpPara {
+    white-space: nowrap;
+    padding: 12px 0px;
+    padding-top: 22px;
+  }
+
+
+  .btnWrapper1 {
+    display: none;
+  }
+
+  .topupHead {
+    color: #A7A7A7;
+  }
+
+  .header2 {
+    width: 100%;
+
+    margin: auto;
+
+    padding-left: 0;
+  }
+
+  .unsucc {
+    padding: 0px 0px 10px 0px;
+  }
+
+  .singleTimeline {
+    padding: 0px 0px;
+    width: 100%;
+  }
+
+  .downloadButtonModal {
+    font-size: 16px;
+  }
+
+  .header button {
+
+    font-size: 14px;
+    /* 12.9px */
+  }
+
+  .header {
+    padding: 0px 0px;
+  }
+}

@@ -1,0 +1,13 @@
+.flipTextSlider {
+    overflow: hidden;
+    width: fit-content;
+}
+
+.flipTextSlider h1 {
+    display: block;
+    width: 100%;
+    font-size: 3.438rem;
+    min-width: fit-content;
+    color: var(--tifannyblue-clr);
+    font-weight: 600;
+}

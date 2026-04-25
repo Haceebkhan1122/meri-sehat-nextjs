@@ -1,0 +1,27 @@
+.roundButton {
+    color: var(--text-clr);
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid var(--gray-clr);
+    min-height: 62px;
+    /* min-width: fit-content;
+    max-width: max-content; */
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 15px 10px 0;
+    transition: all .3s ease-in-out;
+}
+
+.roundButton:hover {
+    color: var(--white-clr);
+    background-color: var(--rosepink-clr);
+}
+
+.hk_pill_slider a.roundButton {
+    color: #4B6783;
+}

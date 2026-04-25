@@ -1,0 +1,46 @@
+.contentWithIcon {
+  text-align: center;
+  margin: auto;
+}
+
+.contentWithIcon .heading_desc {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.contentWithIcon .iconBox {
+  margin-bottom: 30px;
+  width: 30%;
+}
+
+.contentWithIcon .iconBox .imgBox {
+  width: 120px;
+  height: 119px;
+  border-radius: 20px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentWithIcon .row .iconBox:nth-child(1) .imgBox {
+  background-color: var(--rosepink-light-clr);
+}
+
+.contentWithIcon .row .iconBox:nth-child(2) .imgBox {
+  background-color: var(--tifannyblue-light-clr);
+}
+
+.contentWithIcon .row .iconBox:nth-child(3) .imgBox {
+  background-color: var(--yellow-light-clr);
+}
+
+.contentWithIcon .iconBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contentWithIcon .sectionHeadingMed {
+  font-size: 2rem;
+}

@@ -1,0 +1,275 @@
+@import '../../../../styles/variable.scss';
+
+.endorsedSlidBoxSlid1 {
+    width: 97%;
+    border-radius: 66.364px;
+    padding: 64px 0;
+    height: 600px;
+
+    @media(min-width:1600px) {
+        height: 700px;
+    }
+
+    @media(min-width:768px) and (max-width:1024px) {
+        height: 580px;
+    }
+
+    @media(min-width:0px) and (max-width:767px) {
+        height: 428px;
+        padding: 47px 23.5px;
+        border-radius: 30px;
+
+    }
+
+    h2 {
+        margin-bottom: 40px !important;
+
+        @media(min-width:0px) and (max-width:767px) {
+            width: 260px;
+            margin: auto;
+            margin-bottom: 29px !important;
+
+        }
+    }
+
+    .endorsedSlidBoxDr {
+        text-align: left;
+        padding: 8px;
+        align-items: center;
+        margin: 0 auto 35px auto;
+        width: 520px;
+        flex-shrink: 0;
+        border-radius: 165.909px;
+        display: flex;
+
+        @media(min-width:1301px) and (max-width:1919px) {
+            width: 440px;
+        }
+
+        @media(min-width:0px) and (max-width:767px) {
+            width: 100% !important;
+            height: auto !important;
+            margin-bottom: 29px;
+
+        }
+
+        .slidImage {
+            width: 100%;
+            height: 100%;
+            margin-right: 16px;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                width: 100%;
+                height: 100px;
+                margin-right: 0;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                width: 100%;
+                height: 100%;
+                margin-right: 0;
+            }
+
+            img {
+                border-radius: 66.364px;
+                width: 100%;
+                height: auto;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    height: 44px;
+                    width: 275.625px;
+
+                    object-fit: contain;
+                }
+
+                @media(min-width:0px) and (max-width:340px) {
+                    width: 250.625px;
+                }
+            }
+        }
+
+        h4 {
+            color: #FFF;
+            font-family: $Satoshi-Bold;
+            font-size: 30px;
+            line-height: normal;
+            margin-bottom: 0px !important;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                font-size: 25px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                width: 154px;
+                font-size: 16px;
+            }
+        }
+
+        p {
+            color: #FFF;
+            font-family: $Satoshi-Regular;
+            font-size: 30px;
+            line-height: normal;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                font-size: 25px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+
+                font-size: 16px;
+            }
+        }
+    }
+
+    h5 {
+        color: $dark-bluecolor;
+        text-align: center;
+        font-family: $Satoshi-Regular;
+        font-size: 52px;
+        line-height: normal;
+        width: 1070.943px;
+        margin: 0 auto;
+
+        @media(min-width:1301px) and (max-width:1919px) {
+            font-size: 40px;
+            width: 743px;
+        }
+
+        @media(min-width:768px) and (max-width:1024px) {
+            font-size: 34px;
+            width: 100%;
+        }
+
+        @media(min-width:0px) and (max-width:767px) {
+
+            font-size: 18px;
+            width: 273px;
+        }
+    }
+}
+
+.endorsedSlidBoxSlid2 {
+    height: 610px;
+
+    @media(min-width:0px) and (max-width:767px) {
+
+        height: 428px;
+    }
+
+    .endorsedSlidVideoBox {
+        position: relative;
+
+        div {
+            width: 100% !important;
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border-radius: 66.364px;
+
+            @media(min-width:1600px) {
+                height: 700px;
+            }
+
+            @media(min-width:0px) and (max-width:767px) {
+                border-radius: 19.394px;
+                height: 428px;
+            }
+
+        }
+
+        .endorsedSlidVideoBoxDR {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 100px 0 0 140px;
+
+
+            h3 {
+                color: #FFF;
+                font-family: $Satoshi-Bold;
+                font-size: 54px;
+                line-height: normal;
+            }
+
+            p {
+                color: $dark-bluecolor;
+                font-family: $Satoshi-Regular;
+                font-size: 30px;
+                line-height: normal;
+                padding-bottom: 67px !important;
+                color: #fff;
+            }
+
+            img {
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                z-index: 99999999;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+.wrapeStarEndro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 19px;
+
+    img {
+        @media(min-width:0px) and (max-width:767px) {
+            width: 40%;
+            height: 25px;
+        }
+    }
+}
+
+.wrapeInfoAll {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 73.2px;
+
+    .wrapeInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    button {
+        width: 120px;
+        height: 50px;
+        text-align: center;
+        border-radius: 32px;
+        color: #FFF;
+        font-family: $Satoshi-Bold;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.endorsedSlidBoxMain {
+    width: 97%;
+
+    @media (min-width : 0) and (max-width : 768px) {
+        width: 97%;
+    }
+}

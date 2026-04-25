@@ -1,0 +1,47 @@
+/* .top_reads.article .articleItemLists:nth-child(1) .card_img {
+  background-color: var(--tifannyblue-clr);
+}
+.top_reads.article .articleItemLists:nth-child(2) .card_img {
+  background-color: var(--green-light-clr);
+}
+.top_reads.article .articleItemLists:nth-child(3) .card_img {
+  background-color: var(--rosepink-clr);
+} */
+
+.top_reads.article.health .articleWithShortDesc .header_img {
+    /* background-color: var(--yellow-light-clr); */
+    /* padding-top: 50px; */
+}
+
+.top_reads.article.health .articleWithShortDesc .header_img img {
+    width: 100%;
+    /* max-height: 395px; */
+    max-height: 380px;
+}
+
+.top_reads.article.health .articleWithShortDesc .heading_desc_small {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.top_reads.article.health .topicHeading {
+    font-size: 1.5rem;
+}
+
+/* .top_reads.article.health .section-heading h2 {
+  font-size: 1.875rem;
+} */
+
+.top_reads.article.health .border_line {
+    background-color: #707070;
+    height: 0.3px;
+    width: 60%;
+    opacity: 0.5;
+}
+
+.top_reads.article.health .status {
+    width: fit-content;
+}
+
+
+

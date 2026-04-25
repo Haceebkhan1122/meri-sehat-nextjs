@@ -1,0 +1,236 @@
+.status {
+    padding: 0px 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    border: 1px solid;
+    border-color: initial;
+    color: var(--white-clr);
+}
+
+.status svg {
+    height: 0.775rem;
+    margin-right: 10px;
+}
+
+.urdu .status {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.statusLink .text,
+.status .text,
+.status .text a {
+    font-size: 0.875rem;
+    font-weight: 400;
+    white-space: nowrap;
+    text-transform: capitalize;
+    color: var(--white-clr);
+}
+
+/*
+.evidence {
+  background-color: var(--green-clr);
+}
+
+.evidence:hover,
+.evidence:hover .text,
+.evidence:hover svg {
+  color: var(--green-clr);
+  background-color: var(--green-light-clr);
+}
+
+.fact {
+  background-color: var(--rosepink-clr);
+} */
+
+/* .fact:hover,
+.fact:hover .text,
+.fact:hover svg {
+  color: var(--rosepink-clr);
+  background-color: var(--rosepink-light-clr);
+} */
+
+/* .recomended {
+  background-color: var(--tifannyblue-clr);
+}
+
+.recomended:hover,
+.recomended:hover .text,
+.recomended:hover svg {
+  color: var(--tifannyblue-clr);
+  background-color: var(--tifannyblue-light-clr);
+} */
+
+.tags_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-top: 10px; */
+    padding-top: 0;
+    padding-right: 100px;
+    /* border-top: 1px solid #70707050; */
+    position: relative;
+    /* border-bottom: 1px solid #70707050; */
+}
+
+.tags {
+    -webkit-print-color-adjust: exact;
+    /* background-color: #ffe6ed; */
+    background-color: transparent;
+    /* border-right: 2px solid #707070; */
+    border-radius: 8px;
+    padding-top: 0;
+    min-height: 46px;
+    border: 1px solid #078A8E;
+}
+
+.ant-affix .tags {
+    border-color: transparent;
+    padding: 0;
+}
+
+.ant-affix .tags img.arrow {
+    display: none;
+}
+
+.tags .text a {
+    color: #078A8E;
+    font-size: 0.875rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.ant-affix .tags .text a {
+    font-weight: 600;
+    color: var(--text-clr);
+}
+
+.checkIcon {
+    margin: 0 !important;
+}
+
+.article_listing ._status .tags_container .statusLink {
+    /* display: flex;
+  min-width: 100px; */
+    margin-right: 40px;
+
+}
+
+.article_listing ._status .tags_container .tags {
+    margin-right: 0;
+}
+
+.statusContainer.container {
+    padding: 0;
+}
+
+
+._status .statusLink.active {
+    border-bottom: 4px solid var(--tifannyblue-clr);
+}
+
+/* ---------------------------------------------------------------- */
+.active_trending {
+    background-color: #E9F5F1 !important;
+    color: #326C5D;
+    border-color: #E9F5F1 !important;
+    margin-bottom: 0;
+}
+
+.active_trending .text {
+    color: #326C5D;
+}
+
+.active_expert {
+    background-color: #E9EAEF !important;
+    color: #263360;
+    border-color: #E9EAEF !important;
+    margin-bottom: 0;
+}
+
+.active_expert .text {
+    color: #263360;
+}
+
+.active_medical {
+    background-color: #E9F5F1 !important;
+    color: #263360;
+    border-color: #E9F5F1 !important;
+    margin-bottom: 0;
+}
+
+.active_medical .text {
+    color: #263360;
+}
+
+.active_fact {
+    background-color: #F7EEE9 !important;
+    color: #A95B44;
+    border-color: #F7EEE9 !important;
+    margin-bottom: 0;
+}
+
+.active_fact .text {
+    color: #A95B44;
+}
+
+.active_fresh {
+    background-color: #F7EEE9 !important;
+    color: #A95B44;
+    border-color: #F7EEE9 !important;
+    margin-bottom: 0;
+}
+
+.active_fresh .text {
+    color: #A95B44;
+}
+
+.active_research {
+    background-color: #F7EEE9 !important;
+    color: #A95B44;
+    border-color: #F7EEE9 !important;
+    margin-bottom: 0;
+}
+
+.active_research .text {
+    color: #A95B44;
+}
+
+
+.article_listing ._sticky .reviewCard.onStick.show h6.headingDescVsmall {
+    font-weight: 400;
+    font-size: 11px !important;
+}
+
+.article_listing ._status::before {
+    height: 58px !important;
+}
+
+.reviewCard.onStick.show {
+    height: 45px !important;
+    align-items: center !important;
+}
+
+.reviewCard.onStick.show img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.reviewCard.onStick.show .flex-sticky-doctor h6 b {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+}
+
+.reviewCard.onStick.show .educations h6.headingDescVsmall {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+}
+
+.articleInnerPage {
+    padding-top: 75px !important;
+}

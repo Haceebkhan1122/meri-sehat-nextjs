@@ -1,0 +1,98 @@
+.vitalsModal {
+
+    .cross_icon_vitals {
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17' fill='none'%3E%3Cpath d='M9.40356 9.09166L15.5843 15.2724L14.3886 16.468L8.20787 10.2873L8 10.0795L7.79213 10.2873L1.61143 16.468L0.415741 15.2724L6.59644 9.09166L6.80431 8.88379L6.59644 8.67592L0.415741 2.49522L1.61143 1.29953L7.79213 7.48023L8 7.6881L8.20787 7.48023L14.3886 1.29953L15.5843 2.49522L9.40356 8.67592L9.19569 8.88379L9.40356 9.09166Z' fill='%23404040' stroke='white' stroke-width='0.587947'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-self: flex-end;
+        margin-top: 12px;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+    .wraping {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+        padding-left: 12px;
+
+        @media (max-width: 768px) {
+            align-items: start;
+            padding-top: 0;
+            gap: 17px;
+        }
+
+        h3 {
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            color: #0F345A;
+            font-family: 'Satoshi-Medium';
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 22.4px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            border-bottom: 1px solid rgba(173, 189, 206, 0.50);
+            padding-bottom: 15px;
+
+        }
+
+        p {
+            color: #0F345A;
+            font-family: 'Satoshi-Regular';
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22.4px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            width: 100%;
+
+            @media (max-width: 768px) {
+                font-size: 14px !important;
+            }
+        }
+
+        h4 {
+            color: #0F345A;
+            font-family: "Circular Std";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 450;
+            line-height: 140%;
+            letter-spacing: 0.18px;
+        }
+
+        .DoneBtn {
+            display: flex;
+            width: 302px;
+            height: 50px;
+            padding: 10.88px 58.933px;
+            justify-content: center;
+            align-items: center;
+            gap: 9.067px;
+            border-radius: 82px;
+            background: #0F345A;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Satoshi-Bold';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+            /* 19.6px */
+            letter-spacing: 0.14px;
+            text-transform: uppercase;
+        }
+    }
+
+
+}

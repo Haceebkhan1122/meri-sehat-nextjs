@@ -1,0 +1,42 @@
+.underline_ancer_smallContainer {
+    display: flex;
+    align-items: center;
+    min-width: max-content;
+}
+
+
+
+
+.underline_ancer_small {
+    font-size: 0.688rem;
+    font-weight: 700;
+    letter-spacing: 0.069rem;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 5px;
+}
+
+.underline_ancer_small:hover {
+    color: var(--text-clr);
+}
+
+.underline_ancer_small::after {
+    top: 15px;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    background: var(--text-clr);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    left: 50%;
+    width: 0;
+
+}
+
+.underline_ancer_small:hover::after {
+    width: 100%;
+    left: -1px;
+}

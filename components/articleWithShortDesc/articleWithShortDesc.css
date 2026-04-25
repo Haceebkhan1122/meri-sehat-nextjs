@@ -1,0 +1,59 @@
+/* .article .arrow_right_border {
+    margin-right: 25px;
+} */
+
+.article .btn_container {
+    margin-top: 20px;
+}
+
+.boxShadowOnBox {
+    box-shadow: 0px 10px 20px rgba(131, 131, 131, 0.15);
+}
+
+.boxShadowOnBox .img_box {
+    border-radius: 0;
+}
+
+.boxShadowOnBox .img_box.bordertbRadius {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.boxShadowOnBox .viewDoctorBtn .text-white.underline_ancer::after {
+    background: var(--white-clr);
+}
+
+.card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox:hover img.arrow_right_border {
+    transform: scale(1.0);
+
+}
+
+.card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox .card_body .topicHeading,
+.card.articleItemLists.boxShadowOnBox h3.listHeading {
+    margin-top: 15px;
+    color: #0F345A;
+}
+
+.card.articleItemLists.boxShadowOnBox h3.listHeading {
+    margin-top: 0px;
+}
+
+.articleDetail .top_reads.related.article .boxShadowOnBox,
+.articleInnerPage .top_reads.related.article .boxShadowOnBox,
+.wellnessCategory .top_reads.nutrition.article .boxShadowOnBox,
+.wellnessCategory .top_reads.moreInHealth.article .boxShadowOnBox {
+    box-shadow: none;
+}
+
+.articleInnerPage .top_reads.related.article h2 {
+    border-bottom: 1px solid #dee2e6 !important;
+    margin-bottom: 20px;
+}
+
+.articleDetail .top_reads.related.article .boxShadowOnBox .btn_container {
+    display: none;
+}
+
+.trendingTopicsCard button.underline_ancer::after {
+    /* background: var(--text-white); */
+}

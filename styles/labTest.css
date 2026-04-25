@@ -1,0 +1,2255 @@
+.lab-test .labTestbannerComp {
+    height: 361px;
+}
+
+.lab-test .banner-main-heading {
+    color: #FFF;
+    font-family: 'Satoshi-Medium';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    word-spacing: -14px;
+}
+
+.lab-test .labtest-scanHeading {
+    background: linear-gradient(267.79deg, #EF6286 37.7%, #CF5272 103.5%);
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    padding: 5px 9px;
+    border-radius: 6px;
+}
+
+.lab-test .banner-Img-LabTest {
+    bottom: 81px;
+}
+
+
+.bannerNewComponent.labTestbannerComp {
+    padding: 0 1.6rem 0 2rem;
+}
+
+.lab-test .pricingCta {
+    background: #E2F9F7;
+}
+
+.lab-test .pricingCta h3.headingnew3 {
+    font-family: 'Satoshi-Medium';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: left;
+}
+
+.lab-test .threeColumnArea h2 {
+    text-align: left;
+}
+
+.lab-test .threeColumnArea .slider_banner_dr.benefits_slider .col-md-4>div {
+    padding: 20px 30px 30px;
+    border-radius: 12px;
+
+}
+
+.lab-test .threeColumnArea .slider_banner_dr.benefits_slider .col-md-4:nth-child(1)>div {
+    background: #FDECF1CC;
+}
+
+.lab-test .threeColumnArea .slider_banner_dr.benefits_slider .col-md-4:nth-child(2)>div {
+    background: #E1FAF8;
+}
+
+.lab-test .threeColumnArea .slider_banner_dr.benefits_slider .col-md-4:nth-child(3)>div {
+    background: #E0FFD3;
+}
+
+.lab-test .trusted_partners.how_to_install .mx-3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.lab-test .slider_banner_dr.benefits_slider img {
+    width: 70px;
+}
+
+.lab-test section.discoverWellnessTopics.dynamic-widget .for_hk_slidee .slick-list {
+    padding-top: 0;
+}
+
+.lab-test .labTest-Packages.for_specially_wellness_page .card.cardWithHeaderImage h3 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px !important;
+    color: #313131;
+
+
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage p {
+    margin-bottom: 10px !important;
+    width: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage {
+    height: 441px;
+}
+
+.only_pricing_page.forLabsMainPage.lab-test section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages .header_img img {
+    height: 190px;
+}
+
+.lab-test .blueTextArea {
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    word-spacing: -4px;
+    color: #19B3B5;
+}
+
+section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages .card.cardWithHeaderImage.homepageCard {
+    border-radius: 14.625px;
+}
+
+section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages .card.cardWithHeaderImage.homepageCard img.img-fluid {
+    border-radius: 12.188px;
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .labtest-scanHeading {
+    font-family: 'Satoshi-Medium';
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 10px !important;
+    padding: 0 5px;
+    word-spacing: -3px !important;
+}
+
+.labselectbox .box_labs .search_text {
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313131;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.search_box .popularTexthP {
+    font-family: 'Circular Std';
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    word-spacing: -4px;
+}
+
+
+.ant-modal-wrap.ant-modal-centered {
+    backdrop-filter: blur(4px);
+}
+
+.fade.requestModalConsult_modalRequestConsult__zHLwA.modalRequestConsult.modal.show,
+.fade.requestSubmittedModal_modalSubmittedReq__0agOe.modalSubmittedReq.modal.show {
+    background: #6d6d6dd4;
+    backdrop-filter: blur(4px);
+}
+
+.lab-payment-process .rotate .rotate-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+.ant-modal-wrap.ant-modal-centered:has(div.locationModal) {
+    backdrop-filter: blur(2px);
+}
+
+.ant-modal-wrap.ant-modal-centered:has(div.removeCartModal) {
+    backdrop-filter: blur(2px);
+}
+
+.lab-payment-process .rotate .accordion-button::after {
+    transform: rotate(0deg);
+    background-image: url('../public/svg/labsArrow.svg');
+    background-repeat: no-repeat;
+    /* width: 9px;
+    height: 15px; */
+    background-size: 15px;
+    background-position: center;
+    margin-left: auto;
+}
+
+.lab-payment-process .accordion-button::after {
+    transform: rotate(270deg);
+    background-image: url('../public/svg/labsArrow.svg');
+    background-repeat: no-repeat;
+    /* width: 9px;
+    height: 15px; */
+    background-size: 15px;
+    background-position: center;
+    margin-left: auto;
+}
+
+
+.paddingRightOfScroll {
+    padding-right: 0;
+}
+
+.card.bg-white.test-side-area {
+    padding: 12px 25px 35px;
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .card_body {
+
+    padding-top: 15px;
+    min-height: auto;
+}
+
+/* contact Details */
+section.bg_grey_theme {
+    /* background-color: #F3F3F3; */
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+.selected_test_items {
+    border-radius: 5px;
+    background: #F6F6F6;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+
+.view_selected__test.left_ h4,
+form.form_self h4 {
+    font-weight: 500;
+    color: #313131;
+}
+
+.selected_test_items .area_items h3 {
+    color: #313131;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.view_selected__test.left_ {
+    background: #FFF;
+    padding: 15px 15px 20px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+}
+
+.view_selected__test.left_ .area_items img {
+    cursor: pointer;
+}
+
+.btn_add_more_wrapper button.addMoreBtn {
+    border-radius: 5px;
+    border: 1px solid #19B3B5;
+    background: #FFF;
+    color: #19B3B5;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    width: 123px;
+    height: 34px;
+    padding: 0;
+}
+
+.btn_add_more_wrapper button.addMoreBtn:hover {
+    background: #19B3B5;
+    color: white;
+}
+
+section.lab_details_wrapper .for_br_bottom .section-med h2 {
+    color: #313131;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    /* 52px */
+    padding-bottom: 10px;
+}
+
+section.lab_details_wrapper .for_br_bottom {
+    border-bottom: 1px solid #ccc7c7;
+}
+
+.amount_area h4 {
+    color: #313131 !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+
+.amount_area {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 14px 0px;
+    margin-bottom: 20px;
+}
+
+.amount_element.left__ h3 {
+    color: #313131;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+form.form_self {
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+
+    padding: 25px 30px;
+}
+
+form.form_self input,
+form.form_self select {
+    border-radius: 10px !important;
+    background: #FFF;
+    height: 48px;
+    border-radius: 10.127px;
+    border: 0.506px solid #95949452;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #9B9B9B;
+}
+
+form.form_self input::placeholder,
+form.form_self select::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9B9B9B;
+    font-size: 16.202px;
+    font-family: 'Circular Std';
+    font-weight: 300;
+    /* Firefox */
+}
+
+form.form_self input:-ms-input-placeholder,
+form.form_self select:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
+}
+
+form.form_self input::-ms-input-placeholder,
+form.form_self select::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
+form.form_self select:focus,
+form.form_self input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0.506px solid #959494;
+    box-shadow: none;
+}
+
+form.form_self input.react-time-picker__inputGroup__input {
+    padding-left: 10px;
+}
+
+form.form_self .react-time-picker select:focus-visible {
+    outline: none;
+    border: none;
+}
+
+form.form_self select.react-time-picker__inputGroup__input {
+    padding-left: 0px;
+}
+
+form.form_self .react-time-picker {
+    width: 100%;
+    border-radius: 10px !important;
+    background: #FFF;
+}
+
+form.form_self .react-time-picker .react-time-picker__wrapper {
+    border: transparent;
+}
+
+form.form_self .react-time-picker input,
+form.form_self .react-time-picker select {
+    background-color: transparent !important;
+}
+
+form.form_self .ant-select-selector {
+    border-radius: 10px !important;
+    padding: 0px 2px 0px 7px !important;
+    height: 48px !important;
+}
+
+.udpate_profile_db_hk button.schedule-appointment {
+    background: #29bcc1;
+    border-radius: 10px !important;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    position: relative;
+    width: 272px;
+}
+
+.bannerNewComponent.labTestbannerComp {
+    background-image: url('../public/png/labBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.udpate_profile_db_hk button.schedule-appointment span.left-inverse-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.udpate_profile_db_hk span.instant-chevron.instant-code-chev {
+    background-color: #078a8e !important;
+    height: 50px !important;
+    position: absolute;
+    right: 0;
+    width: 58px;
+    top: 0;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+
+form.form_self .select-country.hk_network .ant-select-selector {
+    border: transparent;
+    height: 48px !important;
+    background: #0000;
+}
+
+form.form_selfbutton.instant-btn.position-relative.statenotchanged.new_bg_color.schedule-appointment span.left-inverse-text {
+    color: #959494;
+}
+
+form.form_self button.instant-btn.position-relative.statenotchanged.new_bg_color.schedule-appointment {
+    background: #efefef !important;
+}
+
+form.form_self button.instant-btn.position-relative.statenotchanged.new_bg_color.schedule-appointment span.instant-chevron.instant-code-chev {
+    background: #BFBFBF !important;
+}
+
+form.form_self button.instant-btn.position-relative.statenotchanged.new_bg_color.schedule-appointment span.left-inverse-text {
+    color: #8E8E8E;
+}
+
+form.form_self label.form-label {
+    color: #313131;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 16.202px;
+}
+
+form.form_self input::placeholder {
+    color: #9B9B9B;
+    font-size: 16.202px;
+}
+
+/* contact Details End */
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard s {
+    font-family: 'Circular Std';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #8E8E8E;
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard span {
+    font-family: 'Satoshi-Medium';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: right;
+    color: #313131;
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard span b {
+    font-family: 'Satoshi-Medium';
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    text-align: right;
+
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .btn_container {
+    background: #29BCC1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 37px;
+    border-radius: 6px;
+}
+
+.lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .btn_container button {
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: white;
+
+}
+
+.lab-test .lab_package .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .mt100Insverse {
+    min-height: auto !important;
+    margin-top: -55px;
+}
+
+/* .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .for_hk_slidee .slick-arrow.slick-prev {
+    margin-top: 201px; */
+/* } */
+.for_visible_on_right.lab_packages_wrapper .slick-slider.for_hk_slidee.slick-initialized {
+    position: relative;
+}
+
+.for_visible_on_right.lab_packages_wrapper .slick-arrow.slick-next {
+    margin-top: 0 !important;
+    top: 300px;
+
+}
+
+.for_visible_on_right.lab_packages_wrapper .slick-arrow.slick-prev {
+    margin-top: 0 !important;
+    top: 300px;
+
+}
+
+.lab-test .threeColumnArea.pt-5 {
+    padding-top: 0 !important;
+}
+
+.lab-test .bookLabTests h2 {
+    font-family: 'Nunito';
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313131;
+}
+
+.only_pricing_page.forLabsMainPage.lab-test .flex_center {
+    height: auto;
+}
+
+.ant-modal.for_lab_test_modal .specialInstructionsPop .testInfo p {
+    color: #313131;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.box_dropdown span.ant-select-arrow {
+    color: transparent;
+}
+
+.time-picker {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 50px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.swiper-slide {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_box h6 {
+    margin-bottom: 0px;
+}
+
+.input_like {
+    border-radius: 10px !important;
+    background: #FFF;
+    height: 48px;
+    border: 0.506px solid #95949452;
+    font-size: 16.202px;
+    padding-left: 15px;
+    color: #9B9B9B;
+    font-family: 'Circular Std';
+    font-weight: 300;
+}
+
+.modal_timePicker .timepicker {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.modal_timePicker .timepicker::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: 1;
+    border-top: 1px solid #8B8B8B;
+    border-bottom: 1px solid #8B8B8B;
+    border-radius: 0;
+}
+
+.modal_timePicker .items {
+    height: 100%;
+    padding: 50% 0;
+    margin: 0;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    cursor: grab;
+}
+
+.modal_timePicker .items::-webkit-scrollbar {
+    display: none;
+}
+
+.modal_timePicker .item {
+    margin-right: 10px;
+    list-style-type: none;
+    width: 100%;
+    scroll-snap-align: center;
+    color: #4E4E4E;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    z-index: 99;
+    position: relative;
+}
+
+.modal_timePicker .item div {
+    display: inline-block;
+}
+
+.modal_timePicker .item_sl {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal_timePicker .input_like {
+    border-radius: 10px !important;
+    background: #FFF;
+    height: 48px;
+    border: 0.506px solid #95949452;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #9B9B9B;
+}
+
+.ant-modal.timePickerModal .ant-modal-content {
+    width: 210px;
+    height: 255px;
+    margin: auto;
+    filter: drop-shadow(0px 4px 20px rgba(238, 238, 238, 0.60));
+    border-radius: 20px !important;
+}
+
+.modal_timePicker h5 {
+    color: #545554;
+    font-family: 'Circular Std';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    word-spacing: -4px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.modal_timePicker button.timePickerSave {
+    border-radius: 10px;
+    background: #19B3B5;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.04);
+    -webkit-backdrop-filter: blur(250px);
+    backdrop-filter: blur(250px);
+    width: 170px;
+    height: 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: auto;
+    position: relative;
+    left: -4px;
+    top: 17px;
+}
+
+.ant-modal.otpModal .ant-modal-content {
+    border-radius: 13px;
+}
+
+.modal_timePicker li.item.selected {
+    color: #19B3B5;
+}
+
+.modal_timePicker li.item span.colon {
+    visibility: hidden;
+    position: absolute;
+}
+
+.modal_timePicker li.item.selected span.colon {
+    visibility: visible;
+    /* position: relative; */
+    right: -16px;
+    top: -1px;
+}
+
+.modal_timePicker ul.items.minn {
+    padding-right: 6px;
+}
+
+
+
+.modal_timePicker .items:first-child {
+    padding-right: 16px;
+}
+
+.error_container {
+    position: relative;
+}
+
+span.errorstate_labs_form {
+    color: #e93131;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+
+.form_item p.instant-error-msg {
+    position: absolute;
+    font-size: 14px;
+}
+
+.otpModal span.errorstate_labs_form {
+    top: -110px;
+    left: 15px;
+}
+
+h4.search_text button img {
+    position: relative;
+    top: -3px;
+    width: 13.44px;
+    height: 13.44px;
+}
+
+.only_pricing_page.forLabsMainPage.lab-test .for_visible_on_right.lab_packages_wrapper .header_img {
+    max-height: 180px;
+}
+
+.checkbox_test.isMobile .form-check .is-valid:checked+label {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.selected_lab_inn img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.selected_lab_inn {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 1.5rem;
+}
+
+
+
+.pay_failed_subs_modal .forQueries .num_payment_failed {
+    font-family: 'Satoshi-Medium';
+    font-size: 13px;
+    font-weight: 450;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0645AD;
+}
+
+.selected_lab_inn img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.selected_lab_inn p.lab-name {
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    word-spacing: -4px;
+    color: #313131;
+}
+
+h1.no_labs_packages_found {
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.backBtnLab span img {
+    height: 35px;
+    margin-right: 5px;
+}
+
+.backBtnLab span {
+    color: #313131;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+h4.myCartHead {
+    color: #313131;
+}
+
+section.lab_details_wrapper .form_area_customer .country_code_hk.country_code_ek span.ant-select-selection-item {
+    color: #313131 !important;
+    font-family: 'Circular Std';
+    font-size: 16.202px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+section.lab_details_wrapper h4._2KezC {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Circular Std';
+    color: white !important;
+}
+
+section.lab_details_wrapper button._2s7Q2 svg {
+    height: 10px;
+}
+
+._3curk {
+    height: 100vh !important;
+    position: fixed !important;
+}
+
+section.lab-payment-process h6.back-to.underline_ancer {
+    color: #313131;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+h5.amount_number {
+    color: #313131 !important;
+    text-align: right;
+    font-family: 'Circular Std';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 107.5%;
+}
+
+section.lab-payment-process button.btn_new.mobile_btn_01.review-button {
+    font-size: 18px;
+    font-weight: 700;
+    width: 473.103px;
+    height: 53px;
+    left: 37px;
+    background: #29BCC1;
+}
+
+.lab-payment-process .card.bg-white.test-side-area {
+    /* width: 424px !important; */
+    /* height: 358px !important; */
+}
+
+.check_box {
+    width: 371px !important;
+    height: 76px !important;
+    border-radius: 13.25px !important;
+}
+
+section.lab-payment-process .card.bg-white.payment-side-area {
+    width: 483px;
+    margin-left: 25px;
+    /* height: 357.75px; */
+    padding: 60px 25px !important;
+}
+
+section.lab-payment-process .payment-side-area .ant-radio-wrapper {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.ant-modal.removeCartModal .ant-modal-body {
+    padding: 24px 20px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .ant-modal-content {
+    border-radius: 15px;
+}
+
+.specialInstructionsPop.NewSpecialInstructionsPop.package .lab_img {
+    width: 40px;
+    height: 40px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction span.anticon.anticon-close svg {
+    fill: #313131;
+}
+
+.modal-package-test {
+    color: #313131 !important;
+    font-family: 'Circular Std';
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.12px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .specialInstructionsPop.NewSpecialInstructionsPop.package h6.lab_name {
+    font-size: 14px;
+    color: #313131;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .ant-modal-body {
+    padding: 24px 20px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .specialInstructionsPop.NewSpecialInstructionsPop.package p.specialPopHeading.text-capitalize.text-center {
+    color: #313131;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .specialInstructionsPop.NewSpecialInstructionsPop.package .testInfo p {
+    text-align: left;
+    color: #313131;
+    font-family: 'Circular Std';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0.12px;
+    padding-left: 10px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .specialInstructionsPop .blueButton button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    word-spacing: 3px;
+    letter-spacing: 1px !important;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .specialInstructionsPop .blueButton {
+    padding: 0;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .NewSpecialInstructionsPop .accordion-header {
+    border-radius: 15px !important;
+    padding: 5px 15px !important;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction .NewSpecialInstructionsPop .accordion-body {
+    border-radius: 0 0 15px 15px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal .ant-modal-content {
+    border-radius: 15px !important;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal .specialInstructionsPop .testInfo {
+    border: 0.5px solid #FFF;
+    background: rgba(240, 240, 240, 0.50);
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal .ant-modal-body {
+    padding-top: 15px;
+}
+
+.ant-modal.locationModal .locationCard img {
+    height: 60px;
+    width: 60px;
+}
+
+.locationModal .ant-modal-close-x {
+    color: #404040;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal p.specialPopHeading.text-capitalize {
+    color: #313131;
+}
+
+h4.myCartTitle {
+    color: #313131;
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.radioCities.active img.activeIcon {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 25px;
+    top: 17px;
+}
+
+.radioCities.active img.activeCity {
+    border: 2px solid #29bcc1;
+    border-radius: 8px;
+}
+
+.radioCities.active p.locationLabels.colorChange {
+    color: #19B3B5;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal.changeCityMod .ant-modal-body {
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal.changeCityMod p.specialPopHeading {
+    color: #313131;
+}
+
+section.lab_details_wrapper .cart_box {
+    width: 100%;
+}
+
+section.lab-payment-process .forQueries button.review-button {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+section.lab_details_wrapper ._24OKz {
+    justify-content: right;
+}
+
+section.lab_details_wrapper ._24OKz button {
+    margin-left: 25px;
+}
+
+section.lab_details_wrapper ._24OKz button:first-child {
+    color: #666 !important;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Circular Std';
+    opacity: 1;
+}
+
+section.lab_details_wrapper ._24OKz button:last-child {
+    color: #19B3B5 !important;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Circular Std';
+    opacity: 1;
+}
+
+.card.bg-white.test-side-area.rotate_accordion {
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.rotate.accordion-item .accordion-body h5 {
+    color: #313131;
+    font-family: 'Circular Std';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.ant-modal.removeCartModal .ant-modal-content {
+    border-radius: 15px !important;
+}
+
+
+.payment_recceipt .hk_user_letter {
+    border-bottom: 0.5px solid #8E8E8E;
+}
+
+
+.specialInstructionsPop.NewSpecialInstructionsPop .scrollBarViewTest {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 220px;
+
+}
+
+.scrollBarViewTest::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollBarViewTest::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.50);
+}
+
+.scrollBarViewTest.scrollInto .accordion-item {
+    width: 265px !important;
+}
+
+
+.custom-card1 {
+    width: 483px !important;
+    min-height: 358px !important;
+    height: max-content;
+    flex-shrink: 0;
+    border-radius: 19.875px;
+    background: #FFF;
+    box-shadow: 0px 5.3px 26.5px 0px rgba(238, 238, 238, 0.60);
+}
+
+
+.custom_card2 {
+    /* width: 424px !important; */
+    /* height: 357.75px !important; */
+    flex-shrink: 0;
+    border-radius: 19.875px;
+    background: #FFF;
+    box-shadow: 0px 5.3px 26.5px 0px rgba(238, 238, 238, 0.60);
+}
+
+.ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal.changeCityMod .ant-modal-body {
+    width: 360px;
+    height: 270px;
+}
+
+.paymentMethodM {
+    text-transform: lowercase;
+}
+
+.paymentMethodM:first-letter {
+    text-transform: uppercase;
+}
+
+.labselectbox .box_labs.myCartSpaceLeft {
+    margin-left: 5px;
+}
+
+.labselectbox .box_labs.myCartSpaceLeft .cartTopItems {
+    margin-top: 25px;
+
+}
+
+.home.ds.slider_labs.custom_banner_center {
+    padding-left: 25px;
+}
+
+.home.ds.slider_labs.custom_banner_center ul.slick-dots {
+    position: relative;
+    top: 30px;
+}
+
+
+/* Promocode Section */
+.promocode-div {
+    Height: 53px;
+    width: 443px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.66px solid #19B3B5;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 5.300000190734863px 26.5px 0px #EEEEEE99;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.promo-inner-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* .LayerImg{
+    margin-left: 10px;
+} */
+.PromocodeTitle {
+    font-family: 'Satoshi-Medium';
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.cardsSectionPayment {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    overflow-y: scroll;
+}
+
+.cardsSectionPayment::-webkit-scrollbar {
+    display: none;
+}
+
+.orderCardsSaved {
+    width: 100%;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.inptWrapperChecked {
+    border: 0.5px solid #29BCC1 !important;
+    background-color: #C8F9F2 !important;
+}
+
+.cardTopUp {
+    width: 100%;
+    max-width: 433px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0.35px solid #E2E2E2;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 19px;
+}
+
+.inptWrapperSavedAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.inptWrapperSavedAll label {
+    margin: 0;
+    padding: 0;
+}
+
+.checkboxTopupSavedInp:checked {
+    border: 1px solid #29BCC1 !important;
+    background: rgba(130, 250, 231, 0.40) !important;
+}
+
+.checkboxTopupSavedSpa {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.editIcon {
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17' fill='none'%3E%3Cg clip-path='url(%23clip0_1385_30245)'%3E%3Cpath d='M2 12.2595V14.7595H4.5L11.8733 7.38615L9.37333 4.88615L2 12.2595ZM13.8067 5.45281C14.0667 5.19281 14.0667 4.77281 13.8067 4.51281L12.2467 2.95281C11.9867 2.69281 11.5667 2.69281 11.3067 2.95281L10.0867 4.17281L12.5867 6.67281L13.8067 5.45281Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1385_30245'%3E%3Crect width='16' height='16' fill='white' transform='translate(0 0.759766)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.iconsWrapperTopup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 11px;
+}
+
+.hr {
+    width: 95%;
+    margin: auto;
+    height: 0.5px;
+    background: #E5E3E3;
+    margin: 0;
+    padding: 0;
+}
+
+.orderCardsSaved {
+    width: 100%;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.meriSehatDiv {
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: space-between;
+}
+
+.meriSehatpayTitle {
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.meriSehatDiv h3 {
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: right;
+    color: #19B3B5;
+    margin-bottom: 0;
+}
+
+.meriSehat-innerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+section.lab-payment-process .payment-side-area .ant-radio-wrapper {
+    padding: 15px 15px !important;
+}
+
+.alertSection {
+    margin-left: 25px;
+    background-color: #A8ADB8;
+    box-shadow: 0px 5.300000190734863px 26.5px 0px #EEEEEE99;
+    padding: 20px 20px !important;
+    width: 483px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    word-spacing: -2px;
+}
+
+.alertSection p {
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.ant-radio-group {
+    width: 100%;
+}
+
+.cardImgSet {
+    top: 10px !important;
+}
+
+.visaImgSet {
+    right: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+@media (min-width: 0px) and (max-width:767px) {
+
+    .home.ds.slider_labs.custom_banner_center {
+        padding-left: 5px;
+    }
+
+    .home.ds.slider_labs.custom_banner_center ul.slick-dots {
+        top: -5px;
+    }
+
+    .lab-test .banner-main-heading {
+        word-spacing: -2px;
+        padding-right: 40px !important;
+    }
+
+    .check_box {
+        width: 100% !important;
+        height: 58px !important;
+    }
+
+    .for_hk_slidee.hk_mob_lab_pack_withitems .card.cardWithHeaderImage .header_img.mt100Insverse img {
+        object-position: top;
+    }
+
+    .fade.payment_failed_modal.modal.show {
+        backdrop-filter: blur(5px);
+        background: #00000767;
+    }
+
+    .pay_failed_subs_modal .forQueries .para_payment_failed {
+        font-family: 'Satoshi-Medium';
+        font-size: 13px !important;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #313 !important;
+    }
+
+    .seperateSuccesful.for_payment-succesful .forQueries .confirmPaymentss {
+
+
+        font-family: 'Satoshi-Medium';
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #331133;
+        margin-left: 6px;
+    }
+
+    .seperateSuccesful.for_payment-succesful .forQueries .confirmPaymentss a {
+        font-family: 'Satoshi-Medium';
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #0645AD;
+    }
+
+
+    .bankTransfer .hk_user_letter.mob_b_0.pt-3 {
+        border-bottom: 0;
+    }
+
+    .bankTransfer .forMobileStylingReceipt {
+        font-family: 'Satoshi-Medium';
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313131;
+    }
+
+    .bankTransfer.paymentConfirmedBox .forQueriesBankTransfer p {
+        font-family: 'Satoshi-Medium';
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #404040;
+
+    }
+
+    .bankTransfer.paymentConfirmedBox .forQueriesBankTransfer a {
+        color: #0645AD;
+        font-family: 'Satoshi-Medium';
+        font-size: 13px;
+        font-weight: 450;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .lab-payment-process .card.bg-white.test-side-area {
+        width: 320px !important;
+        min-height: 288px !important;
+        height: max-content !important;
+        flex-shrink: 0;
+        border-radius: 15px;
+        background: #FFF;
+        box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+        padding-bottom: 0rem !important;
+    }
+
+    .custom_card2 {
+        height: auto !important;
+    }
+
+    .payment-side-area .cardImgSet {
+        top: 50% !important;
+        transform: translateY(-50%);
+        width: 75px !important;
+        height: 27px !important;
+        border-radius: 4px !important;
+    }
+
+    .pay_failed_subs_modal .payment_recceipt {
+        width: 304px !important;
+        height: 131px !important;
+        margin-bottom: 22px;
+        border-radius: 7px !important;
+        background: #F7F7F7;
+        padding-bottom: 14px;
+    }
+
+    .payment_failed_modal {
+        z-index: 999999;
+    }
+
+    .payment_recceipt .hk_user_letter {
+
+        border-bottom: 0.11px solid #8E8E8E;
+    }
+
+
+    .para_payment_failed {
+        color: #313;
+        text-align: center;
+        font-family: 'Circular Std';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .num_payment_failed {
+        color: #0645AD;
+        font-family: 'Circular Std';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    .modal_for_redirecting .modal-body .inner_d h3 span {
+        color: #313131 !important;
+        font-family: 'Circular Std';
+        font-size: 12px !important;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+    }
+
+    .seperateSuccesful.for_payment-succesful .payment_recceipt .for_border_gross h3 {
+        font-family: 'Satoshi-Medium';
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #313131;
+    }
+
+
+
+
+    section.lab-payment-process .payment-side-area .ant-radio-wrapper {
+        padding-top: 11px;
+        padding-bottom: 10px;
+        width: 280px !important;
+        height: 58px !important;
+        flex-shrink: 0;
+        border-radius: 10px !important;
+        border: 0.35px solid #E2E2E2;
+        background: #FFF;
+    }
+
+    section.lab-payment-process button.btn_new.mobile_btn_01.review-button {
+        font-size: 14px !important;
+        font-weight: 700;
+        margin: 0 auto;
+        left: 0;
+        width: 320px !important;
+        height: 50px !important;
+    }
+
+    .custom-card1 {
+        width: 483px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .give_pad {
+        background-color: teal !important;
+    }
+
+    section.lab-payment-process .card.bg-white.payment-side-area {
+        width: 320px !important;
+        margin: 0 auto;
+        padding: 25px 15px 5px 19px !important;
+        /* height: 270px !important; */
+        flex-shrink: 0;
+        border-radius: 15px !important;
+        background: #FFF !important;
+        box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+        /* margin-bottom: 59px; */
+    }
+
+    form.form_self .select-country.hk_network .ant-select-selector {
+        height: 100% !important;
+    }
+
+    .ant-modal.removeCartModal .btnGroup .col-md-6 {
+        width: 50%;
+    }
+
+    .lab_details_wrapper .form_self .input-number.input-number-ek {
+        color: #000;
+        font-family: 'Satoshi-Medium';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 107.5%;
+        /* 15.05px */
+    }
+
+    section.lab_details_wrapper .form_area_customer .country_code_hk.country_code_ek span.ant-select-selection-item {
+        color: #000;
+        font-family: 'Satoshi-Medium';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 107.5%;
+        /* 15.05px */
+    }
+
+    .udpate_profile_db_hk button.schedule-appointment span.left-inverse-text {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Satoshi-Medium';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 19.6px */
+        letter-spacing: 0.14px;
+        text-transform: uppercase;
+    }
+
+
+
+    .otpModal span.errorstate_labs_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #D34748 !important;
+        font-family: ' Circular Std';
+        font-size: 11px !important;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 140%;
+        letter-spacing: 0.11px;
+        top: -94px;
+        left: 42px;
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .labtest-scanHeading {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Circular Std' !important;
+        font-size: 6.512px !important;
+        font-style: normal;
+        font-weight: 700 !important;
+        line-height: 15.37px;
+        width: 31.628px;
+        height: 6.512px;
+        word-spacing: -1px !important;
+        /* 236.047% */
+    }
+
+    .mobile_limited_time {
+        color: #FFF;
+        font-family: 'Nunito';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        display: flex;
+        width: 119px !important;
+        height: 20px !important;
+        padding: 3.732px 5.598px;
+        align-items: center;
+        gap: 9.329px;
+        flex-shrink: 0;
+        border-radius: 3.732px;
+        background: linear-gradient(268deg, #EF6286 37.7%, #CF5272 103.5%);
+        word-spacing: -2px;
+    }
+
+    form.form_self input::placeholder {
+        color: #9B9B9B;
+        font-family: 'Circular Std';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 107.5%;
+    }
+
+
+    .checkbox_test.isMobile.packages_checkbox span.circle01 {
+        opacity: 0;
+    }
+
+    .ant-modal.removeCartModal .removeCartPop .btnGroup button {
+        width: 100% !important;
+    }
+
+    .modal_timePicker .items {
+        padding: 46% 0 !important;
+    }
+
+    .input_like {
+        height: 40px !important;
+    }
+
+    .input_like span {
+        padding-top: 0px !important;
+        font-size: 14px !important;
+    }
+
+    .custom_banner_center .slick-slider {
+        position: relative;
+    }
+
+    ._pricing-banner-container #resizing-h3 {}
+
+    .home #resizing-h3 {
+        font-size: 18px !important;
+    }
+
+    ._home-head-vitals {
+        position: relative;
+        top: initial;
+    }
+
+    ._home-head-vitals.cc img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .hk_pricig_ img.img-fluid.mt-0.banner-Img-LabTest {
+        width: 150px;
+        height: 184px;
+    }
+
+    .lab-test .labTest-Packages.for_specially_wellness_page .card.cardWithHeaderImage h3 {
+        margin-bottom: 0 !important;
+    }
+
+    .form_item {
+        margin-bottom: 15px !important;
+    }
+
+    span.errorstate_labs_form {
+        font-size: 10px !important;
+    }
+
+    .form_item p.instant-error-msg {
+        font-size: 10px !important;
+    }
+
+    .lab-test {
+        background-color: white;
+    }
+
+    .show_after_check .city_cart .location {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .city_cart.item_num_show .location {
+        width: 100%;
+    }
+
+    .show_after_check .city_cart span.cart_icon_btn img {
+        filter: invert(1);
+        width: 15px;
+        height: 15px;
+    }
+
+    .no_labs_packages_found span.cart_icon_btn img {
+        filter: invert(1);
+    }
+
+    .show_after_check .city_cart span.cart_icon_btn {
+        border-radius: 6px;
+        background: white;
+        box-shadow: 0px 2px 20px 0px rgba(207, 207, 207, 0.30);
+        padding: 4px 12px;
+    }
+
+    .show_after_check .city_cart i {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: transparent;
+        display: inline;
+        color: #313131;
+        font-family: 'Circular Std';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .box_labs {
+        box-shadow: none;
+    }
+
+    .show_after_check .search input.searchfield {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -3px;
+    }
+
+    .select_labs {
+        color: #313131;
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        padding-left: 10px;
+    }
+
+
+    .pricing-accordion-item {
+        border-radius: 8px !important;
+        border: 0.3px solid #8E8E8E !important;
+    }
+
+
+    .pricing-accordion-question .accordion-button {
+        transform: all 0.5s ease;
+    }
+
+    .pricing-accordion-question .accordion-button::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21' viewBox='0 0 20 21' fill='none'%3E%3Cpath d='M15 12.9536L10 7.95361L5 12.9536' stroke='%23737373' stroke-width='1.67' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+        transform: rotate(180deg);
+    }
+
+    .pricing-accordion-question .accordion-button:not(.collapsed)::after {
+        transform: rotateY(180deg);
+    }
+
+    .show_after_check .search input.searchfield::placeholder {
+        color: #313131;
+        font-family: 'Circular Std';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .tabings_test .flex-column.nav {
+        height: 32px;
+    }
+
+    .tabings_test .nav-link {
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .tabings_test .nav-link.active {
+        height: 31px;
+        font-size: 14px !important;
+    }
+
+    .checkbox_test .form-check label.form-check-label {
+        margin: 6px 0;
+        border-radius: 15px;
+        background: #FFF;
+        box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+        border-bottom: none;
+    }
+
+    .checkbox_test.packages_checkbox .introductionlabPackage {
+        color: #313131;
+        font-family: 'Satoshi-Medium';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: normal;
+    }
+
+    .mob_tabs {
+        padding-bottom: 0px;
+        padding-right: 0;
+        padding-left: 18px;
+    }
+
+    .checkbox_test .form-check label.form-check-label {
+        padding: 18px 30px 18px 61px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .checkbox_test .form-check input {
+        left: 30px;
+    }
+
+    .footer_btn.bg-white {
+        position: relative;
+        background-color: transparent;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        width: 100%;
+        padding: 0;
+        margin-top: 16px !important;
+        border-top: 0px;
+    }
+
+    button.btn_checkout.when_mob_cartEmpty {
+        background: #D9D9D9;
+        color: #8E8E8E;
+        margin-bottom: 10px;
+        width: 321.2px;
+        position: relative;
+        left: -3px;
+    }
+
+    h1.no_labs_packages_found {
+        font-size: 16px !important;
+        margin-bottom: 8px;
+    }
+
+    .tabings_test {
+        padding-top: 0;
+    }
+
+    .only_pricing_page.forLabsMainPage.lab-test section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages .header_img img {
+        width: 133.953px !important;
+        height: 85.581px !important;
+        flex-shrink: 0;
+        border-radius: 6.105px !important;
+        padding-left: 3px;
+    }
+
+    .lab-test .discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages .col-sm-12 {
+        max-width: 100% !important;
+    }
+
+    .lab_package .hrnew {
+        padding: 0;
+    }
+
+    .lab_package .hrnew hr {
+        margin: 5px 0px 15px 0;
+    }
+
+    .lab_package .card.cardWithHeaderImage.homepageCard {
+        height: 233px !important;
+        border-radius: 7.442px;
+        border: 0.153px solid #e1dfdf;
+    }
+
+    .lab_package p {
+        width: 100%;
+        color: #313131;
+        font-family: 'Circular Std';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        letter-spacing: 0.12px;
+        margin-bottom: 50px !important;
+    }
+
+    .lab-test .labTest-Packages p.lab_package_intro {
+        color: #313131;
+        font-size: 10.233px !important;
+        line-height: 140% !important;
+    }
+
+    .lab-test .blueTextArea {
+        color: #19B3B5 !important;
+        font-family: 'Circular Std' !important;
+        font-size: 9.302px !important;
+        font-weight: 500 !important;
+        padding-bottom: 0;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        /* 13.023px */
+        letter-spacing: 0.093px;
+    }
+
+    .lab-test section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage p.__save {
+        position: relative !important;
+        left: -6px !important;
+        top: -1px !important;
+        border-radius: 2.791px !important;
+    }
+
+    .lab-test .lab_package .priceAreaCard {
+        display: block !important;
+        margin-bottom: 10px !important;
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard span {
+        color: #313131;
+        font-family: 'Circular Std';
+        font-size: 9.302px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        margin-left: 5px;
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard s {
+        color: #8E8E8E;
+        font-family: 'Circular Std';
+        font-size: 9.302px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        color: #8E8E8E;
+        text-decoration-line: 'strikethrough';
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard span b {
+        color: #313131;
+        font-family: 'Circular Std';
+        font-size: 12.093px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 140%;
+
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage p {
+        margin-bottom: 5px !important;
+        color: #313131;
+        font-family: 'Circular Std';
+        font-size: 10.233px !important;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%;
+        text-align: left;
+        /* 14.326px */
+    }
+
+
+
+    /* .lab-test .discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages {
+        padding-bottom: 40px;
+    } */
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .hk_mob_lab_pack_withitems .card.cardWithHeaderImage {
+        height: 441px;
+        display: inline-block;
+        width: 45%;
+        margin-left: 0;
+        margin-bottom: 40px !important;
+    }
+
+    .lab-test .for_visible_on_right.lab_packages_wrapper .for_hk_slidee.hk_mob_lab_pack_withitems {
+        text-align: right;
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .hk_mob_lab_pack_withitems .card.cardWithHeaderImage h3.topicHeading {
+        margin-top: -10px;
+    }
+
+    .for_size_mob_bookA {
+        width: 282px !important;
+    }
+
+    .checkbox_test .form-check label.form-check-label span.price_checkbox {
+        direction: ltr;
+    }
+
+    .checkbox_test .form-check label.form-check-label span.price_checkbox i.pr_ch {
+        margin-right: 10px;
+
+    }
+
+    body.english .lab_details_wrapper .country_code_hk .ant-select-arrow {
+        right: 4px !important;
+    }
+
+    .only_pricing_page.forLabsMainPage.lab-test .bannerNewComponent.labTestbannerComp.px-5.align-items-center.row .hk_pricig_ img {
+        height: auto;
+    }
+
+    .ant-modal.modal_search .ant-modal-content {
+        border-radius: 10px !important;
+    }
+
+    .ant-modal.specialInstructionsModal.newSpecialInstruction.for_lab_test_modal.changeCityMod .ant-modal-body {
+        width: 100%;
+    }
+
+    .labs_content.tab-content div#left-tabs-example-tabpane-second {
+        padding-right: 10px;
+    }
+
+    .tabings_test .nav-link {
+        width: 100%;
+    }
+
+    .tabings_test .nav-link.active {
+        width: 100%;
+    }
+
+    .bg_color_payment_subscription_page.paymentConfirmedBox {
+        margin-top: 0 !important;
+        height: 100vh;
+    }
+
+    form.form_self.udpate_profile_db_hk.mob_checkout_form.forMobileDate {
+        padding: 0 !important;
+        margin-top: 15px;
+        padding-top: 20px !important;
+    }
+
+    form.form_self.udpate_profile_db_hk.mob_checkout_form.forMobileDate input {
+        font-weight: 300 !important;
+    }
+
+    form.form_self.udpate_profile_db_hk.mob_checkout_form.forMobileDate .form_item.date_arrow span.defaultTime {
+        color: #9B9B9B !important;
+        text-transform: capitalize;
+    }
+
+    section.lab_details_wrapper.bg_grey_theme {
+        min-height: 850px;
+    }
+
+    .lab-test .for_hk_slidee.hk_mob_lab_pack_withitems .priceAreaCard {
+        text-align: left !important;
+    }
+
+    .alertSection {
+        /* margin-left: 19px; */
+        margin: auto;
+        background-color: #A8ADB8;
+        box-shadow: 0px 5.300000190734863px 26.5px 0px #EEEEEE99;
+        padding: 25px 25px !important;
+        width: 320px;
+        border-radius: 20px 20px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .promocode-div {
+        width: 300px;
+    }
+}
+
+
+@media (max-width : 385px) {
+    /* .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .hk_mob_lab_pack_withitems .card.cardWithHeaderImage {
+        width: 125px;
+    } */
+
+    .for_hk_slidee.hk_mob_lab_pack_withitems {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .only_pricing_page.forLabsMainPage.lab-test section.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page.labTest-Packages .header_img img {
+        width: 117.953px !important;
+        height: 85.581px !important;
+        padding-left: 0;
+    }
+
+    .lab-test .labTest-Packages.discoverWellnessTopics.dynamic-widget.hk_for_home.for_specially_wellness_page .card.cardWithHeaderImage .priceAreaCard span {
+        font-size: 8.302px;
+    }
+}

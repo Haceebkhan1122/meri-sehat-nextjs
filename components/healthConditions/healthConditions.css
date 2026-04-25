@@ -1,0 +1,110 @@
+.healthConditions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-auto-rows: 50px;
+    grid-auto-flow: dense;
+}
+
+.section .box.mobile {
+    display: none;
+}
+
+.section .box.desktop {
+    display: block;
+    padding: 20px 30px 30px 0px;
+}
+
+.section .box.mobile {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 1;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.healthConditions .box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 1;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.healthConditions .boxLink {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 1;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+
+.healthConditions .boxLink:nth-child(5) {
+    padding-left: 0;
+}
+
+.healthConditions .box:last-child {
+    margin-right: 0;
+}
+
+.section .box .simple_ancer {
+    background-color: var(--text-clr);
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section .box .simple_ancer:hover {
+    background-color: var(--white-clr);
+    color: var(--text-clr);
+    border: 1px solid var(--text-clr);
+}
+
+.healthConditions .large {
+    grid-row: span 6;
+}
+
+.healthConditions .medium {
+    grid-row: span 5;
+}
+
+.healthConditions img {
+    /* height: 100%; */
+    /* width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover; */
+}
+
+.healthConditions .medium .subSectionHeading,
+.healthConditions .large .subSectionHeading {
+    max-width: 70%;
+    width: 100%;
+}
+
+.healthConditions .heading_desc {
+    margin-bottom: 20px;
+    font-family: 'Circular std', sans-serif;
+    font-weight: 300;
+}
+
+.healthConditions .boxLink img {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    z-index: 1;
+    height: 170px;
+}
+
+/* .healthConditions .box:nth-child(2) .box_img {
+  bottom: 0;
+} */

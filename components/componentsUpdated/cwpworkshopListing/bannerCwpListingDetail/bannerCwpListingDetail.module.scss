@@ -1,0 +1,129 @@
+.bannerCWPListingDetail {
+    padding: 30px 0;
+    background: #0F345A;
+
+    .breadcrumb_wrapper {
+        display: flex;
+        gap: 12px;
+        margin: 0 0 0 3px;
+        padding: 0;
+
+        @media (min-width:0px) and (max-width:767px) {
+            gap: 3px;
+        }
+
+
+        li {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            color: #FFF;
+            font-family: 'Satoshi-Medium';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+            letter-spacing: 0.2px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 14px;
+                gap: 3px;
+            }
+
+            .svgArrow {
+                width: 20px;
+                height: 20px;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M12.4001 24.4495L10.9668 23.0161L17.5668 16.4161L10.9668 9.81615L12.4001 8.38281L20.4335 16.4161L12.4001 24.4495Z' fill='white'/%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .activeBread {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            color: #29BCC1;
+            font-family: 'Satoshi-Medium';
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 120%;
+            letter-spacing: 0.2px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 14px;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 44px;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-family: var(--font-satoshi-medium);
+
+        @media (min-width:0px) and (max-width:767px) {
+            font-size: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .searchBox {
+        display: flex;
+        height: 80px;
+        flex-shrink: 0;
+        border-radius: 400px;
+        border: 1px solid rgba(173, 189, 206, 0.50);
+        background: #FFF;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 70px;
+
+        @media (min-width:0px) and (max-width:767px) {
+            height: 40px;
+            margin-bottom: 30px;
+        }
+
+        input {
+            background: initial;
+            border: 0;
+            color: #0F345A;
+            font-family: var(--font-satoshi-regular);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            padding: 0 38px;
+
+            /* 36px */
+            &:focus {
+                box-shadow: initial;
+            }
+
+            @media (min-width:0px) and (max-width:767px) {
+                font-size: 14px;
+                padding: 0 16px;
+
+            }
+
+        }
+
+        button {
+            position: relative;
+            left: 2px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                img {
+                    width: 55px;
+                    height: 40px;
+                }
+            }
+
+        }
+    }
+}

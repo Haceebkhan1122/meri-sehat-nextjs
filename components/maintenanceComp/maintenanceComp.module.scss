@@ -1,0 +1,192 @@
+@import '../../styles/variable.scss';
+
+.maintenanceWraper {
+    width: 100%;
+    height: calc(100vh - 130px);
+    background: linear-gradient(0deg, #EEF5FA 0%, #EEF5FA 100%), #FAF6EE;
+
+    @media (min-width : 0px) and (max-width : 768px) {
+        height: calc(100vh - 76px);
+    }
+
+    .imgMaintenance {}
+
+    .wraper_right_info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        h1 {
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 68px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+
+            @media (min-width : 0px) and (max-width : 768px) {
+                font-size: 30px;
+            }
+        }
+
+        span {
+            color: #19B3B5;
+            text-align: center;
+            font-family: $Satoshi-Regular;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+
+            @media (min-width : 0px) and (max-width : 768px) {
+                font-size: 18px;
+            }
+        }
+
+        .timeWraper {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 16.83px;
+
+            @media (min-width : 0px) and (max-width : 768px) {
+                gap: 0;
+                justify-content: center;
+            }
+
+            .singleRoww {
+                display: flex;
+                align-items: center;
+                gap: 18.83px;
+
+                .single {
+                    display: flex;
+                    flex-direction: column;
+
+                    .boxTime {
+                        width: 116px;
+                        height: 116px;
+                        flex-shrink: 0;
+                        border-radius: 25.247px;
+                        border: 0.842px solid rgba(15, 52, 90, 0.10);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        overflow: hidden;
+
+                        ::before {
+                                content: "";
+                                background: rgba(15, 52, 90, 0.05);
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                height: 50%;
+                                width: 100%;
+                            }
+
+                        @media (min-width : 0px) and (max-width : 768px) {
+                            width: 56.548px;
+                            height: 56.548px;
+                            border-radius: 12.307px;
+                            border: 0.41px solid rgba(15, 52, 90, 0.10);
+                        }
+
+                        span {
+                            color: #0F345A;
+                            text-align: center;
+                            font-family: $Satoshi-Light;
+                            font-size: 60px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: 120%;
+
+                            @media (min-width : 0px) and (max-width : 768px) {
+                                font-size: 29.249px;
+                            }
+                        }
+                    }
+
+                    .timeHeadSpan {
+                        color: #0F345A;
+                        text-align: center;
+                        font-family: "Satoshi-Medium";
+                        font-size: 20.197px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 120%;
+                        /* 24.237px */
+                        position: relative;
+                        margin-top: 12.83px;
+
+
+                        @media (min-width : 0px) and (max-width : 768px) {
+                            font-size: 10px;
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            width: 10%;
+                            height: 4px;
+                            bottom: -8px;
+                            width: 23.564px;
+                            height: 3.366px;
+                            flex-shrink: 0;
+                            border-radius: 8.416px;
+                            background: #19B3B5;
+
+                            @media (min-width : 0px) and (max-width : 768px) {
+                                width: 11.487px;
+                                height: 1.641px;
+                            }
+
+                        }
+                    }
+                }
+
+                .dotSvg {
+                    background-image: url("data:image/svg+xml,%3Csvg width='9' height='31' viewBox='0 0 9 31' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.131558 26.2236C0.131558 23.8836 1.93156 22.0236 4.27156 22.0236C6.61156 22.0236 8.47156 23.8836 8.47156 26.2236C8.47156 28.5636 6.61156 30.3636 4.27156 30.3636C1.93156 30.3636 0.131558 28.5636 0.131558 26.2236ZM0.0715582 5.10364C0.0715582 2.76364 1.87156 0.903643 4.21156 0.903643C6.55156 0.903643 8.41156 2.76364 8.41156 5.10364C8.41156 7.44364 6.55156 9.24364 4.21156 9.24364C1.87156 9.24364 0.0715582 7.44364 0.0715582 5.10364Z' fill='%2329BCC1'/%3E%3C/svg%3E%0A");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    display: block;
+                    width: 14.247px;
+                    height: 38.325px;
+                    margin-top: -35px;
+
+                    @media (min-width : 0px) and (max-width : 768px) {
+                        display: block;
+                        width: 7.247px;
+                        height: 24.325px;
+                        margin-top: -24px;
+                        position: relative;
+                        left: -10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.coling_lfff {
+    @media (min-width : 0px) and (max-width : 768px) {
+        margin: unset !important;
+        margin-left: -10px !important;
+        margin-top: 28px !important;
+        height: 50%;
+    }
+}
+
+
+.coling_rf {
+    @media (min-width: 0px) and (max-width : 768px) {
+        height: 50%;
+    }
+}

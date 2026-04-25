@@ -1,0 +1,68 @@
+.packageDetails {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 20px 10px 16px 20px;
+
+}
+
+.mobileViewDetailBtnContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-bottom: 1px solid #F0F0F0;
+    padding: 10px 0;
+}
+
+.optionsHealthInsurance {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.7rem
+}
+
+.descriptionParaAccordians {
+    color: #0F345A;
+    font-family: 'Circular Std';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.boxPrice .descriptionParaAccordians {
+    border-bottom: 1px solid #F0F0F0;
+}
+
+
+@media (max-width : 768px) {
+    
+    .packageDetails {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px 16px 20px;
+
+    }
+
+    .descriptionParaAccordians {
+        font-size: 14px;
+    }
+    .optionsHealthInsurance:last-child {
+        margin-bottom: 0;
+    }
+    .descriptionParaAccordians img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .optionsHealthInsurance {
+        margin-bottom: 4px;
+        margin-top: 4px;
+        margin-left: 2.2rem
+    }
+    .cardDetails {
+        width: 100%;
+    }
+}

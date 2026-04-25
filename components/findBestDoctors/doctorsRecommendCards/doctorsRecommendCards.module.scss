@@ -1,0 +1,192 @@
+@import '../../../styles/variable.scss';
+
+.doctorsRecommendCards {
+    width: 100%;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #0F345A;
+        font-family: 'Satoshi-Medium';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 0px !important;
+        margin-left: -8px;
+
+        @media(min-width:0px) and (max-width:768px) {
+            font-size: 20px;
+        }
+    }
+
+    .starSvg {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='41' viewBox='0 0 40 41' fill='none'%3E%3Cg clip-path='url(%23clip0_1_56995)'%3E%3Cpath d='M19.9999 29.2823L26.9165 33.4656C28.1832 34.2323 29.7332 33.099 29.3999 31.6656L27.5665 23.799L33.6832 18.499C34.7999 17.5323 34.1999 15.699 32.7332 15.5823L24.6832 14.899L21.5332 7.46563C20.9665 6.11562 19.0332 6.11562 18.4665 7.46563L15.3165 14.8823L7.26654 15.5656C5.79988 15.6823 5.19988 17.5156 6.31654 18.4823L12.4332 23.7823L10.5999 31.649C10.2665 33.0823 11.8165 34.2156 13.0832 33.449L19.9999 29.2823Z' fill='%23FFC07E'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_56995'%3E%3Crect width='40' height='40' fill='white' transform='translate(0 0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        width: 40px;
+        height: 40px;
+
+        @media(min-width:0px) and (max-width:768px) {
+            width: 27px;
+            height: 27px;
+        }
+    }
+
+    .wrapeCards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+        @media(min-width:0px) and (max-width:768px) {
+            display: block;
+            width: 100vw;
+            left: 0;
+            right: 0;
+            margin-top: 20px;
+            position: relative;
+            // left: -13px;
+            margin-bottom: 0;
+        }
+
+        .doc_card_caring {
+            width: 19%;
+            height: 332px;
+            flex-shrink: 0;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+
+            @media(min-width:0px) and (max-width:768px) {
+                width: 95%;
+                height: 200px;
+                margin-left: 18px;
+            }
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            .rateWraper {
+                z-index: 999;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                position: absolute;
+                right: 12px;
+                top: 12px;
+
+
+                .rateTe {
+                    color: #FFF;
+                    font-family: $Satoshi-Bold;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 0.16px;
+
+                    @media(min-width:0px) and (max-width:768px) {
+                        font-size: 10px;
+                    }
+                }
+
+                .starSvg {
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cg clip-path='url(%23clip0_997_2994)'%3E%3Cpath d='M10.4972 15.738L14.092 17.9122C14.7504 18.3107 15.5559 17.7217 15.3827 16.9767L14.4299 12.8882L17.6089 10.1336C18.1892 9.63121 17.8774 8.67838 17.1151 8.61774L12.9313 8.26259L11.2942 4.39927C10.9997 3.69764 9.99484 3.69764 9.70033 4.39927L8.06318 8.25393L3.87937 8.60908C3.1171 8.66971 2.80526 9.62255 3.38562 10.125L6.56463 12.8795L5.6118 16.9681C5.43855 17.713 6.24413 18.302 6.90245 17.9036L10.4972 15.738Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_997_2994'%3E%3Crect width='20.7892' height='20.7892' fill='white' transform='translate(0.102173 0.775391)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    display: block;
+                    width: 20.789px;
+                    height: 20.789px;
+
+                    @media(min-width:0px) and (max-width:768px) {
+                        width: 10.789px;
+                        height: 10.789px;
+                    }
+                }
+            }
+
+            .single_doc_svg {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                height: auto;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+                @media (min-width : 0) and (max-width : 767px) {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .infoWrape {
+                z-index: 999;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                width: 100%;
+                bottom: 27.96px;
+                gap: 5px;
+                padding: 0 8px;
+
+                @media(min-width:0px) and (max-width:768px) {
+                    bottom: 17.96px;
+                }
+
+                h2 {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: $Satoshi-Bold;
+                    font-size: 24px;
+                    font-style: normal;
+                    line-height: 120%;
+                    margin-bottom: 5px;
+
+                    @media(min-width:0px) and (max-width:768px) {
+                        margin-bottom: 0;
+                        font-size: 14px;
+
+                    }
+                }
+
+                p {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: $Satoshi-Regular;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    @media(min-width:0px) and (max-width:768px) {
+
+                        font-size: 12px;
+
+                    }
+                }
+            }
+        }
+    }
+}

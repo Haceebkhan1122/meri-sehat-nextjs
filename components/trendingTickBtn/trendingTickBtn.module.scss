@@ -1,0 +1,24 @@
+.color_btn_trend {
+    display: flex;
+    width: 144px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 39px;
+    background: #E9F5F1;
+    color: #326C5D;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+    .img_tick {
+        width: 9.473px;
+        height: 7.126px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,212 @@
+@import '../../../../styles/variable.scss';
+
+.healthCovrageSection {
+    h2 {
+        margin-bottom: 22px;
+
+        @media(min-width:0px) and (max-width:767px) {
+            margin-bottom: 34px;
+        }
+    }
+
+    p {
+        font-size: 48px;
+        line-height: 120%;
+        color: $dark-bluecolor;
+        // font-family: $Satoshi-Medium;
+        margin-bottom: 40px !important;
+
+        @media(min-width:1301px) and (max-width:1919px) {
+            font-size: 37px;
+        }
+
+        @media(min-width:0px) and (max-width:767px) {
+            font-size: 22px;
+            width: 240px;
+            margin: 0 auto 34px auto !important;
+        }
+
+        span {
+            font-size: 38px;
+            line-height: 120%;
+            color: $dark-bluecolor;
+            font-family: $Satoshi-Bold;
+        }
+
+        strong {
+            // word-spacing: -12px;
+        }
+    }
+
+    .healthCovrageBox {
+        margin-top: 60px;
+        padding: 47px 0;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+        overflow: hidden;
+
+        @media(min-width:1301px) and (max-width:1919px) {
+            margin-top: 45px;
+            padding: 37px 0;
+        }
+
+        @media(min-width:0px) and (max-width:767px) {
+            margin-top: 34px;
+            padding: 0px 27px;
+            padding-bottom: 45px !important;
+        }
+
+
+
+        ul {
+            display: flex;
+
+            @media(min-width:0px) and (max-width:767px) {
+                flex-wrap: wrap;
+                gap: 46px;
+                margin: 0;
+            }
+
+            li {
+                width: 33.333%;
+                border-right: 1px solid rgba(64, 64, 64, 0.40);
+                position: relative;
+
+                @media(min-width:0px) and (max-width:767px) {
+                    width: 100%;
+                    border-right: 0px solid rgba(64, 64, 64, 0.40);
+                }
+
+                &:nth-child(3) {
+
+                    .LottieWrapper {
+                        @media(min-width:0px) and (max-width:767px) {
+                            margin-top: -68px;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    @media(min-width:0px) and (max-width:767px) {
+                        padding: 0px 0;
+                        padding-bottom: 45px !important;
+                    }
+
+
+                    &::after {
+                        content: '';
+                        height: 0;
+                        background: rgba(64, 64, 64, 0.40);
+                        width: 1px;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+
+                        @media(min-width:0px) and (max-width:767px) {
+                            width: 154px !important;
+                            height: 1px;
+                            background: rgba(64, 64, 64, 0.40);
+                            transform: initial;
+                            bottom: 0;
+                            top: initial;
+                            left: 0;
+                            margin: 0 auto;
+                            right: 0;
+                        }
+                    }
+
+                    &::before {
+                        content: '';
+
+
+
+                        @media(min-width:0px) and (max-width:767px) {
+                            width: 154px !important;
+                            height: 1px;
+
+
+                            top: 0;
+                            left: 0;
+                            margin: 0 auto;
+                            right: 0;
+                            content: '';
+                            background: rgba(64, 64, 64, 0.40);
+                            position: absolute;
+                        }
+                    }
+
+                }
+
+                &:nth-child(3) {
+                    border-right: none;
+                }
+
+                h4 {
+                    color: $dark-bluecolor;
+                    text-align: center;
+                    font-family: $Satoshi-Bold;
+                    font-size: 32px;
+                    line-height: 120%;
+                    margin: 20px 0;
+                    padding: 0 5rem;
+
+
+                    @media(min-width:1301px) and (max-width:1919px) {
+                        font-size: 25px;
+                    }
+
+                    @media(min-width:0px) and (max-width:767px) {
+                        font-size: 26px;
+                        margin: 16px 0;
+                    }
+                }
+
+                p {
+                    width: 343px;
+                    text-align: center;
+                    font-family: $Satoshi-Regular;
+                    font-size: 22px;
+                    line-height: 120%;
+                    color: #404040;
+                    margin: 0 auto !important;
+
+                    @media(min-width:1301px) and (max-width:1919px) {
+                        font-size: 18px;
+                        width: 280px;
+                        margin: 0 auto;
+                    }
+
+                    @media(min-width:0px) and (max-width:767px) {
+                        font-size: 18px;
+                        width: 264px;
+                    }
+                }
+
+                img {
+                    @media(min-width:0px) and (max-width:767px) {
+                        width: 64px;
+                        height: 64px;
+                    }
+                }
+
+                .LottieWrapper {
+                    display: block;
+                    text-align: center;
+
+                    @media(min-width:0px) and (max-width:767px) {
+                        margin-top: -42px;
+                    }
+
+                    div {
+                        margin: auto;
+                        margin-bottom: -80px;
+                    }
+                }
+            }
+
+        }
+    }
+}

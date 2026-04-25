@@ -1,0 +1,481 @@
+.bannerNewComponent {
+    /* background: #FFF1A0; */
+    border-radius: 36px;
+    margin: 0;
+}
+
+
+
+.form-group {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    width: auto;
+}
+
+.form-group:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.form-group input {
+    display: inline-block;
+    width: auto;
+    border: none;
+    padding: 0.81rem 0.75rem;
+}
+
+.form-group input:focus {
+    box-shadow: none;
+}
+
+/* .banner-head h1{
+     font-size: 36px;
+}
+
+.heading-banner{
+    font-size: 36px;
+
+} */
+
+
+
+
+
+
+/* .react-tel-input .flag{
+    display: ;
+} */
+/*
+ */
+.react-tel-input .form-control {
+    border: none !important;
+    padding: 25px 20px;
+
+}
+
+
+/* .code-holder button{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #404040;
+    border-right: none;
+    padding-bottom: 20px;
+} */
+
+
+.select-country {
+    margin-left: -55px;
+    /* margin-top: 1px; */
+
+
+}
+
+/* .code-holder span{
+    margin-top: 20px;
+} */
+
+.input-number {
+    border: 1px solid #404040;
+    padding-right: 50px;
+    margin-right: 1px;
+}
+
+/* .code-holder button:hover{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}  */
+
+.rounder-start-0 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.downloadBox {
+    background: #F2FDFF;
+    border: 1px solid #E2F8FC;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:1200px) {
+    .fullWidthDesktop {
+        margin-top: -18px;
+        width: 100%;
+    }
+
+    .statusContainer.container span.hk_left.for_hidden {
+        display: none;
+    }
+
+    .statusContainer.container._status:hover span.hk_left.for_hidden {
+        display: block;
+        top: 17px;
+    }
+
+    .doctors_waiting.trackyourhealth.forFonts.our_experts_wellness .hk_diff .card {
+        min-height: 245px;
+        max-height: 245px;
+    }
+
+    .top_reads.health.article .card.articleWithShortDesc.cardWithHeaderImage.boxShadowOnBox .card_body {
+        height: 280px;
+    }
+
+    #navbar .nav-item.dropdown .dropdown-menu .mega_menu {
+        padding-left: 0 !important;
+        padding-right: 31px !important;
+    }
+
+}
+
+
+
+.form_controll {
+    position: relative;
+}
+
+
+
+
+.NormalError {
+    left: 0px !important;
+}
+
+.browse-error {
+    left: 0px !important;
+
+}
+
+.scan-tool #animatedError {
+    left: 114px !important;
+}
+
+
+.hk_number {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    width: 370px !important;
+    /* margin-right: 15px; */
+}
+
+.bannerNewComponent .hk_number,
+.callToAction .hk_number,
+.scan-tool .hk_number {
+    width: 420px !important;
+}
+
+
+.error_number {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #B11B1B !important;
+    width: 370px !important;
+    margin-right: 15px;
+}
+
+.hk_number .ant-select.select-country.hk_network .ant-select-selector {
+    position: relative;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.scan-tool .hk_number .ant-select.select-country.hk_network .ant-select-selector {
+    /* left: 50px; */
+}
+
+.white-message {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.Error-message-blue {
+    background-color: #f2fdff !important;
+}
+
+.Error-message-blue p {
+    padding: 0 20px 0 20px;
+
+}
+
+
+
+.hk_tagline {
+    color: #0F345A;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 22px;
+    position: relative;
+    top: 0px;
+
+}
+
+/* Css for Safari  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+
+    /* Safari and Chrome  */
+
+
+    /* Safari only override  */
+    ::i-block-chrome,
+    .hk_tagline {
+        word-spacing: 0px;
+    }
+}
+
+.white-message h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Circular Std', sans-serif;
+}
+
+/* span.numm:after {
+    content: "*****";
+    position: absolute;
+    left: 42px;
+    height: 20px;
+    z-index: 9999999;
+    background: white;
+    width: 50px;
+    top: 85px;
+    text-align: center;
+} */
+
+.link-box {
+    padding-top: 33px;
+}
+
+.get-link p {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    color: #0F345A;
+
+
+}
+
+.span.numm {
+    position: relative;
+}
+
+
+
+.scan-code h4 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 126%;
+    /* identical to box height, or 23px */
+
+    text-transform: uppercase;
+
+    color: #404040;
+}
+
+.scan-code h5 {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 126%;
+    /* or 23px */
+
+    text-transform: uppercase;
+
+    color: #404040;
+
+}
+
+.Qr-code {
+    padding-left: 16px;
+}
+
+.btn-links {
+    padding-left: 20px;
+
+}
+
+.scan-tool {
+    background-color: #F2FDFF;
+    padding: 20px 10px;
+}
+
+
+
+.normalBannerLeft .flipTextSlider h1 {
+    justify-content: flex-start;
+    color: var(--text-dark);
+}
+
+.homepage .home .d-block h1 {
+    justify-content: flex-start;
+    color: var(--text-dark-clr);
+}
+
+.homeBannerIcons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item {
+    padding-right: 26px;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+.underline_ancerEdit:hover::after {
+    width: 80%;
+    left: 4px;
+
+}
+
+.underline_ancerEdit {
+    font-size: 0.938rem;
+    font-weight: 700;
+    letter-spacing: 0.094rem;
+    text-transform: uppercase;
+    /* border-bottom: 1px solid var(--text-clr); */
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    /* padding-bottom: 5px; */
+    width: 100%;
+    max-width: max-content;
+}
+
+.underline_ancerEdit:hover {
+    color: var(--text-clr);
+}
+
+.underline_ancerEdit::after {
+    /* top: 20px; */
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    background: var(--text-clr);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    left: 50%;
+    width: 0;
+
+}
+
+
+.home-head-vitals {
+    position: relative;
+    top: 5px;
+}
+
+.scan-tool {
+    border-radius: 10px;
+}
+
+/* .ant-select-dropdown {
+    z-index: 7;
+} */
+
+@media only screen and (max-width:1400px) {
+
+    .bannerNewComponent .hk_number,
+    .callToAction .hk_number,
+    .scan-tool .hk_number {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    /* span.badge.bg-secondary.hk_new_badge {
+        top: 95px !important;
+        font-size: 5px !important;
+    } */
+
+    .navbar-nav a.nav-link {
+        margin-bottom: 0 !important;
+    }
+
+    .bannerNewComponent {
+        margin: 0;
+        padding: 30px 10px !important;
+        padding-bottom: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    section.hk_pt {
+        padding-top: 0 !important;
+    }
+
+    .form_controll form {
+        display: block !important;
+    }
+
+    .form_controll button.btn_container.simple_btn {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .hk_number {
+        width: 100%;
+    }
+
+    .hk_number input.input-number {
+        width: 60% !important;
+    }
+
+    section.homepage.mainBannerPage {
+        padding-top: 40px;
+        overflow: hidden;
+    }
+
+    .hk_error {
+        font-size: 14px;
+        top: 90px;
+    }
+
+    .hk_playstore img {
+        height: 32px !important;
+    }
+
+    .hk_playstore {
+        padding-top: 10px !important;
+    }
+
+    .form_controll button.btn_container.simple_btn {
+        min-height: 20px;
+    }
+
+    .bannerNewComponent .hk_number,
+    .callToAction .hk_number,
+    .scan-tool .hk_number {
+        width: 100% !important;
+    }
+}
+
+
+.closing .OtpCounting button {
+    display: flex;
+}

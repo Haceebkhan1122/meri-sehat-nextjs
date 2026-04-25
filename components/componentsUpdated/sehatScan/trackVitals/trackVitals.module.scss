@@ -1,0 +1,121 @@
+@import '../../../../styles/variable.scss';
+
+.trackVitalsSection {
+    // background: #ccc;
+
+    .ordring2 {
+        order: 2;
+    }
+
+    // background: #FAF6EE;
+    .or22 {
+        @media (min-width:0px) and (max-width:767px) {
+            order: 2;
+        }
+
+    }
+
+    .or11 {
+        @media (min-width:0px) and (max-width:767px) {
+            order: 1;
+        }
+
+    }
+
+    .mobImage02 {
+        img {
+            @media (min-width:0px) and (max-width:767px) {
+                position: relative;
+                // left: -10px;
+            }
+
+        }
+    }
+
+    .spacingTrack {
+
+        h2 {
+            margin-bottom: 50px;
+
+            @media (min-width: 0) and (max-width: 767px) {
+                margin-bottom: 30px;
+                width: 335px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+        }
+
+        p {
+            @media (min-width: 0) and (max-width: 767px) {
+                // display: none;
+                text-align: center;
+            }
+        }
+
+        .boxesTrack {
+            width: 100%;
+            margin: 50px 0;
+
+            @media (min-width: 0) and (max-width: 767px) {
+                justify-content: space-between;
+                margin: 30px 0;
+            }
+
+            li {
+                width: 100%;
+                list-style: none;
+
+                .mainBx {
+                    width: 100%;
+                    height: 200px;
+                    flex-shrink: 0;
+                    border-radius: 16px;
+                    background: #FFF;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @media (min-width: 0) and (max-width: 767px) {
+                        width: 26.7vw;
+                        height: 100px;
+                    }
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        margin-bottom: 20px;
+
+                        @media (min-width: 0) and (max-width: 767px) {
+                            width: 30px;
+                            height: 30px;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    p {
+                        color: $dark-bluecolor;
+                        text-align: center;
+                        font-family: $Satoshi-Bold;
+                        font-size: 20px;
+                        font-style: normal;
+                        line-height: normal;
+                        width: 60%;
+                        margin: 0 auto;
+
+                        @media (min-width: 0) and (max-width: 767px) {
+                            font-size: 14px;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .image {
+        // width: 477.599px;
+
+    }
+}

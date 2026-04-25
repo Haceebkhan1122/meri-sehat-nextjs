@@ -1,0 +1,385 @@
+.instantBanner {
+    padding: 35px 25px 0;
+    border-radius: 36px;
+}
+
+.doctorInstantly .add-review-btn {
+    width: 347px !important;
+    min-width: 347px;
+    min-height: 53px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.instantDoctors .maxWidthText,
+.max-width-250 {
+    max-width: 250px;
+}
+
+.max-width-300 {
+    max-width: 300px;
+}
+
+.default-avatar,
+.member-overlap-item {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.member-overlap-item {
+    margin-right: -10px;
+    border: 2px solid #fff;
+}
+
+.imgBottomfix {
+    position: absolute;
+    bottom: 0;
+}
+
+.circleGreen {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #31FF52;
+    margin-left: 5px;
+}
+
+.greenBtnOffer {
+    border-radius: 6px;
+    min-height: 20px;
+    min-width: 50px;
+}
+
+
+
+.instantFAQ .section-med {
+    margin-bottom: 25px;
+}
+
+
+
+.instantFaq.pricing-accordion-item .accordion-button,
+.instantFaq .pricing-accordion-answer {
+    color: #313131;
+}
+
+.bgGrayDoctor.mt-5.bg-transparent .img-desc {
+    box-shadow: 0px 0px 14.717px rgba(49, 49, 49, 0.1);
+    padding: 5px;
+}
+
+.instantDoctors .bgGrayDoctor .img-desc {
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.common-class .common-p p {
+    line-height: 25.2px;
+}
+
+.instantBannerNewBtn {
+    max-width: 350px;
+    height: 53px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.instant-banner-main .perConsult {
+    margin-left: 0.6rem;
+}
+
+.instant-banner-main .perConsult .belowText {
+    margin-left: 2rem;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #19B3B5
+}
+
+@media only screen and (max-width: 767px) {
+    .instantBanner {
+        border-radius: 0;
+        padding-bottom: 35px;
+        top: 0;
+        position: relative;
+    }
+
+    .instant-banner-main>.container {
+        padding: 0;
+    }
+
+    .faqContainer {
+        padding-bottom: 20px;
+    }
+
+    .paddingMobileSpace.faqContainer {
+        padding-bottom: 35px;
+    }
+
+    .my-80.instantFAQ {
+        margin: 40px 20px;
+    }
+
+    .faqText {
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: #313131;
+        border-bottom: 0.3px solid #707070;
+    }
+
+    .instantDoctors.connectDoctorss a.review-button.add-review-btn {
+        width: 347px !important;
+        min-height: 53px;
+        font-size: 18px;
+        line-height: 25px;
+        min-width: 50% !important;
+        letter-spacing: 1px;
+    }
+
+    .instant-banner-main .perConsult {
+        margin-left: 2.8em;
+    }
+
+
+    .instant-banner-main .perConsult .belowText {
+        margin-left: 2.6rem;
+
+    }
+
+
+    .instantBannerNewBtn {
+        max-width: 265px !important;
+        height: 53px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .instant-banner-main {
+        text-align: center;
+    }
+
+    .instant-banner-main .banner_title {
+        margin-bottom: 15px !important;
+    }
+
+    .simple-btn-mobile {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .simple-btn-mobile .add-review-chevron {
+        display: none;
+    }
+
+    .fs-16-mobile {
+        font-size: 16px !important;
+    }
+
+    .img-rotate-mob img {
+        transform: rotate(125deg);
+    }
+
+    .img-inverse-rotate-mob img {
+        transform: rotate(55deg);
+    }
+
+    .connectDoctorss .maxWidthText {
+        max-width: 250px;
+        width: 122%;
+        position: relative;
+        left: -13%;
+    }
+
+    .connectDoctorss .col-md-5.offset-md-1.d-flex.flex-column .maxWidthText {
+        left: -19%;
+    }
+
+    .connectDoctorss .bgGrayDoctor {
+        border: 1px solid #d9d9d9;
+        margin: 1px;
+        padding: 0;
+    }
+
+    .connectDoctorss .mt100Insverse {
+        margin-top: -80px;
+    }
+
+    .z-index-2 {
+        z-index: 2;
+    }
+
+    .z-index-1 {
+        z-index: 1;
+    }
+
+    .top-10-px {
+        top: 10px;
+    }
+
+    .fs-14-mobile {
+        font-size: 14px !important;
+    }
+
+    .doctorInstantly .add-review-btn {
+        width: 100% !important;
+        min-width: 100%;
+    }
+
+    .instantFAQ .custom-accordion .accordion-button::after {
+        background-image: url('/assets/images/png/dnIconUp.png');
+        /* Replace with the path to your arrow icon image */
+
+    }
+
+    /* .instantFAQ .custom-accordion .accordion-button.collapsed::after {
+  background-image: url('../../assets/images/png/dnIconDown.png');
+} */
+}
+
+
+.pkr-250 {
+    font-size: 13px;
+    font-family: 'Circular Std';
+    color: #19B3B5;
+    margin-left: 32px;
+}
+
+.pkr-250 p {
+    margin-top: -10px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.instantDoctors.connectDoctorss a.review-button.add-review-btn {
+    width: 347px !important;
+    min-width: 347px;
+    min-height: 53px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+button.no_doc_state {
+    background: #E5ECE8;
+    color: #959494;
+    width: auto;
+    max-width: 100%;
+    padding: 0 50px 0 20px;
+    min-width: 350px;
+    font-size: 16px;
+    line-height: 25px;
+    height: 53px;
+}
+
+button.no_doc_state span.add-review-chevron {
+    position: absolute;
+    right: 0;
+    left: auto;
+    background: #959494 !important;
+    color: white;
+}
+
+.add-review-chevron {
+    float: right;
+    background-color: #078A8E !important;
+    font-size: 20px;
+    height: 44px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    left: auto;
+}
+
+span.item_doctor_offline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+span.cons_now {
+    position: relative;
+    left: -15px;
+}
+
+.doc_online-status strong {
+    /* word-spacing: -4px; */
+}
+
+.main-list.hk_list h4 {
+    font-family: 'Circular Std';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.instant-banner-main .perConsult .OnlyPkr {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #331133
+}
+
+.instant-banner-main .perConsult .strikeRs {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #331133
+}
+
+.instant-banner-main .perConsult .offText {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 100%;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF
+}
+
+.only-best-docs {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #313131;
+}
+
+.hk_register_btn {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    min-height: 53px;
+    min-width: 347px;
+    width: 347px !important;
+}

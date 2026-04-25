@@ -1,0 +1,11 @@
+.top_reads .row>div {
+    margin-bottom: 15px;
+}
+
+.top_reads .row>div:last-child {
+    margin-bottom: 0;
+}
+
+.top_reads .findTheBestHealthCare .container {
+    padding: 0;
+}

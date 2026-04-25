@@ -1,0 +1,224 @@
+.wrapperSubsModalContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerSubsModalHeader {
+    width: 76%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.107px solid #8E8E8E;
+    text-align: start;
+    margin: auto;
+    margin-bottom: 10px !important;
+}
+.headerSubsTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+}
+
+.titl {
+    color: #313131;
+
+    font-family: 'Satoshi-Medium';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+
+.downloadBtn { 
+    width: 320px;
+height: 50px;
+padding: 11.52px 62.4px;
+justify-content: center;
+align-items: center;
+gap: 9.6px;
+border-radius: 7.68px;
+background: #19B3B5;
+color: #FFF;
+
+text-align: center;
+font-family: 'Satoshi-Medium';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+letter-spacing: 0.14px;
+text-transform: uppercase;
+margin: auto;
+margin-top: 21px !important;
+}
+
+.paraTitl {
+    color: #313131;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.headerCloseWrape {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px;
+}
+
+.close_icon {
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,Vector%0Awidth: 16px;%0Aheight: 16px;%0Aflex-shrink: 0;%0Afill: %23313131; stroke-width: 0.375px;%0Astroke: %23FFF; %3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M9.47885 8.13258L15.7348 14.3886L14.3886 15.7348L8.13258 9.47885L8 9.34626L7.86742 9.47885L1.61143 15.7348L0.265165 14.3886L6.52115 8.13258L6.65374 8L6.52115 7.86742L0.265165 1.61143L1.61143 0.265165L7.86742 6.52115L8 6.65374L8.13258 6.52115L14.3886 0.265165L15.7348 1.61143L9.47885 7.86742L9.34626 8L9.47885 8.13258Z' fill='%23313131' stroke='black' stroke-width='0.375'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.success_btn {
+    display: flex;
+width: 90px;
+height: 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(240, 99, 134, 0.10);
+color: #F06386;
+text-align: right;
+font-family: 'Satoshi-Medium';
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 107.5%; /* 12.9px */
+}
+
+
+
+.wrapperTimeline {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.sucessText {
+    width: 76%;
+    margin: auto;
+    color: #676464;
+font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height:normal;
+    border-bottom: 0.107px solid #8E8E8E;
+    padding-bottom: 10px;
+}
+
+
+.singleTimeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+    width: 97%;
+    margin: auto;
+    border-bottom: 0.107px solid #8E8E8E;
+}
+
+
+.firstFirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.timelineHeads {
+    color: #313131;
+font-family: 'Satoshi-Medium';
+font-size: 14px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+}
+
+
+.timelinePara {
+    color: #313131;
+text-align: right;
+font-family: 'Satoshi-Medium';
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.helpPara {
+    color: #404040;
+text-align: center;
+font-family: 'Satoshi-Medium';
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-top: 9px;
+  }
+
+
+
+.numSide {
+    color: #0645AD;
+font-family: 'Satoshi-Medium';
+font-size: 13px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+
+.wraperBtnDownload {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width : 768px) {
+
+
+    .wrapperSubsModalContainer {
+        padding: 0px 20px;
+    }
+
+
+    .headerSubsModalHeader {
+        width: 100%;
+    }
+
+    .sucessText {
+        width: 100%;
+    }
+
+    .wrapperTimeline {
+        padding: 0;
+    }
+
+    .helpPara {
+        padding-top: 26px;
+    }
+}

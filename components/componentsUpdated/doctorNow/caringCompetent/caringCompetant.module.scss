@@ -1,0 +1,360 @@
+@import '../../../../styles/variable.scss';
+
+.caringCompetant {
+    width: 100%;
+    height: 560px;
+    position: relative;
+
+    @media(min-width:0) and (max-width:767px) {
+        padding-top: 39px;
+        height: 700px;
+    }
+
+    .left__sec {
+        h1 {
+            width: 472px;
+            color: #0F345A;
+            font-family: $Satoshi-Bold;
+            font-size: 68px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 30px;
+
+            @media(min-width:0) and (max-width:767px) {
+                font-size: 32px;
+                text-align: center;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+
+        p {
+            width: 472px;
+            color: #0F345A;
+            font-family: "Satoshi-Medium";
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 140%;
+            letter-spacing: 0.24px;
+
+            @media(min-width:0) and (max-width:767px) {
+                font-size: 16px;
+                text-align: center;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 0px !important;
+            }
+
+        }
+
+        .btnWrape {
+            width: 472px;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+
+            @media(min-width:0) and (max-width:767px) {
+                display: none;
+            }
+
+
+            button {
+                display: flex;
+                width: 424px;
+                height: 80px;
+                padding: 15.992px 31.983px;
+                justify-content: center;
+                align-items: center;
+                gap: 7.996px;
+                border-radius: 79.958px;
+                color: #FFF;
+                text-align: center;
+                font-family: $Satoshi-Bold;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                text-transform: uppercase;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .right__sec {
+        width: 57%;
+        height: 100%;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        overflow: hidden;
+
+        @media (min-width : 1301px) and (max-width : 1500px) {
+            width: 54%;
+        }
+
+        @media (min-width : 0) and (max-width : 767px) {
+            width: 100%;
+            top: 0px;
+            height: auto;
+            bottom: 0;
+            margin: unset;
+            margin-bottom: 50px !important;
+            position: initial;
+        }
+
+        &.right__secFad {
+            @media (min-width : 0) and (max-width : 767px) {
+                width: 100%;
+                top: 149px;
+                height: 500px;
+                bottom: 0;
+                margin: unset;
+                margin-bottom: 50px !important;
+            }
+        }
+
+        .sliderWraperCaring {
+            width: 100%;
+            margin-left: 0px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                margin-left: 0px;
+
+            }
+
+            .doc_card_caring {
+                width: 92% !important;
+                min-height: 424px !important;
+                flex-shrink: 0;
+                border-radius: 31.983px;
+                background-blend-mode: multiply;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                overflow: hidden;
+                padding-bottom: 27.96px;
+                position: relative;
+                cursor: pointer;
+                margin-left: -13%;
+
+
+                @media (min-width : 2200px) and (max-width : 4000px) {
+                    margin-left: -10%;
+                    min-height: 450px !important;
+                }
+
+                @media (min-width : 2500px) and (max-width : 3000px) {
+                    min-height: 500px !important;
+                }
+
+                @media (min-width : 2200px) and (max-width : 2500px) {
+                    min-height: 450px !important;
+                }
+
+                @media (min-width : 1800px) and (max-width : 2200px) {
+                    min-height: 424px !important;
+                }
+
+                @media (min-width : 1600px) and (max-width : 1800px) {
+                    min-height: 424px !important;
+                }
+
+
+                @media (min-width : 0) and (max-width : 767px) {
+                    min-height: 380px !important;
+                    height: 380px;
+                    width: 100% !important;
+                    margin-left: 0;
+                    border-radius: 35.897px;
+                }
+
+                &::before {
+                    // content: '';
+                    // // background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgb(0 0 0 / 8%) 78.65%);
+                    // background-blend-mode: multiply;
+                    // position: absolute;
+                    // left: 0;
+                    // top: 0;
+                    // width: 100%;
+                    // height: 100%;
+                    // z-index: 99;
+                    // border-radius: 40px;
+
+                    // @media (min-width : 1301px) and (max-width : 1800px) {
+                    //     border-radius: 32px;
+                    // }
+                }
+
+                .rateWraper {
+                    z-index: 999;
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    position: absolute;
+                    right: 12px;
+                    top: 12px;
+
+
+                    .rateTe {
+                        color: #FFF;
+                        font-family: $Satoshi-Bold;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 0.16px;
+                    }
+
+                    .starSvg {
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cg clip-path='url(%23clip0_997_2994)'%3E%3Cpath d='M10.4972 15.738L14.092 17.9122C14.7504 18.3107 15.5559 17.7217 15.3827 16.9767L14.4299 12.8882L17.6089 10.1336C18.1892 9.63121 17.8774 8.67838 17.1151 8.61774L12.9313 8.26259L11.2942 4.39927C10.9997 3.69764 9.99484 3.69764 9.70033 4.39927L8.06318 8.25393L3.87937 8.60908C3.1171 8.66971 2.80526 9.62255 3.38562 10.125L6.56463 12.8795L5.6118 16.9681C5.43855 17.713 6.24413 18.302 6.90245 17.9036L10.4972 15.738Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_997_2994'%3E%3Crect width='20.7892' height='20.7892' fill='white' transform='translate(0.102173 0.775391)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        display: block;
+                        width: 26px;
+                        height: 26px;
+                        margin-top: -4px;
+                    }
+                }
+
+                .single_doc_svg {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    margin: auto;
+                    object-position: bottom;
+                    height: auto;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                    @media (min-width : 0) and (max-width : 767px) {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .infoWrape {
+                    z-index: 999;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: absolute;
+                    width: 100%;
+                    bottom: 27.96px;
+                    gap: 5px;
+                    padding: 0 8px;
+
+
+                    @media(min-width:0px) and (max-width:768px) {
+                        bottom: 17.96px;
+                    }
+
+                    h2 {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: $Satoshi-Bold;
+                        font-size: 26px;
+                        font-style: normal;
+                        line-height: 120%;
+                        margin-bottom: 5px;
+
+                        @media(min-width:0px) and (max-width:768px) {
+                            margin-bottom: 0;
+                            font-size: 24px;
+
+                        }
+                    }
+
+                    p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: $Satoshi-Regular;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+
+                        @media(min-width:0px) and (max-width:768px) {
+
+                            font-size: 18px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btnMobileBook {
+    display: none;
+
+    @media(min-width:0px) and (max-width:767px) {
+        display: flex;
+        width: 93%;
+        margin: auto;
+        height: 50px;
+        padding: 16px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 82.873px;
+        background: #0F345A;
+        color: #FFF;
+        text-align: center;
+        font-family: $Satoshi-Bold;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+
+        @media(min-width:0px) and (max-width:768px) {
+            bottom: 40px;
+        }
+    }
+}
+
+
+
+
+.bookNowCaring {
+    width: 95%;
+    // margin: 0 auto;
+    display: flex;
+    height: 50px;
+    padding: 16px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 82.873px;
+    background: #0F345A;
+    color: #FFF;
+    text-align: center;
+    font-family: $Satoshi-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 19.2px */
+    margin: auto;
+    margin-top: 19px !important;
+
+}

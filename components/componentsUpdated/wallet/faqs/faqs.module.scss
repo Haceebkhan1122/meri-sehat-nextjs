@@ -1,0 +1,50 @@
+@import '../../../../styles/variable.scss';
+
+.faqSection {
+
+    // padding-top: 20px;
+    .headingTop {
+        margin-bottom: 48px;
+    }
+
+    .accordianCustom {
+        .accordianCustomHeader {
+
+            button {
+                line-height: normal;
+                color: $dark-bluecolor !important;
+                font-family: $Satoshi-Bold;
+                font-size: 26px;
+                line-height: normal;
+                padding: 24px 0;
+                border-bottom: 1px solid rgba(30, 20, 74, 0.30) !important;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 18px;
+                }
+
+                &::after {}
+
+                @media(min-width:1301px) and (max-width:1919px) {
+                    font-size: 22px;
+                }
+            }
+
+        }
+
+        .accordianCustomBody {
+
+            line-height: normal;
+            color: $dark-bluecolor !important;
+            font-family: $Satoshi-Regular;
+            font-size: 16px;
+            line-height: normal;
+            padding: 20px 0;
+
+            @media(min-width:1301px) and (max-width:1919px) {
+                font-size: 15px;
+            }
+
+        }
+    }
+}

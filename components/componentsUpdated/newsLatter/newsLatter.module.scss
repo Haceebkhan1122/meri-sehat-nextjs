@@ -1,0 +1,77 @@
+@import '../../../styles/variable.scss';
+
+.newsLatterBox {
+    border-radius: 9.6px;
+    border: 0.4px solid rgba(49, 49, 49, 0.20);
+    background: #FFF;
+    width: 448px;
+    height: 56px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    .nNumber {
+        border-right: 1px solid rgba(49, 49, 49, 0.20);
+        width: 72px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+
+        p {
+            color: $dark-bluecolor;
+            font-family: $Satoshi-Bold;
+            font-size: $font-16;
+            background-repeat: no-repeat;
+            padding-right: 25px;
+            background-size: contain;
+            background-position: right center;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.66275 12.6493L5.9608 8.94719C5.90974 8.89612 5.87144 8.8408 5.84591 8.78123C5.82038 8.72165 5.80762 8.65782 5.80762 8.58974C5.80762 8.45357 5.85442 8.33442 5.94804 8.23229C6.04165 8.13017 6.16505 8.0791 6.31823 8.0791H14.0796C14.2327 8.0791 14.3561 8.13017 14.4498 8.23229C14.5434 8.33442 14.5902 8.45357 14.5902 8.58974C14.5902 8.62378 14.5391 8.74293 14.437 8.94719L10.735 12.6493C10.6499 12.7344 10.5648 12.794 10.4797 12.828C10.3946 12.8621 10.301 12.8791 10.1989 12.8791C10.0968 12.8791 10.0032 12.8621 9.91806 12.828C9.83296 12.794 9.74785 12.7344 9.66275 12.6493Z' fill='%230F345A'/%3E%3C/svg%3E");
+        }
+    }
+
+    .nInput {
+        width: 323px;
+
+        form {
+            input {
+                border-left: 1px solid rgba(49, 49, 49, 0.20) !important;
+                border: 1px solid #fff !important;
+                background: #fff0 !important;
+                color: rgba(64, 64, 64, 0.50);
+                font-family: $Satoshi-Regular;
+                font-size: $font-16;
+                line-height: 140%;
+                height: 54px;
+                /* 22.4px */
+                letter-spacing: 0.16px;
+
+                &::placeholder {
+                    color: rgba(64, 64, 64, 0.50);
+                    opacity: 1;
+                }
+
+                &:focus {
+                    border: 1px solid #fff !important;
+                    box-shadow: initial;
+                }
+            }
+
+        }
+    }
+
+    .nButton {
+        position: relative;
+        right: 3px;
+
+        button {
+            border-radius: 8px;
+            background: $dark-bluecolor;
+            width: 49.6px;
+            height: 49.6px;
+            padding: 9.538px;
+        }
+    }
+}

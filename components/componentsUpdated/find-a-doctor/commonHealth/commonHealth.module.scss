@@ -1,0 +1,29 @@
+@import '../../../../styles/variable.scss';
+
+
+.commonHealthFad {
+    width: 100%;
+    padding-top: 39.8px;
+
+    .common_main_wraper {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        h1 {
+            text-align: center;
+            line-height: 120%;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 30px !important;
+
+            @media (min-width : 0) and (max-width : 767px) {
+                width: 80%;
+                margin: auto;
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+}

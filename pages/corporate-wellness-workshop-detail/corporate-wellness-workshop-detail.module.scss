@@ -1,0 +1,62 @@
+@import '../../styles/variable.scss';
+
+.mainListingSec {
+    padding: 60px 0 80px 0;
+    background: #F0F3F8;
+
+    @media (min-width:0px) and (max-width:767px) {
+        padding: 0px 0 50px 0;
+        margin-top: -64px;
+        z-index: 999;
+        position: relative;
+    }
+
+}
+
+.boxmobilehead {
+    @media (min-width:0px) and (max-width:767px) {
+        height: 60px;
+        box-shadow: 0px 3.995px 7.99px 0px rgba(0, 0, 0, 0.05);
+    }
+
+
+
+}
+
+.backBtn {
+    cursor: pointer;
+
+    @media (min-width:0px) and (max-width:767px) {
+        align-items: center;
+        display: flex;
+        padding: 0 !important;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+
+    p {
+        color: #0F345A;
+        font-family: $Satoshi-Medium;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 24px !important;
+
+        @media (min-width:0px) and (max-width:767px) {
+            margin-bottom: 0 !important;
+        }
+
+        svg {
+            margin-right: 17px;
+
+            @media (min-width:0px) and (max-width:767px) {
+                width: 24px;
+                position: relative;
+                left: -4px;
+            }
+
+        }
+    }
+}

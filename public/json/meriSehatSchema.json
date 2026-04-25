@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "merisehat",
+  "url": "https://www.merisehat.pk",
+  "logo": "https://www.merisehat.pk/new-logo.svg",
+  "description": "Meri Sehat is one of the largest health platform which features leading doctors, health professionals and hospitals. The programme provides you prompt guidance for all of your medical queries and reliable health related information!",
+  "Address":"T2F, Sunset lane 5, DHA Phase 2 Extension, Karachi, Pakistan",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "021 111 117 117",
+    "contactType": "emergency",
+    "email":"info@merisehat.pk",
+    "contactOption": "TollFree",
+    "areaServed": "PK",
+    "availableLanguage": "en"
+  },
+  "sameAs": [
+    "https://www.facebook.com/MeriSehat.pk",
+    "https://www.instagram.com/merisehat.pk",
+    "https://www.youtube.com/merisehat",
+    "https://twitter.com/merisehatpk",
+    "https://www.linkedin.com/company/merisehatpk/mycompany/"
+  ]
+}

@@ -1,0 +1,13 @@
+.footerLogo img,
+.headerLogo img {
+    width: 100%;
+    max-width: 195px;
+}
+.footerLogo img{
+    max-width: 247.001px;
+    height: 52.001px;
+}
+
+.footerLogo {
+    margin-bottom: 0px;
+}

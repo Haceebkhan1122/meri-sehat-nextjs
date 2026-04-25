@@ -1,0 +1,10 @@
+.heading_desc_small {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 300;
+    font-family: 'Circular Std', sans-serif;
+    /* display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;   */
+    overflow: hidden;
+}

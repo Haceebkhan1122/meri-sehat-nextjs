@@ -1,0 +1,18 @@
+.sectionHeadingMed {
+  color: var();
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 0.3px solid #70707050;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .delete_rec .modal-body .section-med .fontSizeMobile {
+    font-size: 20px;
+  }
+
+}

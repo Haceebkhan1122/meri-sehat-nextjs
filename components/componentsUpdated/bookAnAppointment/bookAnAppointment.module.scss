@@ -1,0 +1,500 @@
+    @import '../../../styles/variable.scss';
+
+    .bookAnAppointment {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        background-color: #f6f7fc;
+
+        @media(min-width:0) and (max-width:767px) {
+            padding-top: 20px;
+            padding-bottom: 0px;
+        }
+
+        .backMobile {
+            background: #FFF;
+            box-shadow: 0px 3.995px 7.99px 0px rgba(0, 0, 0, 0.05);
+            height: 64px;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+            padding: 18px 16px;
+
+
+            h1 {
+                font-size: 18px;
+                gap: 20px;
+                margin: 0;
+            }
+        }
+
+        h1 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #0F345A;
+            font-family: $Satoshi-Medium;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 30px;
+
+            .backArrow {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='24' viewBox='0 0 25 24' fill='none'%3E%3Cg clip-path='url(%23clip0_6795_80258)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M20.5 11H8.3L13.9 5.4L12.5 4L4.5 12L12.5 20L13.9 18.6L8.3 13H20.5V11Z' fill='%230F345A'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_6795_80258'%3E%3Crect width='24' height='24' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: block;
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .left {
+            width: 100%;
+            height: 520px;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 27px 20px;
+
+            @media(min-width:0) and (max-width:767px) {
+                background: #FFF0;
+                box-shadow: initial;
+                height: auto;
+                padding: 0;
+
+            }
+
+            .wrape_top_info {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 30px;
+
+                @media(min-width:0) and (max-width:767px) {
+                    border-radius: 15px;
+                    background: #FFF;
+                    box-shadow: 0px 4px 20px 0px rgba(195, 204, 216, 0.30);
+                    padding: 12px;
+                    margin: 0;
+                }
+
+                img {
+                    width: 70px;
+                    height: 70px;
+
+                    @media(min-width:0) and (max-width:767px) {
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+
+                .top_info {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+
+                    .name_doct {
+                        display: flex;
+                        gap: 5px;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+
+                    .title__doctor_name {
+                        font-family: 'Satoshi-Medium';
+                        overflow: hidden;
+                        color: #0F345A;
+                        text-overflow: ellipsis;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                        @media(min-width:0) and (max-width:767px) {
+                            font-size: 16px;
+
+                        }
+                    }
+
+                    .verifiedIconName {
+                        width: 20px;
+                        height: 20px;
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cg clip-path='url(%23clip0_2554_10604)'%3E%3Cpath d='M23 12L20.56 9.21L20.9 5.52L17.29 4.7L15.4 1.5L12 2.96L8.6 1.5L6.71 4.69L3.1 5.5L3.44 9.2L1 12L3.44 14.79L3.1 18.49L6.71 19.31L8.6 22.5L12 21.03L15.4 22.49L17.29 19.3L20.9 18.48L20.56 14.79L23 12ZM10.09 16.72L6.29 12.91L7.77 11.43L10.09 13.76L15.94 7.89L17.42 9.37L10.09 16.72Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_2554_10604'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    .title__doctor_type {
+                        font-family: 'Satoshi-Medium';
+                        overflow: hidden;
+                        color: #97A9BD;
+                        text-overflow: ellipsis;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+
+                        @media(min-width:0) and (max-width:767px) {
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+
+            hr {
+                width: 98%;
+                height: 1px;
+                color: rgba(204, 214, 238, 0.50);
+                margin-bottom: 10px;
+            }
+
+            .recommendations_doctor {
+                width: 98%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                @media(min-width:0) and (max-width:767px) {
+                    display: none;
+                }
+
+                .single__recome {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+
+                    .single__bag_svg {
+                        width: 20px;
+                        height: 20px;
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20' fill='none'%3E%3Cpath d='M16.9284 6.78533H13.7141V4.64247C13.7141 4.35831 13.6013 4.08579 13.4003 3.88486C13.1994 3.68393 12.9269 3.57104 12.6427 3.57104H8.35701C8.07284 3.57104 7.80032 3.68393 7.59939 3.88486C7.39846 4.08579 7.28558 4.35831 7.28558 4.64247V6.78533H4.07129C3.78713 6.78533 3.51461 6.89821 3.31368 7.09914C3.11274 7.30008 2.99986 7.5726 2.99986 7.85676V15.3568C2.99986 15.6409 3.11274 15.9134 3.31368 16.1144C3.51461 16.3153 3.78713 16.4282 4.07129 16.4282H16.9284C17.2126 16.4282 17.4851 16.3153 17.686 16.1144C17.887 15.9134 17.9999 15.6409 17.9999 15.3568V7.85676C17.9999 7.5726 17.887 7.30008 17.686 7.09914C17.4851 6.89821 17.2126 6.78533 16.9284 6.78533ZM8.35701 4.64247H12.6427V6.78533H8.35701V4.64247ZM4.07129 15.3568V7.85676H16.9284V15.3568H4.07129Z' fill='%230F345A'/%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    .single_star {
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='20' viewBox='0 0 21 20' fill='none'%3E%3Cg clip-path='url(%23clip0_6680_113910)'%3E%3Cpath d='M10.4999 14.3921L13.9583 16.4838C14.5916 16.8671 15.3666 16.3005 15.1999 15.5838L14.2833 11.6505L17.3416 9.00046C17.8999 8.51712 17.5999 7.60046 16.8666 7.54212L12.8416 7.20046L11.2666 3.48379C10.9833 2.80879 10.0166 2.80879 9.73327 3.48379L8.15827 7.19212L4.13327 7.53379C3.39994 7.59212 3.09994 8.50879 3.65827 8.99212L6.7166 11.6421L5.79994 15.5755C5.63327 16.2921 6.40827 16.8588 7.0416 16.4755L10.4999 14.3921Z' fill='%23FFC07E'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_6680_113910'%3E%3Crect width='20' height='20' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    .single__otg_text {
+                        font-family: 'Satoshi-Medium';
+                        color: #97A9BD;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 110%;
+                        /* 17.6px */
+                        white-space: nowrap;
+                        word-spacing: normal;
+                    }
+                }
+            }
+
+
+            .hospital_card {
+                width: 100%;
+                height: 95px;
+                flex-shrink: 0;
+                border-radius: 24px;
+                background: #FFF;
+                box-shadow: 0px 0px 22.8px 1.6px rgba(238, 238, 238, 0.60);
+                display: flex;
+                align-items: center;
+                padding: 0px 16px;
+                cursor: pointer;
+                margin-top: 30px;
+                // justify-content: space-between;
+
+                @media(min-width:0) and (max-width:767px) {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    height: 80px;
+                    border-radius: 15px;
+                    background: #FFF;
+                    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+                    gap: 12px;
+                }
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    object-fit: contain;
+
+                    @media(min-width:0) and (max-width:767px) {
+                        width: 32px;
+                        height: 32px;
+                        object-fit: contain;
+                    }
+                }
+
+                .info_ri_hos {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 0px;
+                    user-select: none;
+                    margin-left: 20px;
+                    margin-right: 13px;
+
+                    @media(min-width:0) and (max-width:767px) {
+                        margin-left: 0px;
+
+
+                    }
+
+                    h3 {
+                        color: #0F345A;
+                        font-family: $Satoshi-Medium;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        margin: 0px !important;
+                        padding: 0px !important;
+                        width: 179px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+
+                        @media(min-width:0) and (max-width:767px) { 
+                            width: 159px;
+                        }
+                    }
+
+                    span {
+                        color: #97A9BD;
+                        font-family: $Satoshi-Regular;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-align: left;
+                    }
+                }
+
+                .right_end {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+
+                    h3 {
+                        color: #19B3B5;
+                        text-align: right;
+                        font-family: $Satoshi-Medium;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+
+                        @media(min-width:0) and (max-width:767px) {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .arrow_right_hos {
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='31' height='32' viewBox='0 0 31 32' fill='none'%3E%3Cpath d='M12.474 23.2067L11.1123 21.845L17.3823 15.575L11.1123 9.30503L12.474 7.94336L20.1056 15.575L12.474 23.2067Z' fill='%230F345A'/%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        display: block;
+                        width: 30.4px;
+                        height: 30.564px;
+                    }
+                }
+            }
+        }
+
+        .right {
+            height: 520px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.60);
+            display: flex;
+            flex-direction: column;
+            padding: 27px 20px;
+
+            @media(min-width:0) and (max-width:767px) {
+                background: #FFF0;
+                box-shadow: initial;
+                padding: 0;
+                height: auto;
+            }
+
+            h4 {
+                color: #0F345A;
+                font-family: $Satoshi-Medium;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                @media(min-width:0) and (max-width:767px) {
+                    font-size: 18px;
+                }
+            }
+
+            hr {
+                color: rgba(204, 214, 238, 0.50);
+                height: 1px;
+                width: 100%;
+            }
+
+
+
+
+
+            .timesWraper {
+                width: 100%;
+                padding-top: 30px;
+
+                @media(min-width:0) and (max-width:767px) {
+                    padding-top: 10px;
+                }
+
+                h4 {
+                    margin-bottom: 30px;
+
+                    @media(min-width:0) and (max-width:767px) {
+                        margin-bottom: 15px;
+                    }
+                }
+
+
+                .checks_dates_wraper {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    overflow-x: scroll;
+                    padding-bottom: 10px;
+
+                    .singleDay {
+                        width: 140px;
+                        height: 56px;
+                        padding: 16px 30px;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 32px;
+                        flex-shrink: 0;
+                        border-radius: 10px;
+                        background: #FFF;
+                        box-shadow: 0px 2.96px 14.802px 0px rgba(195, 204, 216, 0.30);
+                        position: relative;
+
+
+
+                        &.checkedSingleDay {
+                            border: 0.7px solid #19B3B5 !important;
+                            background: #E2F9F7 !important;
+                        }
+
+                        label {
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .singleDay label {
+        span {
+            color: #0F345A;
+            text-align: center;
+            font-family: $Satoshi-Regular;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        input {
+            appearance: none;
+        }
+
+        input:checked+span {
+            color: #19B3B5;
+            text-align: center;
+            font-family: $Satoshi-Medium;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .wrape_btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-top: 30px;
+
+        @media(min-width:0) and (max-width:767px) {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 0;
+            border-radius: 20px 20px 0px 0px;
+            background: #FFF;
+            box-shadow: 0px -4px 20px 0px rgba(195, 204, 216, 0.30);
+        }
+
+        .bookAnAppointmentBtn {
+            width: 300px;
+            height: 60px;
+            padding: 16px 50px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 100px;
+            background: #0F345A;
+            color: #FFF;
+            text-align: center;
+            font-family: $Satoshi-Bold;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            text-transform: uppercase;
+            transition: all ease 0.5s;
+
+            @media(min-width:0) and (max-width:767px) {
+                height: 50px;
+                font-size: 16px;
+            }
+
+            &:hover {
+                background-color: #FFF;
+                color: #0f345a;
+                border: 1px solid #0f345a;
+            }
+        }
+    }

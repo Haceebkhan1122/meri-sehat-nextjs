@@ -1,0 +1,219 @@
+.wrapperAllTransactionsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.wrapperAllTransactions {
+  width: 100%;
+  max-width: 1320px;
+  /* min-height: 1490px; */
+  height: max-content;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.6);
+}
+
+.wrapperHeadTransac {
+  width: 97%;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1.016px solid #e5e3e3;
+  margin: auto;
+  padding-left: 16px;
+}
+
+.back_transa {
+  width: 30px;
+  height: 30px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30' fill='none'%3E%3Cg clip-path='url(%23clip0_1454_64277)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M25 13.75H9.75L16.75 6.75L15 5L5 15L15 25L16.75 23.25L9.75 16.25H25V13.75Z' fill='%23222222'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1454_64277'%3E%3Crect width='30' height='30' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.head_title {
+  color: #0F345A;
+  font-family: 'Satoshi-Medium';
+  font-size: 28px;
+  font-style: normal; 
+  line-height: normal;
+}
+
+.singleTrsancs {
+  display: flex;
+  flex-direction: column;
+}
+
+.singleTrasactionWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 54px;
+  border-bottom: 1.016px solid #e5e3e3;
+  cursor: pointer;
+}
+.singleTrasactionWrapper:nth-last-child(1) {
+  border: none;
+}
+
+.wrapeFirstTrans {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.transactionImgBottomWrapper {
+  width: 73.125px;
+  height: 75.156px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transactionImgBottom {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detailsTransac {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.transactionHeading {
+  color: #0F345A;
+  font-family: 'Satoshi-Regular';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.unsucc{color: #0F345A;
+  font-family:'Satoshi-Regular'; 
+  font-size: 14px;
+  font-style: normal; 
+  line-height: normal;}
+.transactionDescription {
+  color: #A7A7A7;
+  font-family: 'Satoshi-Medium';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  word-spacing: -5px;
+}
+
+.priceTransactions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.transcPriceAll {
+  color: #0F345A;
+  text-align: right;
+  font-family: 'Satoshi-Regular';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  word-spacing: 0px;
+}
+
+.verifiedTickTransac {
+  width: 28px;
+  height: 28px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none'%3E%3Cg clip-path='url(%23clip0_1454_60006)'%3E%3Cpath d='M26.8327 14L23.986 10.745L24.3827 6.44L20.171 5.48333L17.966 1.75L13.9993 3.45333L10.0327 1.75L7.82768 5.47167L3.61602 6.41667L4.01268 10.7333L1.16602 14L4.01268 17.255L3.61602 21.5717L7.82768 22.5283L10.0327 26.25L13.9993 24.535L17.966 26.2383L20.171 22.5167L24.3827 21.56L23.986 17.255L26.8327 14ZM11.771 19.5067L7.33768 15.0617L9.06435 13.335L11.771 16.0533L18.596 9.205L20.3227 10.9317L11.771 19.5067Z' fill='%2319B3B5'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1454_60006'%3E%3Crect width='28' height='28' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.unSuccTickTransac {
+  width: 28px;
+  height: 28px;
+  background-image: url("data:image/svg+xml,%3Csvg width='26' height='25' viewBox='0 0 26 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25.8163 12.6476L23.0462 9.49152L23.4322 5.31364L19.3338 4.3827L17.1881 0.772461L13.3281 2.42999L9.46808 0.772461L7.32237 4.3827L3.22396 5.30229L3.60996 9.48017L0.839844 12.6476L3.60996 15.8038L3.22396 19.993L7.32237 20.9239L9.46808 24.5342L13.3281 22.8653L17.1881 24.5228L19.3338 20.9126L23.4322 19.9816L23.0462 15.8038L25.8163 12.6476ZM14.4634 18.3241H12.1928V16.0535H14.4634V18.3241ZM14.4634 13.7829H12.1928V6.97117H14.4634V13.7829Z' fill='%23FE9074'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+    .unSuccTickTransac, .verifiedTickTransac {
+        width: 16px;
+        height: 16px;
+      }
+  .wrapperAllTransactionsContainer {
+    padding-top: 22px;
+    background: #EEF1FA;
+  }
+
+  .wrapperAllTransactions {
+    width: 340px;
+    /* height: 1030px; */
+    border-radius: 15px;
+  }
+
+  .back_transa {
+    width: 24px;
+    height: 24px;
+  }
+
+  .singleTrasactionWrapper {
+    padding: 17px 20px;
+  }
+
+  .head_title {
+    font-size: 18px;
+  }
+
+  .wrapperHeadTransac {
+    height: 55px;
+    padding-left: 8px;
+    gap: 10px;
+  }
+
+  .verifiedTickTransac {
+    width: 16px;
+    height: 16px;
+  }
+
+  .transcPriceAll {
+    font-size: 16px;
+  }
+
+  .wrapeFirstTrans {
+    gap: 0px !important;
+  }
+
+  .transactionImgBottomWrapper {
+    width: 36px;
+    height: 37px;    margin-right: 12px;
+  }
+
+  .transactionHeading {
+    font-size: 14px;
+  }
+
+  .transactionDescription {
+    font-size: 12px;
+  }
+}
